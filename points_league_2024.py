@@ -46,7 +46,7 @@ cols = np.array(['Points', 'Games Played', 'PPG'])
 team_key = np.array([n for n in league])
 
 df = pd.DataFrame(data=data,columns=cols,index=team_key)
-big_df = pd.DataFrame(data=data, columns=['Player','Total Points','Games Played','Team'])
+big_df = pd.DataFrame(data=big_data, columns=['Player','Total Points','Games Played','Team'])
 
 df.to_csv('./pointsleague_2024.csv')
 big_df.to_csv('./full_points_table_2024.csv')
