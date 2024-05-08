@@ -33,9 +33,10 @@ for n in league:
 #         print(pname, pt, gp)
         pts+=pt
         gps+=gp
+        big_data.append([pname,pt,gp,n])
     
     data.append(np.array([pts,gps,pts/gps]))
-    big_data.append([pname,pt,gp,n])
+    
 #     print(f'points: {pts}')
 #     print(f'gps: {gps}')
 #     print('\n')
