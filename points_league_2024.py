@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import yaml
-import os
 
 from nba_api.stats.endpoints.commonallplayers import CommonAllPlayers
 from nba_api.stats.endpoints import leaguedashplayerstats
