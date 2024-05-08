@@ -2,7 +2,7 @@ name: Points League 2024 Update
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "5 12 * * *"
 
   workflow_dispatch:
 
@@ -20,7 +20,7 @@ jobs:
           python-version: 3.8
   
       - name: Install Python dependencies
-        uses: py-actions/py-denepdency-install@v2
+        uses: py-actions/py-dependency-install@v2
         with:
           path: "requirements.txt"
   
