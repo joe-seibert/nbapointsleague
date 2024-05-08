@@ -16,6 +16,7 @@ with open(dp_fn) as file:
 
 
 data = []
+big_data = []
 pts = 0
 gps = 0
 for n in league:
@@ -34,6 +35,7 @@ for n in league:
         gps+=gp
     
     data.append(np.array([pts,gps,pts/gps]))
+    big_data.append([pname,pt,gp,n])
 #     print(f'points: {pts}')
 #     print(f'gps: {gps}')
 #     print('\n')
@@ -44,5 +46,7 @@ cols = np.array(['Points', 'Games Played', 'PPG'])
 team_key = np.array([n for n in league])
 
 df = pd.DataFrame(data=data,columns=cols,index=team_key)
+big_df = pd.DataFrame(data=data, columns=['Player','Total Points','Games Played','Team'])
 
 df.to_csv('./pointsleague_2024.csv')
+big_df.to_csv('./full_points_table_2024.csv')
