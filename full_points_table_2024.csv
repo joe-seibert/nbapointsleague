@@ -1,17 +1,17 @@
 ,Player,Total Points,Games Played,Team
-0,Jalen Brunson,256,7,Andrew
+0,Jalen Brunson,285,8,Andrew
 1,Luka Doncic,198,7,Andrew
 2,Derrick White,137,6,Andrew
 3,Bradley Beal,66,4,Andrew
 4,Paolo Banchero,189,7,Andrew
-5,Myles Turner,138,7,Andrew
+5,Myles Turner,144,8,Andrew
 6,Kentavious Caldwell-Pope,52,7,Andrew
-7,Josh Hart,125,7,Andrew
+7,Josh Hart,144,8,Andrew
 8,Jamal Murray,143,7,Jono
 9,Anthony Edwards,194,6,Jono
-10,Donte DiVincenzo,97,7,Jono
+10,Donte DiVincenzo,125,8,Jono
 11,Chet Holmgren,80,5,Jono
-12,OG Anunoby,103,7,Jono
+12,OG Anunoby,131,8,Jono
 13,Russell Westbrook,38,6,Jono
 14,Nickeil Alexander-Walker,68,6,Jono
 15,Brandon Ingram,57,4,Jono
@@ -25,7 +25,7 @@
 23,Al Horford,47,6,Connor
 24,Shai Gilgeous-Alexander,138,5,Joe
 25,Kyrie Irving,179,7,Joe
-26,Tyrese Haliburton,102,7,Joe
+26,Tyrese Haliburton,136,8,Joe
 27,Darius Garland,118,8,Joe
 28,Aaron Gordon,98,7,Joe
 29,LeBron James,139,5,Joe
@@ -34,7 +34,7 @@
 32,Jayson Tatum,127,6,Julian
 33,Donovan Mitchell,234,8,Julian
 34,Kevin Durant,107,4,Julian
-35,Pascal Siakam,153,7,Julian
+35,Pascal Siakam,167,8,Julian
 36,Michael Porter Jr.,143,7,Julian
 37,Rudy Gobert,66,5,Julian
 38,Anthony Davis,139,5,Julian
