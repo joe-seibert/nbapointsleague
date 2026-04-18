@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SPREADSHEET_ID = "1KHFofiupqYTIbuT8xL8atOuUjOOUM7mTbZzqOVtV2nw"
+SPREADSHEET_ID = "17jVuUBaDOxkuVDSkqVx9UyVQ3_1y6IJv5stjgdzCT3E"
 
 SEASON = os.environ.get("SEASON", "2026")
 DATA_FILE = f"seasons/{SEASON}/data/full_points_table_{SEASON}.json"
