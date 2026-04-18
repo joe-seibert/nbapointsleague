@@ -1,4 +1,4 @@
-name: Points League 2024 Update
+name: Update Points League Data
 
 on:
   schedule:
@@ -7,35 +7,33 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-data:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v4
-  
+
       - name: Setup Python Version
         uses: actions/setup-python@v5
         with:
           python-version: 3.8
-  
+
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v4
         with:
           path: "requirements.txt"
-  
+
       - name: Execute Python script
         run: python points_league_2024.py
-  
+
       - name: Commit files
-        run:
+        run: |
           git config --local user.name jseibert575
           git config --local user.email "jseibert575@gmail.com"
-          git add "pointsleague_2024.csv"
-          git add "full_points_table_2024.csv"
-          git commit -m "Updating points league data $(date)"
-          git push origin main
+          git add data/
+          git diff --cached --quiet || git commit -m "Updating data $(date)"
+          git push
         env:
-          REPO_KEY: ${{secrets.GITHUB_TOKEN}}$
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           username: github-actions
-  

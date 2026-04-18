@@ -1,0 +1,31 @@
+name: Update Google Sheets
+
+on:
+  workflow_run:
+    workflows: ["Update Points League Data"]
+    types:
+      - completed
+
+  workflow_dispatch:
+
+jobs:
+  update-sheets:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v4
+
+      - name: Setup Python Version
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "requirements.txt"
+
+      - name: Update Google Sheets
+        run: python update_points_league.py

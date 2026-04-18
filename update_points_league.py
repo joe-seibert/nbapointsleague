@@ -1,133 +1,77 @@
-from __future__ import print_function
-
-# basic imports
-import numpy as np
-import pandas as pd
-
-# nba-api imports
-from nba_api.stats.endpoints import leaguedashplayerstats
-
-# google sheets api imports
+import json
+import os
 import pickle
-import os.path
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
+
 from google.auth.transport.requests import Request
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
 
-# specifying which sheet to use
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-spreadsheet_id = '1KHFofiupqYTIbuT8xL8atOuUjOOUM7mTbZzqOVtV2nw'
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SPREADSHEET_ID = "1KHFofiupqYTIbuT8xL8atOuUjOOUM7mTbZzqOVtV2nw"
+DATA_FILE = "data/full_points_table_2024.json"
 
-# taken from Google Sheets API instructions
-creds = None
-# The file token.pickle stores the user's access and refresh tokens, and is
-# created automatically when the authorization flow completes for the first
-# time.
-if os.path.exists('token.pickle'):
-    with open('token.pickle', 'rb') as token:
-        creds = pickle.load(token)
-# If there are no (valid) credentials available, let the user log in.
-if not creds or not creds.valid:
-    if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-    else:
-        flow = InstalledAppFlow.from_client_secrets_file(
-            'credentials.json', SCOPES)
-        creds = flow.run_local_server(port=0)
-    # Save the credentials for the next run
-    with open('token.pickle', 'wb') as token:
-        pickle.dump(creds, token)
-        
-service = build('sheets', 'v4', credentials=creds)
-sheet = service.spreadsheets()
+SHEET_NAME_MAP = {
+    "Andrew": "Drew",
+    "Connor": "Con",
+    "Jono": "Jono",
+    "Joe": "Joe",
+    "Julian": "Julian",
+    "Sam": "Sam",
+}
 
-player_stats = leaguedashplayerstats.LeagueDashPlayerStats().get_data_frames()[0]
 
-# grab player names from the sheet 
-# then update the total points each player has scored
-# then push updated scores to the sheet
-def update_player_points(sheet_name):
-    sheet_range = sheet_name + '!' + 'A2:A17'
-    new_sheet_range = sheet_name + '!' + 'B2:B17'
-    
-    player_result = sheet.values().get(spreadsheetId=spreadsheet_id,
-                            range=sheet_range).execute()
-    
-    player_names = player_result.get('values',[])
-    
-    player_names = np.asarray(player_names)
-    
-    player_names = player_names.flatten()
-    
-    new_points = []
-    
-    
-    for p in player_names:
-        try:
-            new_points.append([str(player_stats.query(f'PLAYER_NAME == "{p}"')['PTS'].iloc[0])])
-        except IndexError:
-            f'No points scored by {p}, adding a 0.'
-            new_points.append([str(0)])
+def get_sheets_service():
+    creds = None
+    if os.path.exists("token.pickle"):
+        with open("token.pickle", "rb") as token:
+            creds = pickle.load(token)
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+            creds = flow.run_local_server(port=0)
+        with open("token.pickle", "wb") as token:
+            pickle.dump(creds, token)
+    return build("sheets", "v4", credentials=creds)
 
-    values = new_points
-    data = [
-        {
-            'range': new_sheet_range,
-            'values': values
-        },
-        # Additional ranges to update ...
-    ]
+
+def load_player_data():
+    with open(DATA_FILE) as f:
+        return json.load(f)
+
+
+def update_sheet(service, sheet_name, players):
+    names = [[p["Player"]] for p in players]
+    points = [[p["Total Points"]] for p in players]
+    games = [[p["Games Played"]] for p in players]
+
+    row_end = len(players) + 1
+
     body = {
-        'valueInputOption': 'USER_ENTERED',
-        'data': data
+        "valueInputOption": "USER_ENTERED",
+        "data": [
+            {"range": f"{sheet_name}!A2:A{row_end}", "values": names},
+            {"range": f"{sheet_name}!B2:B{row_end}", "values": points},
+            {"range": f"{sheet_name}!C2:C{row_end}", "values": games},
+        ],
     }
-    result = service.spreadsheets().values().batchUpdate(
-        spreadsheetId=spreadsheet_id, body=body).execute()
-
-def update_games_played(sheet_name):
-    sheet_range = sheet_name + '!' + 'A2:A17'
-    new_sheet_range = sheet_name + '!' + 'C2:C17'
-    
-    player_result = sheet.values().get(spreadsheetId=spreadsheet_id,
-                            range=sheet_range).execute()
-    
-    player_names = player_result.get('values',[])
-    
-    player_names = np.asarray(player_names)
-    
-    player_names = player_names.flatten()
-    
-    games_played = []
-    
-    
-    for p in player_names:
-        try:
-            games_played.append([str(player_stats.query(f'PLAYER_NAME == "{p}"')['GP'].iloc[0])])
-        except IndexError:
-            f'No points scored by {p}, adding a 0.'
-            games_played.append([str(0)])
-
-    values = games_played
-    data = [
-        {
-            'range': new_sheet_range,
-            'values': values
-        },
-        # Additional ranges to update ...
-    ]
-    body = {
-        'valueInputOption': 'USER_ENTERED',
-        'data': data
-    }
-    result = service.spreadsheets().values().batchUpdate(
-        spreadsheetId=spreadsheet_id, body=body).execute()
+    service.spreadsheets().values().batchUpdate(
+        spreadsheetId=SPREADSHEET_ID, body=body
+    ).execute()
+    print(f"Updated sheet: {sheet_name}")
 
 
+def main():
+    player_data = load_player_data()
+    service = get_sheets_service()
 
-# Update each sheet iteratively
-sheet_names = ['Julian','Drew','Jono','Sam','Joe','Con']
+    for team_name, sheet_name in SHEET_NAME_MAP.items():
+        team_players = [p for p in player_data if p["Team"] == team_name]
+        update_sheet(service, sheet_name, team_players)
 
-for s in sheet_names:
-    update_player_points(s)
-    update_games_played(s)
+    print("All sheets updated.")
 
+
+if __name__ == "__main__":
+    main()

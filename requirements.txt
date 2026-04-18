@@ -1,5 +1,7 @@
-streamlit
 pandas
 numpy
 pyyaml
 nba_api
+google-auth-oauthlib
+google-auth
+google-api-python-client
