@@ -1,15 +1,15 @@
 [
   {
     "Team": "Jono",
-    "Points": 0,
-    "Games Played": 0,
-    "PPG": 0
+    "Points": 30,
+    "Games Played": 1,
+    "PPG": 30.0
   },
   {
     "Team": "Julian",
-    "Points": 0,
-    "Games Played": 0,
-    "PPG": 0
+    "Points": 22,
+    "Games Played": 1,
+    "PPG": 22.0
   },
   {
     "Team": "Sam",
@@ -19,15 +19,15 @@
   },
   {
     "Team": "Andrew",
-    "Points": 0,
-    "Games Played": 0,
-    "PPG": 0
+    "Points": 42,
+    "Games Played": 2,
+    "PPG": 21.0
   },
   {
     "Team": "Joe",
-    "Points": 22,
-    "Games Played": 1,
-    "PPG": 22.0
+    "Points": 38,
+    "Games Played": 2,
+    "PPG": 19.0
   },
   {
     "Team": "Connor",
