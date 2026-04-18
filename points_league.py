@@ -1,17 +1,18 @@
 import json
 import os
 
-import numpy as np
 import pandas as pd
 import yaml
 from nba_api.stats.endpoints import leaguedashplayerstats
-from nba_api.stats.endpoints.commonallplayers import CommonAllPlayers
 
 SEASON = os.environ.get("SEASON", "2026")
 
-all_players = CommonAllPlayers().common_all_players.get_data_frame()
+# Season format for the API is "YYYY-YY" where SEASON env var is the ending year
+api_season = f"{int(SEASON) - 1}-{SEASON[2:]}"
+
 player_stats = leaguedashplayerstats.LeagueDashPlayerStats(
-    season_type_all_star="Playoffs"
+    season=api_season,
+    season_type_all_star="Playoffs",
 ).get_data_frames()[0]
 
 with open(f"seasons/{SEASON}/drafted_players_{SEASON}.yml") as file:
