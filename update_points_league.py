@@ -10,14 +10,7 @@ SPREADSHEET_ID = "1KHFofiupqYTIbuT8xL8atOuUjOOUM7mTbZzqOVtV2nw"
 SEASON = os.environ.get("SEASON", "2026")
 DATA_FILE = f"seasons/{SEASON}/data/full_points_table_{SEASON}.json"
 
-SHEET_NAME_MAP = {
-    "Andrew": "Drew",
-    "Connor": "Con",
-    "Jono": "Jono",
-    "Joe": "Joe",
-    "Julian": "Julian",
-    "Sam": "Sam",
-}
+TEAM_NAMES = ["Andrew", "Jono", "Connor", "Joe", "Julian", "Sam"]
 
 
 def get_sheets_service():
@@ -64,9 +57,9 @@ def main():
     player_data = load_player_data()
     service = get_sheets_service()
 
-    for team_name, sheet_name in SHEET_NAME_MAP.items():
+    for team_name in TEAM_NAMES:
         team_players = [p for p in player_data if p["Team"] == team_name]
-        update_sheet(service, sheet_name, team_players)
+        update_sheet(service, team_name, team_players)
 
     print("All sheets updated.")
 
