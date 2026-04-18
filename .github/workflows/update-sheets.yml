@@ -8,6 +8,9 @@ on:
 
   workflow_dispatch:
 
+env:
+  SEASON: "2026"
+
 jobs:
   update-sheets:
     runs-on: ubuntu-latest

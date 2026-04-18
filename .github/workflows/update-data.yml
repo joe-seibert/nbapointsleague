@@ -6,6 +6,9 @@ on:
 
   workflow_dispatch:
 
+env:
+  SEASON: "2026"
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -18,13 +21,13 @@ jobs:
         uses: astral-sh/setup-uv@v4
 
       - name: Execute Python script
-        run: uv run points_league_2024.py
+        run: uv run points_league.py
 
       - name: Commit files
         run: |
           git config --local user.name jseibert575
           git config --local user.email "jseibert575@gmail.com"
-          git add data/
+          git add seasons/$SEASON/data/
           git diff --cached --quiet || git commit -m "Updating data $(date)"
           git push
         env:

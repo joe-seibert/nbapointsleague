@@ -7,15 +7,18 @@ import yaml
 from nba_api.stats.endpoints import leaguedashplayerstats
 from nba_api.stats.endpoints.commonallplayers import CommonAllPlayers
 
+SEASON = os.environ.get("SEASON", "2026")
+
 all_players = CommonAllPlayers().common_all_players.get_data_frame()
 player_stats = leaguedashplayerstats.LeagueDashPlayerStats(
     season_type_all_star="Playoffs"
 ).get_data_frames()[0]
 
-with open("./drafted_players_2024.yml") as file:
+with open(f"seasons/{SEASON}/drafted_players_{SEASON}.yml") as file:
     league = yaml.load(file, Loader=yaml.FullLoader)
 
-os.makedirs("data", exist_ok=True)
+output_dir = f"seasons/{SEASON}/data"
+os.makedirs(output_dir, exist_ok=True)
 
 team_summaries = []
 player_details = []
@@ -52,17 +55,17 @@ for team_name, roster in league.items():
     )
 
 # Write JSON
-with open("data/pointsleague_2024.json", "w") as f:
+with open(f"{output_dir}/pointsleague_{SEASON}.json", "w") as f:
     json.dump(team_summaries, f, indent=2)
 
-with open("data/full_points_table_2024.json", "w") as f:
+with open(f"{output_dir}/full_points_table_{SEASON}.json", "w") as f:
     json.dump(player_details, f, indent=2)
 
 # Write CSV
 summary_df = pd.DataFrame(team_summaries).set_index("Team")
-summary_df.to_csv("data/pointsleague_2024.csv")
+summary_df.to_csv(f"{output_dir}/pointsleague_{SEASON}.csv")
 
 detail_df = pd.DataFrame(player_details)
-detail_df.to_csv("data/full_points_table_2024.csv", index=False)
+detail_df.to_csv(f"{output_dir}/full_points_table_{SEASON}.csv", index=False)
 
-print(f"Wrote {len(team_summaries)} teams and {len(player_details)} players to data/")
+print(f"Wrote {len(team_summaries)} teams and {len(player_details)} players to {output_dir}/")

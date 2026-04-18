@@ -8,7 +8,9 @@ from googleapiclient.discovery import build
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 SPREADSHEET_ID = "1KHFofiupqYTIbuT8xL8atOuUjOOUM7mTbZzqOVtV2nw"
-DATA_FILE = "data/full_points_table_2024.json"
+
+SEASON = os.environ.get("SEASON", "2026")
+DATA_FILE = f"seasons/{SEASON}/data/full_points_table_{SEASON}.json"
 
 SHEET_NAME_MAP = {
     "Andrew": "Drew",
