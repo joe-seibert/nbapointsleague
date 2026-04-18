@@ -1,0 +1,38 @@
+[
+  {
+    "Team": "Andrew",
+    "Points": 0,
+    "Games Played": 0,
+    "PPG": 0
+  },
+  {
+    "Team": "Jono",
+    "Points": 17,
+    "Games Played": 1,
+    "PPG": 17.0
+  },
+  {
+    "Team": "Connor",
+    "Points": 0,
+    "Games Played": 0,
+    "PPG": 0
+  },
+  {
+    "Team": "Joe",
+    "Points": 22,
+    "Games Played": 1,
+    "PPG": 22.0
+  },
+  {
+    "Team": "Julian",
+    "Points": 32,
+    "Games Played": 1,
+    "PPG": 32.0
+  },
+  {
+    "Team": "Sam",
+    "Points": 0,
+    "Games Played": 0,
+    "PPG": 0
+  }
+]
