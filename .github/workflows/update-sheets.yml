@@ -1,0 +1,29 @@
+name: Update Google Sheets
+
+on:
+  workflow_run:
+    workflows: ["Update Points League Data"]
+    types:
+      - completed
+
+  workflow_dispatch:
+
+env:
+  SEASON: "2026"
+
+jobs:
+  update-sheets:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Update Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+        run: uv run update_points_league.py
