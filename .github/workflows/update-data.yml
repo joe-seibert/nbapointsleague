@@ -21,14 +21,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
 
       - name: Execute Python script
-        env:
-          WEBSHARE_PROXY: ${{ secrets.WEBSHARE_PROXY }}
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          retry_wait_seconds: 60
-          command: uv run points_league.py
+        run: uv run points_league.py
 
       - name: Commit files
         run: |
