@@ -10,16 +10,16 @@ NBA Points League is a Python fantasy basketball points league tracker. It fetch
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+uv sync
 
 # Run data aggregation (fetches NBA stats, outputs JSON + CSV to data/)
-python points_league_2024.py
+uv run points_league_2024.py
 
 # Update Google Sheet from generated JSON data
-python update_points_league.py
+uv run update_points_league.py
 ```
 
-There are no test or lint commands configured for this project.
+Dependencies are managed via `pyproject.toml` and `uv.lock`. There are no test or lint commands configured for this project.
 
 ## Architecture
 

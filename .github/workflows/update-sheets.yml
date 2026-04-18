@@ -17,15 +17,8 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v4
 
-      - name: Setup Python Version
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.8
-
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v4
-        with:
-          path: "requirements.txt"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
 
       - name: Update Google Sheets
-        run: python update_points_league.py
+        run: uv run update_points_league.py
