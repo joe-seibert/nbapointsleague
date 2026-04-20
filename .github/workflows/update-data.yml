@@ -30,16 +30,17 @@ jobs:
           retry_wait_seconds: 60
           command: uv run points_league.py
 
-      - name: Copy data to docs
-        run: cp seasons/$SEASON/data/pointsleague_$SEASON.json seasons/$SEASON/data/full_points_table_$SEASON.json docs/
-
-      - name: Commit files
+      - name: Push data to data branch
         run: |
           git config --local user.name "joe-seibert"
           git config --local user.email "joe-seibert@users.noreply.github.com"
-          git add seasons/$SEASON/data/ docs/
-          git diff --cached --quiet || git commit -m "Updating data $(date)"
-          git push
-        env:
-          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-          username: github-actions
+          cp seasons/$SEASON/data/pointsleague_$SEASON.json /tmp/
+          cp seasons/$SEASON/data/full_points_table_$SEASON.json /tmp/
+          git fetch origin data:refs/remotes/origin/data || true
+          git checkout -B data origin/data 2>/dev/null || git checkout --orphan data
+          git rm -rf . --quiet || true
+          cp /tmp/pointsleague_$SEASON.json .
+          cp /tmp/full_points_table_$SEASON.json .
+          git add pointsleague_$SEASON.json full_points_table_$SEASON.json
+          git commit -m "Update data $(date)"
+          git push -f origin data

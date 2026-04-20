@@ -146,8 +146,8 @@
   <script>
     async function loadData() {
       const [standingsRes, playersRes] = await Promise.all([
-        fetch('pointsleague_2026.json'),
-        fetch('full_points_table_2026.json'),
+        fetch('https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data/pointsleague_2026.json'),
+        fetch('https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data/full_points_table_2026.json'),
       ]);
       if (!standingsRes.ok || !playersRes.ok) throw new Error('Failed to fetch data');
       return {
