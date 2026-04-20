@@ -58,12 +58,30 @@ for team_name, roster in league.items():
         }
     )
 
+drafted_names = {name for roster in league.values() for name in roster}
+player_to_owner = {name: owner for owner, roster in league.items() for name in roster}
+
+all_players = [
+    {
+        "Player": row["PLAYER_NAME"],
+        "NBA Team": row["TEAM_ABBREVIATION"],
+        "Coach": player_to_owner.get(row["PLAYER_NAME"], "Undrafted"),
+        "Total Points": int(row["PTS"]),
+        "Games Played": int(row["GP"]),
+        "PPG": round(row["PTS"] / row["GP"], 2) if row["GP"] > 0 else 0,
+    }
+    for _, row in player_stats.sort_values("PTS", ascending=False).head(128).iterrows()
+]
+
 # Write JSON
 with open(f"{output_dir}/pointsleague_{SEASON}.json", "w") as f:
     json.dump(team_summaries, f, indent=2)
 
 with open(f"{output_dir}/full_points_table_{SEASON}.json", "w") as f:
     json.dump(player_details, f, indent=2)
+
+with open(f"{output_dir}/all_players_{SEASON}.json", "w") as f:
+    json.dump(all_players, f, indent=2)
 
 # Write CSV
 summary_df = pd.DataFrame(team_summaries).set_index("Team")
@@ -72,4 +90,4 @@ summary_df.to_csv(f"{output_dir}/pointsleague_{SEASON}.csv")
 detail_df = pd.DataFrame(player_details)
 detail_df.to_csv(f"{output_dir}/full_points_table_{SEASON}.csv", index=False)
 
-print(f"Wrote {len(team_summaries)} teams and {len(player_details)} players to {output_dir}/")
+print(f"Wrote {len(team_summaries)} teams, {len(player_details)} players, and {len(all_players)} all-players to {output_dir}/")

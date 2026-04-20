@@ -15,6 +15,25 @@
       padding: 2rem 1rem;
     }
 
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    nav a:hover { color: #e2e8f0; background: #1a1d27; }
+    nav a.active { color: #f8b847; }
+
     header {
       text-align: center;
       margin-bottom: 2.5rem;
@@ -34,7 +53,7 @@
     }
 
     .container {
-      max-width: 760px;
+      max-width: 640px;
       margin: 0 auto;
     }
 
@@ -66,24 +85,15 @@
     tbody tr:hover { background: #1a1d27; }
     tbody tr.expanded { background: #1a1d27; }
 
-    td {
-      padding: 0.85rem 1rem;
-    }
-
+    td { padding: 0.85rem 1rem; }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
-    .rank {
-      color: #718096;
-      font-size: 0.8rem;
-      width: 2rem;
-    }
-
+    .rank { color: #718096; font-size: 0.8rem; width: 2rem; }
     .rank-1 { color: #f8b847; font-weight: 700; }
     .rank-2 { color: #a0aec0; font-weight: 600; }
     .rank-3 { color: #c07d4a; font-weight: 600; }
 
     .team-name { font-weight: 600; }
-
     .points { font-weight: 700; font-size: 1.05rem; }
 
     .chevron {
@@ -91,38 +101,27 @@
       transition: transform 0.2s;
       color: #4a5568;
     }
-
     tr.expanded .chevron { transform: rotate(90deg); }
 
-    .player-row {
-      display: none;
-      background: #13161f;
-    }
-
+    .player-row { display: none; background: #13161f; }
     .player-row.visible { display: table-row; }
-
     .player-row td {
       padding: 0.5rem 1rem 0.5rem 3rem;
       font-size: 0.875rem;
       color: #a0aec0;
       border-bottom: 1px solid #1a1d27;
     }
-
     .player-row td.num { color: #cbd5e0; }
-
     .player-name { color: #cbd5e0; }
 
-    .error {
-      text-align: center;
-      color: #fc8181;
-      padding: 2rem;
+    .ovr-rank {
+      font-size: 0.72rem;
+      color: #4a5568;
+      margin-left: 0.4rem;
     }
 
-    .loading {
-      text-align: center;
-      color: #718096;
-      padding: 2rem;
-    }
+    .error { text-align: center; color: #fc8181; padding: 2rem; }
+    .loading { text-align: center; color: #718096; padding: 2rem; }
 
     .last-updated {
       text-align: center;
@@ -134,9 +133,14 @@
 </head>
 <body>
   <div class="container">
+    <nav>
+      <a href="index.html" class="active">Standings</a>
+      <a href="stats.html">Stats</a>
+    </nav>
+
     <header>
       <h1>The 2026 Jayson Tatum 50 Spicy Memorial Playoff Points Pool</h1>
-      <p class="subtitle">Click a team to see player breakdown</p>
+      <p class="subtitle">Click a coach to see player breakdown</p>
     </header>
 
     <div id="app"><p class="loading">Loading standings…</p></div>
@@ -144,15 +148,23 @@
   </div>
 
   <script>
+    const BASE = window.location.hostname === 'localhost'
+      ? ''
+      : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
+
     async function loadData() {
-      const [standingsRes, playersRes] = await Promise.all([
-        fetch('https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data/pointsleague_2026.json'),
-        fetch('https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data/full_points_table_2026.json'),
+      const [standingsRes, playersRes, allRes] = await Promise.all([
+        fetch(`${BASE}/pointsleague_2026.json`),
+        fetch(`${BASE}/full_points_table_2026.json`),
+        fetch(`${BASE}/all_players_2026.json`),
       ]);
       if (!standingsRes.ok || !playersRes.ok) throw new Error('Failed to fetch data');
+      const allPlayers = allRes.ok ? await allRes.json() : [];
+      const rankMap = Object.fromEntries(allPlayers.map((p, i) => [p.Player, i + 1]));
       return {
         standings: await standingsRes.json(),
         players: await playersRes.json(),
+        rankMap,
       };
     }
 
@@ -163,7 +175,7 @@
       }, {});
     }
 
-    function render(standings, playersByTeam) {
+    function render(standings, playersByTeam, rankMap) {
       const sorted = [...standings].sort((a, b) => b.Points - a.Points);
 
       const rows = sorted.map((team, i) => {
@@ -173,22 +185,22 @@
           .slice()
           .sort((a, b) => b['Total Points'] - a['Total Points']);
 
-        const playerRows = teamPlayers.map(p => `
+        const playerRows = teamPlayers.map(p => {
+          const rank = rankMap[p.Player];
+          const rankStr = rank ? ` <span class="ovr-rank">#${rank}</span>` : '';
+          return `
           <tr class="player-row" data-team="${team.Team}">
             <td></td>
-            <td class="player-name">${p.Player}</td>
+            <td class="player-name">${p.Player}${rankStr}</td>
             <td class="num">${p['Total Points']}</td>
-            <td class="num">${p['Games Played']}</td>
-            <td class="num">${p['Games Played'] > 0 ? (p['Total Points'] / p['Games Played']).toFixed(1) : '—'}</td>
-          </tr>`).join('');
+          </tr>`;
+        }).join('');
 
         return `
           <tr class="team-row" data-team="${team.Team}">
             <td class="rank num ${rankClass}">${rank}</td>
             <td class="team-name">${team.Team} <span class="chevron">›</span></td>
             <td class="num points">${team.Points}</td>
-            <td class="num">${team['Games Played']}</td>
-            <td class="num">${team.PPG > 0 ? team.PPG.toFixed(1) : '—'}</td>
           </tr>
           ${playerRows}`;
       }).join('');
@@ -198,10 +210,8 @@
           <thead>
             <tr>
               <th class="num">#</th>
-              <th>Team</th>
+              <th>Coach</th>
               <th class="num">PTS</th>
-              <th class="num">GP</th>
-              <th class="num">PPG</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -220,8 +230,8 @@
     }
 
     loadData()
-      .then(({ standings, players }) => {
-        render(standings, groupPlayersByTeam(players));
+      .then(({ standings, players, rankMap }) => {
+        render(standings, groupPlayersByTeam(players), rankMap);
         document.getElementById('last-updated').textContent =
           `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
       })
