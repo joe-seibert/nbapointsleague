@@ -85,6 +85,8 @@ with open(f"{output_dir}/undrafted_{SEASON}.json", "w") as f:
     json.dump(undrafted, f, indent=2)
 
 # Write CSV
+undrafted_df_out = pd.DataFrame(undrafted)
+undrafted_df_out.to_csv(f"{output_dir}/undrafted_{SEASON}.csv", index=False)
 summary_df = pd.DataFrame(team_summaries).set_index("Team")
 summary_df.to_csv(f"{output_dir}/pointsleague_{SEASON}.csv")
 
