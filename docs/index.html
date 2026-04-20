@@ -15,6 +15,25 @@
       padding: 2rem 1rem;
     }
 
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    nav a:hover { color: #e2e8f0; background: #1a1d27; }
+    nav a.active { color: #f8b847; }
+
     header {
       text-align: center;
       margin-bottom: 2.5rem;
@@ -34,7 +53,7 @@
     }
 
     .container {
-      max-width: 760px;
+      max-width: 640px;
       margin: 0 auto;
     }
 
@@ -66,24 +85,15 @@
     tbody tr:hover { background: #1a1d27; }
     tbody tr.expanded { background: #1a1d27; }
 
-    td {
-      padding: 0.85rem 1rem;
-    }
-
+    td { padding: 0.85rem 1rem; }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
-    .rank {
-      color: #718096;
-      font-size: 0.8rem;
-      width: 2rem;
-    }
-
+    .rank { color: #718096; font-size: 0.8rem; width: 2rem; }
     .rank-1 { color: #f8b847; font-weight: 700; }
     .rank-2 { color: #a0aec0; font-weight: 600; }
     .rank-3 { color: #c07d4a; font-weight: 600; }
 
     .team-name { font-weight: 600; }
-
     .points { font-weight: 700; font-size: 1.05rem; }
 
     .chevron {
@@ -91,38 +101,18 @@
       transition: transform 0.2s;
       color: #4a5568;
     }
-
     tr.expanded .chevron { transform: rotate(90deg); }
 
-    .player-row {
-      display: none;
-      background: #13161f;
-    }
-
+    .player-row { display: none; background: #13161f; }
     .player-row.visible { display: table-row; }
-
     .player-row td {
       padding: 0.5rem 1rem 0.5rem 3rem;
       font-size: 0.875rem;
       color: #a0aec0;
       border-bottom: 1px solid #1a1d27;
     }
-
     .player-row td.num { color: #cbd5e0; }
-
     .player-name { color: #cbd5e0; }
-
-    .error {
-      text-align: center;
-      color: #fc8181;
-      padding: 2rem;
-    }
-
-    .loading {
-      text-align: center;
-      color: #718096;
-      padding: 2rem;
-    }
 
     .section-title {
       font-size: 1rem;
@@ -139,8 +129,10 @@
       color: #e2e8f0;
       padding-top: 0.75rem;
     }
-
     .totals-row td.num { color: #f8b847; }
+
+    .error { text-align: center; color: #fc8181; padding: 2rem; }
+    .loading { text-align: center; color: #718096; padding: 2rem; }
 
     .last-updated {
       text-align: center;
@@ -152,6 +144,11 @@
 </head>
 <body>
   <div class="container">
+    <nav>
+      <a href="index.html" class="active">Standings</a>
+      <a href="stats.html">Stats</a>
+    </nav>
+
     <header>
       <h1>The 2026 Jayson Tatum 50 Spicy Memorial Playoff Points Pool</h1>
       <p class="subtitle">Click a team to see player breakdown</p>
@@ -203,8 +200,6 @@
             <td></td>
             <td class="player-name">${p.Player}</td>
             <td class="num">${p['Total Points']}</td>
-            <td class="num">${p['Games Played']}</td>
-            <td class="num">${p['Games Played'] > 0 ? (p['Total Points'] / p['Games Played']).toFixed(1) : '—'}</td>
           </tr>`).join('');
 
         return `
@@ -212,8 +207,6 @@
             <td class="rank num ${rankClass}">${rank}</td>
             <td class="team-name">${team.Team} <span class="chevron">›</span></td>
             <td class="num points">${team.Points}</td>
-            <td class="num">${team['Games Played']}</td>
-            <td class="num">${team.PPG > 0 ? team.PPG.toFixed(1) : '—'}</td>
           </tr>
           ${playerRows}`;
       }).join('');
@@ -225,8 +218,6 @@
               <th class="num">#</th>
               <th>Team</th>
               <th class="num">PTS</th>
-              <th class="num">GP</th>
-              <th class="num">PPG</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -245,8 +236,9 @@
     }
 
     function renderUndrafted(undrafted) {
+      if (!undrafted.length) return;
       const totalPts = undrafted.reduce((s, p) => s + p['Total Points'], 0);
-      const totalGP = undrafted.reduce((s, p) => s + p['Games Played'], 0);
+      const totalGP  = undrafted.reduce((s, p) => s + p['Games Played'], 0);
       const totalPPG = totalGP > 0 ? (totalPts / totalGP).toFixed(1) : '—';
 
       const rows = undrafted.map((p, i) => `
@@ -254,8 +246,6 @@
           <td class="rank num">${i + 1}</td>
           <td class="player-name">${p.Player}</td>
           <td class="num points">${p['Total Points']}</td>
-          <td class="num">${p['Games Played']}</td>
-          <td class="num">${p['Games Played'] > 0 ? (p['Total Points'] / p['Games Played']).toFixed(1) : '—'}</td>
         </tr>`).join('');
 
       document.getElementById('undrafted').innerHTML = `
@@ -266,8 +256,6 @@
               <th class="num">#</th>
               <th>Player</th>
               <th class="num">PTS</th>
-              <th class="num">GP</th>
-              <th class="num">PPG</th>
             </tr>
           </thead>
           <tbody>
@@ -276,8 +264,6 @@
               <td></td>
               <td>Total</td>
               <td class="num">${totalPts}</td>
-              <td class="num">${totalGP}</td>
-              <td class="num">${totalPPG}</td>
             </tr>
           </tbody>
         </table>`;
