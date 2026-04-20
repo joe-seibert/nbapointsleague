@@ -30,11 +30,14 @@ jobs:
           retry_wait_seconds: 60
           command: uv run points_league.py
 
+      - name: Copy data to docs
+        run: cp seasons/$SEASON/data/pointsleague_$SEASON.json seasons/$SEASON/data/full_points_table_$SEASON.json docs/
+
       - name: Commit files
         run: |
           git config --local user.name "joe-seibert"
           git config --local user.email "joe-seibert@users.noreply.github.com"
-          git add seasons/$SEASON/data/
+          git add seasons/$SEASON/data/ docs/
           git diff --cached --quiet || git commit -m "Updating data $(date)"
           git push
         env:
