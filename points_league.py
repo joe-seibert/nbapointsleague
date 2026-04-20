@@ -65,7 +65,7 @@ all_players = [
     {
         "Player": row["PLAYER_NAME"],
         "NBA Team": row["TEAM_ABBREVIATION"],
-        "Fantasy Owner": player_to_owner.get(row["PLAYER_NAME"], "Undrafted"),
+        "Coach": player_to_owner.get(row["PLAYER_NAME"], "Undrafted"),
         "Total Points": int(row["PTS"]),
         "Games Played": int(row["GP"]),
         "PPG": round(row["PTS"] / row["GP"], 2) if row["GP"] > 0 else 0,
