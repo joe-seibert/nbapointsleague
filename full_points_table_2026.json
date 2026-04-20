@@ -1,8 +1,8 @@
 [
   {
     "Player": "Shai Gilgeous-Alexander",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 25,
+    "Games Played": 1,
     "Team": "Jono"
   },
   {
@@ -13,8 +13,8 @@
   },
   {
     "Player": "Jalen Duren",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 8,
+    "Games Played": 1,
     "Team": "Jono"
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "Player": "Isaiah Hartenstein",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 8,
+    "Games Played": 1,
     "Team": "Jono"
   },
   {
@@ -49,14 +49,14 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 35,
+    "Games Played": 1,
     "Team": "Julian"
   },
   {
     "Player": "Cade Cunningham",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 39,
+    "Games Played": 1,
     "Team": "Julian"
   },
   {
@@ -85,20 +85,20 @@
   },
   {
     "Player": "Deni Avdija",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 30,
+    "Games Played": 1,
     "Team": "Julian"
   },
   {
     "Player": "Devin Booker",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 23,
+    "Games Played": 1,
     "Team": "Julian"
   },
   {
     "Player": "Jaylen Brown",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 26,
+    "Games Played": 1,
     "Team": "Sam"
   },
   {
@@ -109,8 +109,8 @@
   },
   {
     "Player": "De'Aaron Fox",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 17,
+    "Games Played": 1,
     "Team": "Sam"
   },
   {
@@ -121,14 +121,14 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 3,
+    "Games Played": 1,
     "Team": "Sam"
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 6,
+    "Games Played": 1,
     "Team": "Sam"
   },
   {
@@ -157,8 +157,8 @@
   },
   {
     "Player": "Payton Pritchard",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 12,
+    "Games Played": 1,
     "Team": "Andrew"
   },
   {
@@ -169,8 +169,8 @@
   },
   {
     "Player": "Tobias Harris",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 17,
+    "Games Played": 1,
     "Team": "Andrew"
   },
   {
@@ -199,8 +199,8 @@
   },
   {
     "Player": "Jalen Williams",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 22,
+    "Games Played": 1,
     "Team": "Joe"
   },
   {
@@ -217,8 +217,8 @@
   },
   {
     "Player": "Ausar Thompson",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 8,
+    "Games Played": 1,
     "Team": "Joe"
   },
   {
@@ -229,38 +229,38 @@
   },
   {
     "Player": "Tyrese Maxey",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 21,
+    "Games Played": 1,
     "Team": "Joe"
   },
   {
     "Player": "Duncan Robinson",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 9,
+    "Games Played": 1,
     "Team": "Joe"
   },
   {
     "Player": "Jayson Tatum",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 25,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
     "Player": "Chet Holmgren",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 16,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
     "Player": "Derrick White",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 10,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 17,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
@@ -271,20 +271,20 @@
   },
   {
     "Player": "Ajay Mitchell",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 9,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 15,
+    "Games Played": 1,
     "Team": "Connor"
   },
   {
     "Player": "Neemias Queta",
-    "Total Points": 0,
-    "Games Played": 0,
+    "Total Points": 13,
+    "Games Played": 1,
     "Team": "Connor"
   }
 ]
