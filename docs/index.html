@@ -114,6 +114,12 @@
     .player-row td.num { color: #cbd5e0; }
     .player-name { color: #cbd5e0; }
 
+    .ovr-rank {
+      font-size: 0.72rem;
+      color: #4a5568;
+      margin-left: 0.4rem;
+    }
+
     .error { text-align: center; color: #fc8181; padding: 2rem; }
     .loading { text-align: center; color: #718096; padding: 2rem; }
 
@@ -147,14 +153,18 @@
       : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
 
     async function loadData() {
-      const [standingsRes, playersRes] = await Promise.all([
+      const [standingsRes, playersRes, allRes] = await Promise.all([
         fetch(`${BASE}/pointsleague_2026.json`),
         fetch(`${BASE}/full_points_table_2026.json`),
+        fetch(`${BASE}/all_players_2026.json`),
       ]);
       if (!standingsRes.ok || !playersRes.ok) throw new Error('Failed to fetch data');
+      const allPlayers = allRes.ok ? await allRes.json() : [];
+      const rankMap = Object.fromEntries(allPlayers.map((p, i) => [p.Player, i + 1]));
       return {
         standings: await standingsRes.json(),
         players: await playersRes.json(),
+        rankMap,
       };
     }
 
@@ -165,7 +175,7 @@
       }, {});
     }
 
-    function render(standings, playersByTeam) {
+    function render(standings, playersByTeam, rankMap) {
       const sorted = [...standings].sort((a, b) => b.Points - a.Points);
 
       const rows = sorted.map((team, i) => {
@@ -175,12 +185,16 @@
           .slice()
           .sort((a, b) => b['Total Points'] - a['Total Points']);
 
-        const playerRows = teamPlayers.map(p => `
+        const playerRows = teamPlayers.map(p => {
+          const rank = rankMap[p.Player];
+          const rankStr = rank ? ` <span class="ovr-rank">#${rank}</span>` : '';
+          return `
           <tr class="player-row" data-team="${team.Team}">
             <td></td>
-            <td class="player-name">${p.Player}</td>
+            <td class="player-name">${p.Player}${rankStr}</td>
             <td class="num">${p['Total Points']}</td>
-          </tr>`).join('');
+          </tr>`;
+        }).join('');
 
         return `
           <tr class="team-row" data-team="${team.Team}">
@@ -216,8 +230,8 @@
     }
 
     loadData()
-      .then(({ standings, players }) => {
-        render(standings, groupPlayersByTeam(players));
+      .then(({ standings, players, rankMap }) => {
+        render(standings, groupPlayersByTeam(players), rankMap);
         document.getElementById('last-updated').textContent =
           `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
       })
