@@ -38,9 +38,9 @@ jobs:
           cp seasons/$SEASON/data/full_points_table_$SEASON.json /tmp/
           git fetch origin data:refs/remotes/origin/data || true
           git checkout -B data origin/data 2>/dev/null || git checkout --orphan data
-          git rm -rf . --quiet || true
+          git rm -rf . --quiet
           cp /tmp/pointsleague_$SEASON.json .
           cp /tmp/full_points_table_$SEASON.json .
           git add pointsleague_$SEASON.json full_points_table_$SEASON.json
-          git commit -m "Update data $(date)"
+          git diff --cached --quiet || git commit -m "Update data $(date)"
           git push -f origin data
