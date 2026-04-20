@@ -1,2 +1,4 @@
 .DS_Store
 seasons/2026/data/
+credentials.json
+*.pickle
