@@ -50,12 +50,51 @@
       margin: 0 auto;
     }
 
-    .filters {
+    .filter-toggle {
       display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: none;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+      color: #a0aec0;
+      font-size: 0.82rem;
+      padding: 0.45rem 0.85rem;
+      cursor: pointer;
+      margin-bottom: 0.75rem;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .filter-toggle:hover { border-color: #4a5580; color: #e2e8f0; }
+    .filter-toggle.active { border-color: #f8b847; color: #f8b847; }
+
+    .filter-toggle .arrow {
+      font-size: 0.65rem;
+      transition: transform 0.2s;
+    }
+    .filter-toggle.open .arrow { transform: rotate(180deg); }
+
+    .filter-badge {
+      background: #f8b847;
+      color: #0f1117;
+      font-size: 0.68rem;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 0.1rem 0.4rem;
+    }
+
+    .filters {
+      display: none;
       flex-direction: column;
       gap: 0.75rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
+      padding: 1rem;
+      background: #13161f;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
     }
+
+    .filters.open { display: flex; }
 
     .filter-group {
       display: flex;
@@ -96,14 +135,7 @@
 
     .checkbox-group input[type="checkbox"] { display: none; }
 
-    .checkbox-group label:hover {
-      border-color: #4a5580;
-      color: #e2e8f0;
-    }
-
-    .checkbox-group input[type="checkbox"]:checked + span {
-      color: #f8b847;
-    }
+    .checkbox-group label:hover { border-color: #4a5580; color: #e2e8f0; }
 
     .checkbox-group label:has(input:checked) {
       border-color: #f8b847;
@@ -202,7 +234,10 @@
       <h1>Player Stats</h1>
     </header>
 
-    <div class="filters">
+    <button class="filter-toggle" id="filter-toggle">
+      Filters <span class="arrow">▼</span>
+    </button>
+    <div class="filters" id="filters">
       <div class="filter-group">
         <span class="filter-label">Coach</span>
         <div class="checkbox-group" id="filter-coach"></div>
@@ -244,12 +279,27 @@
       return res.json();
     }
 
+    function updateToggleButton() {
+      const total = getChecked('filter-coach').length + getChecked('filter-team').length;
+      const btn = document.getElementById('filter-toggle');
+      const badge = total > 0 ? ` <span class="filter-badge">${total}</span>` : '';
+      btn.innerHTML = `Filters${badge} <span class="arrow">▼</span>`;
+      btn.classList.toggle('active', total > 0);
+    }
+
+    document.getElementById('filter-toggle').addEventListener('click', () => {
+      const btn = document.getElementById('filter-toggle');
+      const panel = document.getElementById('filters');
+      btn.classList.toggle('open');
+      panel.classList.toggle('open');
+    });
+
     function buildCheckboxes(containerId, values) {
       const el = document.getElementById(containerId);
       values.forEach(v => {
         const label = document.createElement('label');
         label.innerHTML = `<input type="checkbox" value="${v}"><span>${v}</span>`;
-        label.querySelector('input').addEventListener('change', renderTable);
+        label.querySelector('input').addEventListener('change', () => { renderTable(); updateToggleButton(); });
         el.appendChild(label);
       });
     }
@@ -326,7 +376,7 @@
         th.addEventListener('click', () => {
           const col = th.dataset.col;
           if (sortCol === col) sortAsc = !sortAsc;
-          else { sortCol = col; sortAsc = col === 'Player' || col === 'Fantasy Owner' || col === 'NBA Team'; }
+          else { sortCol = col; sortAsc = col === 'Player' || col === 'Coach' || col === 'NBA Team'; }
           renderTable();
         });
       });
