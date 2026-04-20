@@ -114,23 +114,6 @@
     .player-row td.num { color: #cbd5e0; }
     .player-name { color: #cbd5e0; }
 
-    .section-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #a0aec0;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin: 2.5rem 0 0.75rem;
-    }
-
-    .totals-row td {
-      border-top: 1px solid #2d3148;
-      font-weight: 700;
-      color: #e2e8f0;
-      padding-top: 0.75rem;
-    }
-    .totals-row td.num { color: #f8b847; }
-
     .error { text-align: center; color: #fc8181; padding: 2rem; }
     .loading { text-align: center; color: #718096; padding: 2rem; }
 
@@ -155,7 +138,6 @@
     </header>
 
     <div id="app"><p class="loading">Loading standings…</p></div>
-    <div id="undrafted"></div>
     <p class="last-updated" id="last-updated"></p>
   </div>
 
@@ -165,16 +147,14 @@
       : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
 
     async function loadData() {
-      const [standingsRes, playersRes, undraftedRes] = await Promise.all([
+      const [standingsRes, playersRes] = await Promise.all([
         fetch(`${BASE}/pointsleague_2026.json`),
         fetch(`${BASE}/full_points_table_2026.json`),
-        fetch(`${BASE}/undrafted_2026.json`),
       ]);
       if (!standingsRes.ok || !playersRes.ok) throw new Error('Failed to fetch data');
       return {
         standings: await standingsRes.json(),
         players: await playersRes.json(),
-        undrafted: undraftedRes.ok ? await undraftedRes.json() : [],
       };
     }
 
@@ -235,44 +215,9 @@
       });
     }
 
-    function renderUndrafted(undrafted) {
-      if (!undrafted.length) return;
-      const totalPts = undrafted.reduce((s, p) => s + p['Total Points'], 0);
-      const totalGP  = undrafted.reduce((s, p) => s + p['Games Played'], 0);
-      const totalPPG = totalGP > 0 ? (totalPts / totalGP).toFixed(1) : '—';
-
-      const rows = undrafted.map((p, i) => `
-        <tr>
-          <td class="rank num">${i + 1}</td>
-          <td class="player-name">${p.Player}</td>
-          <td class="num points">${p['Total Points']}</td>
-        </tr>`).join('');
-
-      document.getElementById('undrafted').innerHTML = `
-        <p class="section-title">Left on the Board</p>
-        <table>
-          <thead>
-            <tr>
-              <th class="num">#</th>
-              <th>Player</th>
-              <th class="num">PTS</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows}
-            <tr class="totals-row">
-              <td></td>
-              <td>Total</td>
-              <td class="num">${totalPts}</td>
-            </tr>
-          </tbody>
-        </table>`;
-    }
-
     loadData()
-      .then(({ standings, players, undrafted }) => {
+      .then(({ standings, players }) => {
         render(standings, groupPlayersByTeam(players));
-        renderUndrafted(undrafted);
         document.getElementById('last-updated').textContent =
           `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
       })
