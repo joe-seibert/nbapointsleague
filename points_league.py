@@ -70,7 +70,7 @@ all_players = [
         "Games Played": int(row["GP"]),
         "PPG": round(row["PTS"] / row["GP"], 2) if row["GP"] > 0 else 0,
     }
-    for _, row in player_stats.sort_values("PTS", ascending=False).head(64).iterrows()
+    for _, row in player_stats.sort_values("PTS", ascending=False).head(128).iterrows()
 ]
 
 # Write JSON
