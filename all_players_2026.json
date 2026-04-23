@@ -1,5 +1,13 @@
 [
   {
+    "Player": "Cade Cunningham",
+    "NBA Team": "DET",
+    "Coach": "Julian",
+    "Total Points": 66,
+    "Games Played": 2,
+    "PPG": 33.0
+  },
+  {
     "Player": "Donovan Mitchell",
     "NBA Team": "CLE",
     "Coach": "Sam",
@@ -11,6 +19,14 @@
     "Player": "Jaylen Brown",
     "NBA Team": "BOS",
     "Coach": "Sam",
+    "Total Points": 62,
+    "Games Played": 2,
+    "PPG": 31.0
+  },
+  {
+    "Player": "Shai Gilgeous-Alexander",
+    "NBA Team": "OKC",
+    "Coach": "Jono",
     "Total Points": 62,
     "Games Played": 2,
     "PPG": 31.0
@@ -88,17 +104,25 @@
     "PPG": 24.5
   },
   {
-    "Player": "Scottie Barnes",
-    "NBA Team": "TOR",
+    "Player": "Dillon Brooks",
+    "NBA Team": "PHX",
     "Coach": "Undrafted",
-    "Total Points": 47,
+    "Total Points": 48,
     "Games Played": 2,
-    "PPG": 23.5
+    "PPG": 24.0
   },
   {
     "Player": "LeBron James",
     "NBA Team": "LAL",
     "Coach": "Julian",
+    "Total Points": 47,
+    "Games Played": 2,
+    "PPG": 23.5
+  },
+  {
+    "Player": "Scottie Barnes",
+    "NBA Team": "TOR",
+    "Coach": "Undrafted",
     "Total Points": 47,
     "Games Played": 2,
     "PPG": 23.5
@@ -110,6 +134,14 @@
     "Total Points": 46,
     "Games Played": 2,
     "PPG": 23.0
+  },
+  {
+    "Player": "Devin Booker",
+    "NBA Team": "PHX",
+    "Coach": "Julian",
+    "Total Points": 45,
+    "Games Played": 2,
+    "PPG": 22.5
   },
   {
     "Player": "Jayson Tatum",
@@ -128,17 +160,17 @@
     "PPG": 22.0
   },
   {
-    "Player": "Karl-Anthony Towns",
-    "NBA Team": "NYK",
-    "Coach": "Andrew",
+    "Player": "VJ Edgecombe",
+    "NBA Team": "PHI",
+    "Coach": "Undrafted",
     "Total Points": 43,
     "Games Played": 2,
     "PPG": 21.5
   },
   {
-    "Player": "VJ Edgecombe",
-    "NBA Team": "PHI",
-    "Coach": "Undrafted",
+    "Player": "Karl-Anthony Towns",
+    "NBA Team": "NYK",
+    "Coach": "Andrew",
     "Total Points": 43,
     "Games Played": 2,
     "PPG": 21.5
@@ -152,25 +184,25 @@
     "PPG": 21.0
   },
   {
-    "Player": "Julius Randle",
-    "NBA Team": "MIN",
+    "Player": "Jalen Williams",
+    "NBA Team": "OKC",
     "Coach": "Joe",
-    "Total Points": 40,
+    "Total Points": 41,
     "Games Played": 2,
-    "PPG": 20.0
+    "PPG": 20.5
+  },
+  {
+    "Player": "Paolo Banchero",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 41,
+    "Games Played": 2,
+    "PPG": 20.5
   },
   {
     "Player": "Jalen Johnson",
     "NBA Team": "ATL",
     "Coach": "Connor",
-    "Total Points": 40,
-    "Games Played": 2,
-    "PPG": 20.0
-  },
-  {
-    "Player": "Victor Wembanyama",
-    "NBA Team": "SAS",
-    "Coach": "Julian",
     "Total Points": 40,
     "Games Played": 2,
     "PPG": 20.0
@@ -184,6 +216,22 @@
     "PPG": 20.0
   },
   {
+    "Player": "Julius Randle",
+    "NBA Team": "MIN",
+    "Coach": "Joe",
+    "Total Points": 40,
+    "Games Played": 2,
+    "PPG": 20.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "NBA Team": "SAS",
+    "Coach": "Julian",
+    "Total Points": 40,
+    "Games Played": 2,
+    "PPG": 20.0
+  },
+  {
     "Player": "Alperen Sengun",
     "NBA Team": "HOU",
     "Coach": "Joe",
@@ -192,12 +240,12 @@
     "PPG": 19.5
   },
   {
-    "Player": "Cade Cunningham",
-    "NBA Team": "DET",
-    "Coach": "Julian",
-    "Total Points": 39,
-    "Games Played": 1,
-    "PPG": 39.0
+    "Player": "Jalen Green",
+    "NBA Team": "PHX",
+    "Coach": "Undrafted",
+    "Total Points": 38,
+    "Games Played": 2,
+    "PPG": 19.0
   },
   {
     "Player": "Paul George",
@@ -211,6 +259,22 @@
     "Player": "Stephon Castle",
     "NBA Team": "SAS",
     "Coach": "Connor",
+    "Total Points": 35,
+    "Games Played": 2,
+    "PPG": 17.5
+  },
+  {
+    "Player": "Chet Holmgren",
+    "NBA Team": "OKC",
+    "Coach": "Connor",
+    "Total Points": 35,
+    "Games Played": 2,
+    "PPG": 17.5
+  },
+  {
+    "Player": "Jalen Suggs",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
     "Total Points": 35,
     "Games Played": 2,
     "PPG": 17.5
@@ -238,6 +302,14 @@
     "Total Points": 34,
     "Games Played": 2,
     "PPG": 17.0
+  },
+  {
+    "Player": "Tobias Harris",
+    "NBA Team": "DET",
+    "Coach": "Andrew",
+    "Total Points": 33,
+    "Games Played": 2,
+    "PPG": 16.5
   },
   {
     "Player": "Amen Thompson",
@@ -272,12 +344,12 @@
     "PPG": 15.5
   },
   {
-    "Player": "Max Strus",
-    "NBA Team": "CLE",
+    "Player": "Franz Wagner",
+    "NBA Team": "ORL",
     "Coach": "Undrafted",
-    "Total Points": 30,
+    "Total Points": 31,
     "Games Played": 2,
-    "PPG": 15.0
+    "PPG": 15.5
   },
   {
     "Player": "Jaden McDaniels",
@@ -288,12 +360,20 @@
     "PPG": 15.0
   },
   {
-    "Player": "Donte DiVincenzo",
-    "NBA Team": "MIN",
+    "Player": "Max Strus",
+    "NBA Team": "CLE",
     "Coach": "Undrafted",
-    "Total Points": 28,
+    "Total Points": 30,
     "Games Played": 2,
-    "PPG": 14.0
+    "PPG": 15.0
+  },
+  {
+    "Player": "Desmond Bane",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 29,
+    "Games Played": 2,
+    "PPG": 14.5
   },
   {
     "Player": "Christian Braun",
@@ -304,16 +384,24 @@
     "PPG": 14.0
   },
   {
-    "Player": "Rui Hachimura",
-    "NBA Team": "LAL",
+    "Player": "Donte DiVincenzo",
+    "NBA Team": "MIN",
+    "Coach": "Undrafted",
+    "Total Points": 28,
+    "Games Played": 2,
+    "PPG": 14.0
+  },
+  {
+    "Player": "Jonathan Kuminga",
+    "NBA Team": "ATL",
     "Coach": "Undrafted",
     "Total Points": 27,
     "Games Played": 2,
     "PPG": 13.5
   },
   {
-    "Player": "Jonathan Kuminga",
-    "NBA Team": "ATL",
+    "Player": "Rui Hachimura",
+    "NBA Team": "LAL",
     "Coach": "Undrafted",
     "Total Points": 27,
     "Games Played": 2,
@@ -344,25 +432,17 @@
     "PPG": 13.0
   },
   {
-    "Player": "Jrue Holiday",
-    "NBA Team": "POR",
-    "Coach": "Undrafted",
+    "Player": "Aaron Gordon",
+    "NBA Team": "DEN",
+    "Coach": "Andrew",
     "Total Points": 25,
     "Games Played": 2,
     "PPG": 12.5
   },
   {
-    "Player": "Shai Gilgeous-Alexander",
-    "NBA Team": "OKC",
-    "Coach": "Jono",
-    "Total Points": 25,
-    "Games Played": 1,
-    "PPG": 25.0
-  },
-  {
-    "Player": "Aaron Gordon",
-    "NBA Team": "DEN",
-    "Coach": "Andrew",
+    "Player": "Deandre Ayton",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
     "Total Points": 25,
     "Games Played": 2,
     "PPG": 12.5
@@ -376,8 +456,8 @@
     "PPG": 12.5
   },
   {
-    "Player": "Deandre Ayton",
-    "NBA Team": "LAL",
+    "Player": "Jrue Holiday",
+    "NBA Team": "POR",
     "Coach": "Undrafted",
     "Total Points": 25,
     "Games Played": 2,
@@ -392,8 +472,24 @@
     "PPG": 12.0
   },
   {
-    "Player": "Devin Booker",
-    "NBA Team": "PHX",
+    "Player": "Ajay Mitchell",
+    "NBA Team": "OKC",
+    "Coach": "Connor",
+    "Total Points": 23,
+    "Games Played": 2,
+    "PPG": 11.5
+  },
+  {
+    "Player": "Tim Hardaway Jr.",
+    "NBA Team": "DEN",
+    "Coach": "Undrafted",
+    "Total Points": 23,
+    "Games Played": 2,
+    "PPG": 11.5
+  },
+  {
+    "Player": "Kevin Durant",
+    "NBA Team": "HOU",
     "Coach": "Julian",
     "Total Points": 23,
     "Games Played": 1,
@@ -408,30 +504,6 @@
     "PPG": 11.5
   },
   {
-    "Player": "Paolo Banchero",
-    "NBA Team": "ORL",
-    "Coach": "Undrafted",
-    "Total Points": 23,
-    "Games Played": 1,
-    "PPG": 23.0
-  },
-  {
-    "Player": "Kevin Durant",
-    "NBA Team": "HOU",
-    "Coach": "Julian",
-    "Total Points": 23,
-    "Games Played": 1,
-    "PPG": 23.0
-  },
-  {
-    "Player": "Tim Hardaway Jr.",
-    "NBA Team": "DEN",
-    "Coach": "Undrafted",
-    "Total Points": 23,
-    "Games Played": 2,
-    "PPG": 11.5
-  },
-  {
     "Player": "Robert Williams III",
     "NBA Team": "POR",
     "Coach": "Undrafted",
@@ -440,20 +512,20 @@
     "PPG": 11.0
   },
   {
-    "Player": "Jalen Williams",
-    "NBA Team": "OKC",
-    "Coach": "Joe",
-    "Total Points": 22,
-    "Games Played": 1,
-    "PPG": 22.0
-  },
-  {
     "Player": "Kelly Oubre Jr.",
     "NBA Team": "PHI",
     "Coach": "Undrafted",
     "Total Points": 22,
     "Games Played": 2,
     "PPG": 11.0
+  },
+  {
+    "Player": "Mikal Bridges",
+    "NBA Team": "NYK",
+    "Coach": "Jono",
+    "Total Points": 21,
+    "Games Played": 2,
+    "PPG": 10.5
   },
   {
     "Player": "Neemias Queta",
@@ -472,17 +544,25 @@
     "PPG": 10.5
   },
   {
-    "Player": "Mikal Bridges",
-    "NBA Team": "NYK",
-    "Coach": "Jono",
-    "Total Points": 21,
-    "Games Played": 2,
-    "PPG": 10.5
-  },
-  {
     "Player": "Jarrett Allen",
     "NBA Team": "CLE",
     "Coach": "Sam",
+    "Total Points": 20,
+    "Games Played": 2,
+    "PPG": 10.0
+  },
+  {
+    "Player": "Wendell Carter Jr.",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 20,
+    "Games Played": 2,
+    "PPG": 10.0
+  },
+  {
+    "Player": "Royce O'Neale",
+    "NBA Team": "PHX",
+    "Coach": "Undrafted",
     "Total Points": 20,
     "Games Played": 2,
     "PPG": 10.0
@@ -504,17 +584,33 @@
     "PPG": 10.0
   },
   {
-    "Player": "Franz Wagner",
-    "NBA Team": "ORL",
-    "Coach": "Undrafted",
+    "Player": "Jalen Duren",
+    "NBA Team": "DET",
+    "Coach": "Jono",
     "Total Points": 19,
-    "Games Played": 1,
-    "PPG": 19.0
+    "Games Played": 2,
+    "PPG": 9.5
   },
   {
     "Player": "Shaedon Sharpe",
     "NBA Team": "POR",
     "Coach": "Undrafted",
+    "Total Points": 19,
+    "Games Played": 2,
+    "PPG": 9.5
+  },
+  {
+    "Player": "Ausar Thompson",
+    "NBA Team": "DET",
+    "Coach": "Joe",
+    "Total Points": 19,
+    "Games Played": 2,
+    "PPG": 9.5
+  },
+  {
+    "Player": "Duncan Robinson",
+    "NBA Team": "DET",
+    "Coach": "Joe",
     "Total Points": 19,
     "Games Played": 2,
     "PPG": 9.5
@@ -536,14 +632,6 @@
     "PPG": 9.0
   },
   {
-    "Player": "Dillon Brooks",
-    "NBA Team": "PHX",
-    "Coach": "Undrafted",
-    "Total Points": 18,
-    "Games Played": 1,
-    "PPG": 18.0
-  },
-  {
     "Player": "Toumani Camara",
     "NBA Team": "POR",
     "Coach": "Undrafted",
@@ -560,30 +648,6 @@
     "PPG": 9.0
   },
   {
-    "Player": "Wendell Carter Jr.",
-    "NBA Team": "ORL",
-    "Coach": "Undrafted",
-    "Total Points": 17,
-    "Games Played": 1,
-    "PPG": 17.0
-  },
-  {
-    "Player": "Desmond Bane",
-    "NBA Team": "ORL",
-    "Coach": "Undrafted",
-    "Total Points": 17,
-    "Games Played": 1,
-    "PPG": 17.0
-  },
-  {
-    "Player": "Tobias Harris",
-    "NBA Team": "DET",
-    "Coach": "Andrew",
-    "Total Points": 17,
-    "Games Played": 1,
-    "PPG": 17.0
-  },
-  {
     "Player": "Reed Sheppard",
     "NBA Team": "HOU",
     "Coach": "Undrafted",
@@ -592,44 +656,20 @@
     "PPG": 8.5
   },
   {
-    "Player": "Jalen Green",
-    "NBA Team": "PHX",
+    "Player": "Isaiah Hartenstein",
+    "NBA Team": "OKC",
+    "Coach": "Jono",
+    "Total Points": 17,
+    "Games Played": 2,
+    "PPG": 8.5
+  },
+  {
+    "Player": "Luguentz Dort",
+    "NBA Team": "OKC",
     "Coach": "Undrafted",
     "Total Points": 17,
-    "Games Played": 1,
-    "PPG": 17.0
-  },
-  {
-    "Player": "Chet Holmgren",
-    "NBA Team": "OKC",
-    "Coach": "Connor",
-    "Total Points": 16,
-    "Games Played": 1,
-    "PPG": 16.0
-  },
-  {
-    "Player": "Jalen Suggs",
-    "NBA Team": "ORL",
-    "Coach": "Undrafted",
-    "Total Points": 16,
-    "Games Played": 1,
-    "PPG": 16.0
-  },
-  {
-    "Player": "Payton Pritchard",
-    "NBA Team": "BOS",
-    "Coach": "Andrew",
-    "Total Points": 16,
     "Games Played": 2,
-    "PPG": 8.0
-  },
-  {
-    "Player": "Naz Reid",
-    "NBA Team": "MIN",
-    "Coach": "Undrafted",
-    "Total Points": 16,
-    "Games Played": 2,
-    "PPG": 8.0
+    "PPG": 8.5
   },
   {
     "Player": "Mitchell Robinson",
@@ -648,6 +688,46 @@
     "PPG": 8.0
   },
   {
+    "Player": "Payton Pritchard",
+    "NBA Team": "BOS",
+    "Coach": "Andrew",
+    "Total Points": 16,
+    "Games Played": 2,
+    "PPG": 8.0
+  },
+  {
+    "Player": "Naz Reid",
+    "NBA Team": "MIN",
+    "Coach": "Undrafted",
+    "Total Points": 16,
+    "Games Played": 2,
+    "PPG": 8.0
+  },
+  {
+    "Player": "Bruce Brown",
+    "NBA Team": "DEN",
+    "Coach": "Undrafted",
+    "Total Points": 15,
+    "Games Played": 2,
+    "PPG": 7.5
+  },
+  {
+    "Player": "Collin Gillespie",
+    "NBA Team": "PHX",
+    "Coach": "Undrafted",
+    "Total Points": 15,
+    "Games Played": 2,
+    "PPG": 7.5
+  },
+  {
+    "Player": "Jordan Clarkson",
+    "NBA Team": "NYK",
+    "Coach": "Undrafted",
+    "Total Points": 15,
+    "Games Played": 2,
+    "PPG": 7.5
+  },
+  {
     "Player": "Sandro Mamukelashvili",
     "NBA Team": "TOR",
     "Coach": "Undrafted",
@@ -664,16 +744,8 @@
     "PPG": 7.5
   },
   {
-    "Player": "Jordan Clarkson",
-    "NBA Team": "NYK",
-    "Coach": "Undrafted",
-    "Total Points": 15,
-    "Games Played": 2,
-    "PPG": 7.5
-  },
-  {
-    "Player": "Bruce Brown",
-    "NBA Team": "DEN",
+    "Player": "Isaiah Joe",
+    "NBA Team": "OKC",
     "Coach": "Undrafted",
     "Total Points": 15,
     "Games Played": 2,
@@ -686,6 +758,22 @@
     "Total Points": 14,
     "Games Played": 2,
     "PPG": 7.0
+  },
+  {
+    "Player": "Quentin Grimes",
+    "NBA Team": "PHI",
+    "Coach": "Undrafted",
+    "Total Points": 13,
+    "Games Played": 2,
+    "PPG": 6.5
+  },
+  {
+    "Player": "Isaiah Stewart",
+    "NBA Team": "DET",
+    "Coach": "Undrafted",
+    "Total Points": 13,
+    "Games Played": 2,
+    "PPG": 6.5
   },
   {
     "Player": "Donovan Clingan",
@@ -704,12 +792,20 @@
     "PPG": 6.5
   },
   {
-    "Player": "Quentin Grimes",
-    "NBA Team": "PHI",
+    "Player": "Sam Merrill",
+    "NBA Team": "CLE",
     "Coach": "Undrafted",
-    "Total Points": 13,
+    "Total Points": 12,
     "Games Played": 2,
-    "PPG": 6.5
+    "PPG": 6.0
+  },
+  {
+    "Player": "Anthony Black",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 12,
+    "Games Played": 2,
+    "PPG": 6.0
   },
   {
     "Player": "Justin Edwards",
@@ -736,33 +832,9 @@
     "PPG": 6.0
   },
   {
-    "Player": "Sam Merrill",
-    "NBA Team": "CLE",
+    "Player": "Daniss Jenkins",
+    "NBA Team": "DET",
     "Coach": "Undrafted",
-    "Total Points": 12,
-    "Games Played": 2,
-    "PPG": 6.0
-  },
-  {
-    "Player": "Jerami Grant",
-    "NBA Team": "POR",
-    "Coach": "Undrafted",
-    "Total Points": 10,
-    "Games Played": 2,
-    "PPG": 5.0
-  },
-  {
-    "Player": "Jaxson Hayes",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 10,
-    "Games Played": 2,
-    "PPG": 5.0
-  },
-  {
-    "Player": "Keldon Johnson",
-    "NBA Team": "SAS",
-    "Coach": "Sam",
     "Total Points": 10,
     "Games Played": 2,
     "PPG": 5.0
@@ -784,28 +856,52 @@
     "PPG": 5.0
   },
   {
-    "Player": "Duncan Robinson",
-    "NBA Team": "DET",
-    "Coach": "Joe",
-    "Total Points": 9,
-    "Games Played": 1,
-    "PPG": 9.0
+    "Player": "Keldon Johnson",
+    "NBA Team": "SAS",
+    "Coach": "Sam",
+    "Total Points": 10,
+    "Games Played": 2,
+    "PPG": 5.0
   },
   {
-    "Player": "Isaiah Joe",
+    "Player": "Jerami Grant",
+    "NBA Team": "POR",
+    "Coach": "Undrafted",
+    "Total Points": 10,
+    "Games Played": 2,
+    "PPG": 5.0
+  },
+  {
+    "Player": "Jaxson Hayes",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
+    "Total Points": 10,
+    "Games Played": 2,
+    "PPG": 5.0
+  },
+  {
+    "Player": "Tristan da Silva",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 10,
+    "Games Played": 2,
+    "PPG": 5.0
+  },
+  {
+    "Player": "Alex Caruso",
     "NBA Team": "OKC",
     "Coach": "Undrafted",
     "Total Points": 9,
-    "Games Played": 1,
-    "PPG": 9.0
+    "Games Played": 2,
+    "PPG": 4.5
   },
   {
     "Player": "Rasheer Fleming",
     "NBA Team": "PHX",
     "Coach": "Undrafted",
     "Total Points": 9,
-    "Games Played": 1,
-    "PPG": 9.0
+    "Games Played": 2,
+    "PPG": 4.5
   },
   {
     "Player": "Luka Garza",
@@ -816,60 +912,20 @@
     "PPG": 4.5
   },
   {
-    "Player": "Ajay Mitchell",
-    "NBA Team": "OKC",
-    "Coach": "Connor",
-    "Total Points": 9,
-    "Games Played": 1,
-    "PPG": 9.0
-  },
-  {
-    "Player": "Isaiah Hartenstein",
-    "NBA Team": "OKC",
-    "Coach": "Jono",
-    "Total Points": 8,
-    "Games Played": 1,
-    "PPG": 8.0
-  },
-  {
-    "Player": "Luguentz Dort",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 8,
-    "Games Played": 1,
-    "PPG": 8.0
-  },
-  {
-    "Player": "Ausar Thompson",
-    "NBA Team": "DET",
-    "Coach": "Joe",
-    "Total Points": 8,
-    "Games Played": 1,
-    "PPG": 8.0
-  },
-  {
-    "Player": "Collin Gillespie",
-    "NBA Team": "PHX",
-    "Coach": "Undrafted",
-    "Total Points": 8,
-    "Games Played": 1,
-    "PPG": 8.0
-  },
-  {
-    "Player": "Jalen Duren",
-    "NBA Team": "DET",
-    "Coach": "Jono",
-    "Total Points": 8,
-    "Games Played": 1,
-    "PPG": 8.0
-  },
-  {
     "Player": "Dean Wade",
     "NBA Team": "CLE",
     "Coach": "Undrafted",
     "Total Points": 8,
     "Games Played": 2,
     "PPG": 4.0
+  },
+  {
+    "Player": "Caris LeVert",
+    "NBA Team": "DET",
+    "Coach": "Undrafted",
+    "Total Points": 7,
+    "Games Played": 2,
+    "PPG": 3.5
   },
   {
     "Player": "Carter Bryant",
@@ -880,12 +936,12 @@
     "PPG": 3.5
   },
   {
-    "Player": "Anthony Black",
+    "Player": "Goga Bitadze",
     "NBA Team": "ORL",
     "Coach": "Undrafted",
     "Total Points": 7,
-    "Games Played": 1,
-    "PPG": 7.0
+    "Games Played": 2,
+    "PPG": 3.5
   },
   {
     "Player": "Dennis Schr\u00f6der",
@@ -896,20 +952,36 @@
     "PPG": 3.5
   },
   {
-    "Player": "Tristan da Silva",
-    "NBA Team": "ORL",
+    "Player": "Oso Ighodaro",
+    "NBA Team": "PHX",
     "Coach": "Undrafted",
     "Total Points": 7,
-    "Games Played": 1,
-    "PPG": 7.0
+    "Games Played": 2,
+    "PPG": 3.5
   },
   {
-    "Player": "Daniss Jenkins",
+    "Player": "Kevin Huerter",
     "NBA Team": "DET",
     "Coach": "Undrafted",
     "Total Points": 6,
-    "Games Played": 1,
-    "PPG": 6.0
+    "Games Played": 2,
+    "PPG": 3.0
+  },
+  {
+    "Player": "Cason Wallace",
+    "NBA Team": "OKC",
+    "Coach": "Undrafted",
+    "Total Points": 6,
+    "Games Played": 2,
+    "PPG": 3.0
+  },
+  {
+    "Player": "Harrison Barnes",
+    "NBA Team": "SAS",
+    "Coach": "Undrafted",
+    "Total Points": 6,
+    "Games Played": 2,
+    "PPG": 3.0
   },
   {
     "Player": "Jake LaRavia",
@@ -918,6 +990,14 @@
     "Total Points": 6,
     "Games Played": 2,
     "PPG": 3.0
+  },
+  {
+    "Player": "Jase Richardson",
+    "NBA Team": "ORL",
+    "Coach": "Undrafted",
+    "Total Points": 6,
+    "Games Played": 1,
+    "PPG": 6.0
   },
   {
     "Player": "Miles McBride",
@@ -936,91 +1016,11 @@
     "PPG": 6.0
   },
   {
-    "Player": "Harrison Barnes",
-    "NBA Team": "SAS",
-    "Coach": "Undrafted",
-    "Total Points": 6,
-    "Games Played": 2,
-    "PPG": 3.0
-  },
-  {
     "Player": "Jakob Poeltl",
     "NBA Team": "TOR",
     "Coach": "Undrafted",
     "Total Points": 6,
     "Games Played": 2,
     "PPG": 3.0
-  },
-  {
-    "Player": "Cason Wallace",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 6,
-    "Games Played": 1,
-    "PPG": 6.0
-  },
-  {
-    "Player": "Jaylin Williams",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 1,
-    "PPG": 5.0
-  },
-  {
-    "Player": "Jordan Walsh",
-    "NBA Team": "BOS",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 2,
-    "PPG": 2.5
-  },
-  {
-    "Player": "Jared McCain",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 1,
-    "PPG": 5.0
-  },
-  {
-    "Player": "Gabe Vincent",
-    "NBA Team": "ATL",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 2,
-    "PPG": 2.5
-  },
-  {
-    "Player": "Ron Harper Jr.",
-    "NBA Team": "BOS",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 2,
-    "PPG": 2.5
-  },
-  {
-    "Player": "Jaylon Tyson",
-    "NBA Team": "CLE",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 2,
-    "PPG": 2.5
-  },
-  {
-    "Player": "Spencer Jones",
-    "NBA Team": "DEN",
-    "Coach": "Undrafted",
-    "Total Points": 5,
-    "Games Played": 2,
-    "PPG": 2.5
-  },
-  {
-    "Player": "Jae'Sean Tate",
-    "NBA Team": "HOU",
-    "Coach": "Undrafted",
-    "Total Points": 4,
-    "Games Played": 2,
-    "PPG": 2.0
   }
 ]
