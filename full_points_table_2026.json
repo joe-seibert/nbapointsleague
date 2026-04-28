@@ -1,20 +1,20 @@
 [
   {
     "Player": "Shai Gilgeous-Alexander",
-    "Total Points": 104,
-    "Games Played": 3,
-    "Team": "Jono"
-  },
-  {
-    "Player": "Jamal Murray",
-    "Total Points": 106,
+    "Total Points": 135,
     "Games Played": 4,
     "Team": "Jono"
   },
   {
+    "Player": "Jamal Murray",
+    "Total Points": 130,
+    "Games Played": 5,
+    "Team": "Jono"
+  },
+  {
     "Player": "Jalen Duren",
-    "Total Points": 27,
-    "Games Played": 3,
+    "Total Points": 39,
+    "Games Played": 4,
     "Team": "Jono"
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "Player": "Isaiah Hartenstein",
-    "Total Points": 26,
-    "Games Played": 3,
+    "Total Points": 44,
+    "Games Played": 4,
     "Team": "Jono"
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "Player": "Cade Cunningham",
-    "Total Points": 93,
-    "Games Played": 3,
+    "Total Points": 118,
+    "Games Played": 4,
     "Team": "Julian"
   },
   {
@@ -91,8 +91,8 @@
   },
   {
     "Player": "Devin Booker",
-    "Total Points": 61,
-    "Games Played": 3,
+    "Total Points": 85,
+    "Games Played": 4,
     "Team": "Julian"
   },
   {
@@ -145,8 +145,8 @@
   },
   {
     "Player": "Nikola Joki\u0107",
-    "Total Points": 100,
-    "Games Played": 4,
+    "Total Points": 127,
+    "Games Played": 5,
     "Team": "Andrew"
   },
   {
@@ -169,8 +169,8 @@
   },
   {
     "Player": "Tobias Harris",
-    "Total Points": 56,
-    "Games Played": 3,
+    "Total Points": 76,
+    "Games Played": 4,
     "Team": "Andrew"
   },
   {
@@ -217,14 +217,14 @@
   },
   {
     "Player": "Ausar Thompson",
-    "Total Points": 36,
-    "Games Played": 3,
+    "Total Points": 42,
+    "Games Played": 4,
     "Team": "Joe"
   },
   {
     "Player": "Julius Randle",
-    "Total Points": 70,
-    "Games Played": 4,
+    "Total Points": 97,
+    "Games Played": 5,
     "Team": "Joe"
   },
   {
@@ -235,8 +235,8 @@
   },
   {
     "Player": "Duncan Robinson",
-    "Total Points": 29,
-    "Games Played": 3,
+    "Total Points": 36,
+    "Games Played": 4,
     "Team": "Joe"
   },
   {
@@ -247,8 +247,8 @@
   },
   {
     "Player": "Chet Holmgren",
-    "Total Points": 45,
-    "Games Played": 3,
+    "Total Points": 69,
+    "Games Played": 4,
     "Team": "Connor"
   },
   {
@@ -271,8 +271,8 @@
   },
   {
     "Player": "Ajay Mitchell",
-    "Total Points": 38,
-    "Games Played": 3,
+    "Total Points": 60,
+    "Games Played": 4,
     "Team": "Connor"
   },
   {
