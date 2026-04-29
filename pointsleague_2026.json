@@ -1,38 +1,38 @@
 [
   {
     "Team": "Jono",
-    "Points": 460,
-    "Games Played": 25,
-    "PPG": 18.4
+    "Points": 484,
+    "Games Played": 27,
+    "PPG": 17.93
   },
   {
     "Team": "Julian",
-    "Points": 624,
-    "Games Played": 28,
-    "PPG": 22.29
+    "Points": 663,
+    "Games Played": 30,
+    "PPG": 22.1
   },
   {
     "Team": "Sam",
-    "Points": 509,
-    "Games Played": 32,
-    "PPG": 15.91
+    "Points": 592,
+    "Games Played": 37,
+    "PPG": 16.0
   },
   {
     "Team": "Andrew",
-    "Points": 496,
-    "Games Played": 28,
-    "PPG": 17.71
+    "Points": 533,
+    "Games Played": 31,
+    "PPG": 17.19
   },
   {
     "Team": "Joe",
-    "Points": 599,
-    "Games Played": 31,
-    "PPG": 19.32
+    "Points": 663,
+    "Games Played": 33,
+    "PPG": 20.09
   },
   {
     "Team": "Connor",
-    "Points": 514,
-    "Games Played": 32,
-    "PPG": 16.06
+    "Points": 595,
+    "Games Played": 38,
+    "PPG": 15.66
   }
 ]
