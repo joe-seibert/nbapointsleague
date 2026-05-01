@@ -3,7 +3,7 @@ import os
 
 import pandas as pd
 import yaml
-from nba_api.stats.endpoints import leaguedashplayerstats
+from nba_api.stats.endpoints import leaguedashplayerstats, leaguegamelog
 
 SEASON = os.environ.get("SEASON", "2026")
 PROXY = os.environ.get("WEBSHARE_PROXY")
@@ -17,6 +17,37 @@ player_stats = leaguedashplayerstats.LeagueDashPlayerStats(
     proxy=PROXY,
     timeout=30,
 ).get_data_frames()[0]
+
+game_log = leaguegamelog.LeagueGameLog(
+    season=api_season,
+    season_type_all_star="Playoffs",
+    player_or_team_abbreviation="P",
+    proxy=PROXY,
+    timeout=30,
+).get_data_frames()[0]
+
+# A team is eliminated when they have 4 losses to a single opponent in a series.
+team_games = game_log[["TEAM_ABBREVIATION", "GAME_ID", "MATCHUP", "WL"]].drop_duplicates()
+team_games = team_games.assign(OPPONENT=team_games["MATCHUP"].str.split().str[-1])
+loss_counts = (
+    team_games[team_games["WL"] == "L"]
+    .groupby(["TEAM_ABBREVIATION", "OPPONENT"])
+    .size()
+)
+eliminated_teams = sorted({team for (team, _), n in loss_counts.items() if n >= 4})
+
+# Build per-player game-by-game breakdown sorted by date
+games_by_player = {}
+for player_name, group in game_log.sort_values("GAME_DATE").groupby("PLAYER_NAME"):
+    games_by_player[player_name] = [
+        {
+            "Date": row["GAME_DATE"],
+            "Matchup": row["MATCHUP"],
+            "WL": row["WL"],
+            "Points": int(row["PTS"]),
+        }
+        for _, row in group.iterrows()
+    ]
 
 with open(f"seasons/{SEASON}/drafted_players_{SEASON}.yml") as file:
     league = yaml.load(file, Loader=yaml.FullLoader)
@@ -35,9 +66,11 @@ for team_name, roster in league.items():
             row = player_stats[player_stats["PLAYER_NAME"] == player_name].iloc[0]
             pts = int(row["PTS"])
             gp = int(row["GP"])
+            nba_team = row["TEAM_ABBREVIATION"]
         except (IndexError, KeyError):
             pts = 0
             gp = 0
+            nba_team = ""
         team_pts += pts
         team_gp += gp
         player_details.append(
@@ -46,6 +79,8 @@ for team_name, roster in league.items():
                 "Total Points": pts,
                 "Games Played": gp,
                 "Team": team_name,
+                "NBA Team": nba_team,
+                "Eliminated": nba_team in eliminated_teams,
             }
         )
 
@@ -69,6 +104,7 @@ all_players = [
         "Total Points": int(row["PTS"]),
         "Games Played": int(row["GP"]),
         "PPG": round(row["PTS"] / row["GP"], 2) if row["GP"] > 0 else 0,
+        "Eliminated": row["TEAM_ABBREVIATION"] in eliminated_teams,
     }
     for _, row in player_stats.sort_values("PTS", ascending=False).head(128).iterrows()
 ]
@@ -83,6 +119,9 @@ with open(f"{output_dir}/full_points_table_{SEASON}.json", "w") as f:
 with open(f"{output_dir}/all_players_{SEASON}.json", "w") as f:
     json.dump(all_players, f, indent=2)
 
+with open(f"{output_dir}/player_games_{SEASON}.json", "w") as f:
+    json.dump(games_by_player, f, indent=2)
+
 # Write CSV
 summary_df = pd.DataFrame(team_summaries).set_index("Team")
 summary_df.to_csv(f"{output_dir}/pointsleague_{SEASON}.csv")
@@ -90,4 +129,8 @@ summary_df.to_csv(f"{output_dir}/pointsleague_{SEASON}.csv")
 detail_df = pd.DataFrame(player_details)
 detail_df.to_csv(f"{output_dir}/full_points_table_{SEASON}.csv", index=False)
 
-print(f"Wrote {len(team_summaries)} teams, {len(player_details)} players, and {len(all_players)} all-players to {output_dir}/")
+print(
+    f"Wrote {len(team_summaries)} teams, {len(player_details)} players, "
+    f"{len(all_players)} all-players, and game logs for {len(games_by_player)} players to {output_dir}/"
+)
+print(f"Eliminated teams: {eliminated_teams}")

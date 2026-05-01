@@ -76,14 +76,16 @@
 
     thead th.num { text-align: right; }
 
-    tbody tr {
-      border-bottom: 1px solid #1e2130;
+    tbody tr.team-row,
+    tbody tr.player-row {
       cursor: pointer;
       transition: background 0.15s;
     }
 
-    tbody tr:hover { background: #1a1d27; }
-    tbody tr.expanded { background: #1a1d27; }
+    tbody tr { border-bottom: 1px solid #1e2130; }
+
+    tbody tr.team-row:hover { background: #1a1d27; }
+    tbody tr.team-row.expanded { background: #1a1d27; }
 
     td { padding: 0.85rem 1rem; }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
@@ -105,6 +107,7 @@
 
     .player-row { display: none; background: #13161f; }
     .player-row.visible { display: table-row; }
+    .player-row:hover { background: #181b25; }
     .player-row td {
       padding: 0.5rem 1rem 0.5rem 3rem;
       font-size: 0.875rem;
@@ -113,11 +116,49 @@
     }
     .player-row td.num { color: #cbd5e0; }
     .player-name { color: #cbd5e0; }
+    .player-name.eliminated { color: #fc5555; }
+
+    .player-chevron {
+      display: inline-block;
+      margin-right: 0.4rem;
+      color: #4a5568;
+      font-size: 0.75rem;
+      transition: transform 0.2s;
+    }
+    .player-row.expanded .player-chevron { transform: rotate(90deg); }
 
     .ovr-rank {
       font-size: 0.72rem;
       color: #4a5568;
       margin-left: 0.4rem;
+    }
+
+    .game-row { display: none; background: #0f1219; }
+    .game-row.visible { display: table-row; }
+    .game-row td { padding: 0; border-bottom: 1px solid #1a1d27; }
+
+    .games-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78rem;
+    }
+    .games-table td {
+      padding: 0.35rem 0.75rem;
+      border-bottom: none;
+      color: #8896aa;
+    }
+    .games-table tr:not(:last-child) td { border-bottom: 1px solid #161922; }
+    .games-table .g-date { padding-left: 4.5rem; width: 5rem; }
+    .games-table .g-matchup { font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+    .games-table .g-wl { width: 1.5rem; text-align: center; font-weight: 700; }
+    .games-table .g-wl.W { color: #68d391; }
+    .games-table .g-wl.L { color: #fc8181; }
+    .games-table .g-pts { text-align: right; font-variant-numeric: tabular-nums; color: #cbd5e0; padding-right: 1rem; }
+    .games-empty {
+      padding: 0.5rem 1rem 0.5rem 4.5rem;
+      font-size: 0.78rem;
+      color: #4a5568;
+      font-style: italic;
     }
 
     .error { text-align: center; color: #fc8181; padding: 2rem; }
@@ -153,10 +194,11 @@
       : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
 
     async function loadData() {
-      const [standingsRes, playersRes, allRes] = await Promise.all([
+      const [standingsRes, playersRes, allRes, gamesRes] = await Promise.all([
         fetch(`${BASE}/pointsleague_2026.json`),
         fetch(`${BASE}/full_points_table_2026.json`),
         fetch(`${BASE}/all_players_2026.json`),
+        fetch(`${BASE}/player_games_2026.json`),
       ]);
       if (!standingsRes.ok || !playersRes.ok) throw new Error('Failed to fetch data');
       const allPlayers = allRes.ok ? await allRes.json() : [];
@@ -164,6 +206,7 @@
       return {
         standings: await standingsRes.json(),
         players: await playersRes.json(),
+        games: gamesRes.ok ? await gamesRes.json() : {},
         rankMap,
       };
     }
@@ -175,7 +218,27 @@
       }, {});
     }
 
-    function render(standings, playersByTeam, rankMap) {
+    function formatDate(iso) {
+      const [, m, d] = iso.split('-');
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      return `${months[+m - 1]} ${+d}`;
+    }
+
+    function renderGameLog(games) {
+      if (!games || !games.length) {
+        return `<div class="games-empty">No games played</div>`;
+      }
+      const rows = games.map(g => `
+        <tr>
+          <td class="g-date">${formatDate(g.Date)}</td>
+          <td class="g-matchup">${g.Matchup}</td>
+          <td class="g-wl ${g.WL}">${g.WL}</td>
+          <td class="g-pts">${g.Points}</td>
+        </tr>`).join('');
+      return `<table class="games-table"><tbody>${rows}</tbody></table>`;
+    }
+
+    function render(standings, playersByTeam, rankMap, gamesByPlayer) {
       const sorted = [...standings].sort((a, b) => b.Points - a.Points);
 
       const rows = sorted.map((team, i) => {
@@ -185,14 +248,20 @@
           .slice()
           .sort((a, b) => b['Total Points'] - a['Total Points']);
 
-        const playerRows = teamPlayers.map(p => {
-          const rank = rankMap[p.Player];
-          const rankStr = rank ? ` <span class="ovr-rank">#${rank}</span>` : '';
+        const playerRows = teamPlayers.map((p, pi) => {
+          const ovrRank = rankMap[p.Player];
+          const rankStr = ovrRank ? ` <span class="ovr-rank">#${ovrRank}</span>` : '';
+          const eliminatedCls = p.Eliminated ? ' eliminated' : '';
+          const playerKey = `${team.Team}-${pi}`;
+          const games = gamesByPlayer[p.Player] || [];
           return `
-          <tr class="player-row" data-team="${team.Team}">
+          <tr class="player-row" data-team="${team.Team}" data-key="${playerKey}">
             <td></td>
-            <td class="player-name">${p.Player}${rankStr}</td>
+            <td><span class="player-chevron">›</span><span class="player-name${eliminatedCls}">${p.Player}</span>${rankStr}</td>
             <td class="num">${p['Total Points']}</td>
+          </tr>
+          <tr class="game-row" data-team="${team.Team}" data-key="${playerKey}">
+            <td colspan="3">${renderGameLog(games)}</td>
           </tr>`;
         }).join('');
 
@@ -224,14 +293,31 @@
           row.classList.toggle('expanded', !isExpanded);
           document.querySelectorAll(`.player-row[data-team="${team}"]`).forEach(pr => {
             pr.classList.toggle('visible', !isExpanded);
+            if (isExpanded) {
+              pr.classList.remove('expanded');
+              const key = pr.dataset.key;
+              const gr = document.querySelector(`.game-row[data-key="${key}"]`);
+              if (gr) gr.classList.remove('visible');
+            }
           });
+        });
+      });
+
+      document.querySelectorAll('.player-row').forEach(pr => {
+        pr.addEventListener('click', e => {
+          e.stopPropagation();
+          const key = pr.dataset.key;
+          const isExpanded = pr.classList.contains('expanded');
+          pr.classList.toggle('expanded', !isExpanded);
+          const gr = document.querySelector(`.game-row[data-key="${key}"]`);
+          if (gr) gr.classList.toggle('visible', !isExpanded);
         });
       });
     }
 
     loadData()
-      .then(({ standings, players, rankMap }) => {
-        render(standings, groupPlayersByTeam(players), rankMap);
+      .then(({ standings, players, rankMap, games }) => {
+        render(standings, groupPlayersByTeam(players), rankMap, games);
         document.getElementById('last-updated').textContent =
           `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
       })
