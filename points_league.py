@@ -18,13 +18,6 @@ player_stats = leaguedashplayerstats.LeagueDashPlayerStats(
     timeout=30,
 ).get_data_frames()[0]
 
-regular_season_stats = leaguedashplayerstats.LeagueDashPlayerStats(
-    season=api_season,
-    season_type_all_star="Regular Season",
-    proxy=PROXY,
-    timeout=30,
-).get_data_frames()[0]
-
 game_log = leaguegamelog.LeagueGameLog(
     season=api_season,
     season_type_all_star="Playoffs",
@@ -33,9 +26,28 @@ game_log = leaguegamelog.LeagueGameLog(
     timeout=30,
 ).get_data_frames()[0]
 
+# Player → NBA team mapping. Frozen once playoffs start (no mid-playoff trades),
+# so we cache it on first run and reuse it on every subsequent run.
+player_teams_cache = f"seasons/{SEASON}/player_teams_{SEASON}.json"
+if os.path.exists(player_teams_cache):
+    with open(player_teams_cache) as f:
+        player_to_nba_team = json.load(f)
+else:
+    regular_season_stats = leaguedashplayerstats.LeagueDashPlayerStats(
+        season=api_season,
+        season_type_all_star="Regular Season",
+        proxy=PROXY,
+        timeout=30,
+    ).get_data_frames()[0]
+    player_to_nba_team = dict(
+        zip(regular_season_stats["PLAYER_NAME"], regular_season_stats["TEAM_ABBREVIATION"])
+    )
+    with open(player_teams_cache, "w") as f:
+        json.dump(player_to_nba_team, f, indent=2, sort_keys=True)
+
 # Eliminated teams = (any NBA team that didn't make the playoffs) +
 # (playoff teams with 4 losses to a single opponent, i.e. lost their series).
-all_nba_teams = set(regular_season_stats["TEAM_ABBREVIATION"].unique()) - {""}
+all_nba_teams = set(player_to_nba_team.values()) - {""}
 playoff_teams = set(game_log["TEAM_ABBREVIATION"].unique())
 non_playoff_teams = all_nba_teams - playoff_teams
 
@@ -48,12 +60,6 @@ loss_counts = (
 )
 series_eliminated = {team for (team, _), n in loss_counts.items() if n >= 4}
 eliminated_teams = sorted(non_playoff_teams | series_eliminated)
-
-# Map every player to their NBA team from the regular-season stats so we can
-# place drafted players whose teams never made the playoffs.
-player_to_nba_team = dict(
-    zip(regular_season_stats["PLAYER_NAME"], regular_season_stats["TEAM_ABBREVIATION"])
-)
 
 # Build per-player game-by-game breakdown sorted by date
 games_by_player = {}
