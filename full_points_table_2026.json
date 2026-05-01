@@ -52,7 +52,7 @@
     "Total Points": 0,
     "Games Played": 0,
     "Team": "Jono",
-    "NBA Team": "",
+    "NBA Team": "LAL",
     "Eliminated": false
   },
   {
@@ -60,8 +60,8 @@
     "Total Points": 0,
     "Games Played": 0,
     "Team": "Jono",
-    "NBA Team": "",
-    "Eliminated": false
+    "NBA Team": "CHA",
+    "Eliminated": true
   },
   {
     "Player": "Victor Wembanyama",
@@ -252,8 +252,8 @@
     "Total Points": 0,
     "Games Played": 0,
     "Team": "Andrew",
-    "NBA Team": "",
-    "Eliminated": false
+    "NBA Team": "GSW",
+    "Eliminated": true
   },
   {
     "Player": "Jalen Brunson",

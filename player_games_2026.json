@@ -323,6 +323,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Anthony Black": [
@@ -395,6 +401,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Asa Newell": [
@@ -507,6 +519,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Bismack Biyombo": [
@@ -683,6 +701,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 5
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 5
     }
   ],
   "CJ McCollum": [
@@ -715,6 +739,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 6
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 11
     }
   ],
   "Cade Cunningham": [
@@ -1031,6 +1061,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Craig Porter Jr.": [
@@ -1319,6 +1355,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 6
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 8
     }
   ],
   "Desmond Bane": [
@@ -1667,6 +1709,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 17
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 3
     }
   ],
   "Evan Mobley": [
@@ -1757,6 +1805,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 6
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Garrett Temple": [
@@ -2215,6 +2269,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 39
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 17
     }
   ],
   "Jalen Duren": [
@@ -2305,6 +2365,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 18
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 19
     }
   ],
   "Jalen Pickett": [
@@ -2739,6 +2805,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 22
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 13
     }
   ],
   "Jaylen Clark": [
@@ -2837,6 +2909,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 24
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 15
     }
   ],
   "Jeff Green": [
@@ -2949,6 +3027,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 33
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 9
     }
   ],
   "Jonas Valan\u010di\u016bnas": [
@@ -3001,6 +3085,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 13
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 7
     }
   ],
   "Jonathan Mogbo": [
@@ -3047,6 +3137,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 9
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 7
     }
   ],
   "Jordan Goodwin": [
@@ -3101,6 +3197,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 1
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Jose Alvarado": [
@@ -3127,6 +3229,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 3
     }
   ],
   "Josh Hart": [
@@ -3159,6 +3267,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 9
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 14
     }
   ],
   "Josh Okogie": [
@@ -3341,6 +3455,12 @@
       "Matchup": "PHI vs. BOS",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Karl-Anthony Towns": [
@@ -3373,6 +3493,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 16
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 12
     }
   ],
   "Keaton Wallace": [
@@ -3465,6 +3591,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 4
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 7
     }
   ],
   "Kenrich Williams": [
@@ -3675,6 +3807,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Larry Nance Jr.": [
@@ -3799,6 +3937,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Luke Kennard": [
@@ -4023,6 +4167,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 7
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 24
     }
   ],
   "Mike Conley": [
@@ -4087,6 +4237,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 3
     }
   ],
   "Mitchell Robinson": [
@@ -4119,6 +4275,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 7
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 6
     }
   ],
   "Mohamed Diawara": [
@@ -4167,6 +4329,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Nae'Qwan Tomlin": [
@@ -4245,6 +4413,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Nick Smith Jr.": [
@@ -4291,6 +4465,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 16
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 11
     }
   ],
   "Nikola Joki\u0107": [
@@ -4375,6 +4555,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Noah Penda": [
@@ -4415,6 +4601,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 17
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 29
     }
   ],
   "Onyeka Okongwu": [
@@ -4447,6 +4639,12 @@
       "Matchup": "ATL @ NYK",
       "WL": "L",
       "Points": 16
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "Oso Ighodaro": [
@@ -4545,6 +4743,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 16
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 11
     }
   ],
   "Paul Reed": [
@@ -4591,6 +4795,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 12
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 6
     }
   ],
   "Quentin Grimes": [
@@ -4623,6 +4833,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 18
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 2
     }
   ],
   "RJ Barrett": [
@@ -4933,6 +5149,12 @@
       "Matchup": "BOS vs. PHI",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "BOS @ PHI",
+      "WL": NaN,
+      "Points": 5
     }
   ],
   "Sam Merrill": [
@@ -5465,6 +5687,12 @@
       "Matchup": "NYK vs. ATL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "NYK @ ATL",
+      "WL": NaN,
+      "Points": 0
     }
   ],
   "Tyrese Maxey": [
@@ -5497,6 +5725,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 25
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 21
     }
   ],
   "Tyrese Proctor": [
@@ -5551,6 +5785,12 @@
       "Matchup": "PHI @ BOS",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "PHI vs. BOS",
+      "WL": NaN,
+      "Points": 6
     }
   ],
   "Victor Wembanyama": [
@@ -5675,6 +5915,12 @@
       "Matchup": "ATL vs. NYK",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-04-30",
+      "Matchup": "ATL vs. NYK",
+      "WL": NaN,
+      "Points": 4
     }
   ],
   "Zeke Nnaji": [
