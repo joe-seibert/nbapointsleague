@@ -9,11 +9,11 @@
   },
   {
     "Player": "Jamal Murray",
-    "Total Points": 130,
-    "Games Played": 5,
+    "Total Points": 142,
+    "Games Played": 6,
     "Team": "Jono",
     "NBA Team": "DEN",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jalen Duren",
@@ -25,16 +25,16 @@
   },
   {
     "Player": "OG Anunoby",
-    "Total Points": 100,
-    "Games Played": 5,
+    "Total Points": 129,
+    "Games Played": 6,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
   },
   {
     "Player": "Mikal Bridges",
-    "Total Points": 36,
-    "Games Played": 5,
+    "Total Points": 60,
+    "Games Played": 6,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -129,8 +129,8 @@
   },
   {
     "Player": "Jaylen Brown",
-    "Total Points": 129,
-    "Games Played": 5,
+    "Total Points": 147,
+    "Games Played": 6,
     "Team": "Sam",
     "NBA Team": "BOS",
     "Eliminated": false
@@ -185,32 +185,32 @@
   },
   {
     "Player": "Nickeil Alexander-Walker",
-    "Total Points": 71,
-    "Games Played": 5,
+    "Total Points": 82,
+    "Games Played": 6,
     "Team": "Sam",
     "NBA Team": "ATL",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Nikola Joki\u0107",
-    "Total Points": 127,
-    "Games Played": 5,
+    "Total Points": 155,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "DEN",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Karl-Anthony Towns",
-    "Total Points": 100,
-    "Games Played": 5,
+    "Total Points": 112,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
   },
   {
     "Player": "Payton Pritchard",
-    "Total Points": 75,
-    "Games Played": 5,
+    "Total Points": 89,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "BOS",
     "Eliminated": false
@@ -221,7 +221,7 @@
     "Games Played": 3,
     "Team": "Andrew",
     "NBA Team": "DEN",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Tobias Harris",
@@ -241,8 +241,8 @@
   },
   {
     "Player": "Josh Hart",
-    "Total Points": 47,
-    "Games Played": 5,
+    "Total Points": 61,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -257,8 +257,8 @@
   },
   {
     "Player": "Jalen Brunson",
-    "Total Points": 141,
-    "Games Played": 5,
+    "Total Points": 158,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -297,16 +297,16 @@
   },
   {
     "Player": "Julius Randle",
-    "Total Points": 97,
-    "Games Played": 5,
+    "Total Points": 115,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "MIN",
     "Eliminated": false
   },
   {
     "Player": "Tyrese Maxey",
-    "Total Points": 128,
-    "Games Played": 5,
+    "Total Points": 158,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "PHI",
     "Eliminated": false
@@ -321,8 +321,8 @@
   },
   {
     "Player": "Jayson Tatum",
-    "Total Points": 123,
-    "Games Played": 5,
+    "Total Points": 140,
+    "Games Played": 6,
     "Team": "Connor",
     "NBA Team": "BOS",
     "Eliminated": false
@@ -337,8 +337,8 @@
   },
   {
     "Player": "Derrick White",
-    "Total Points": 41,
-    "Games Played": 5,
+    "Total Points": 52,
+    "Games Played": 6,
     "Team": "Connor",
     "NBA Team": "BOS",
     "Eliminated": false
@@ -353,11 +353,11 @@
   },
   {
     "Player": "Jalen Johnson",
-    "Total Points": 96,
-    "Games Played": 5,
+    "Total Points": 117,
+    "Games Played": 6,
     "Team": "Connor",
     "NBA Team": "ATL",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Ajay Mitchell",
@@ -377,8 +377,8 @@
   },
   {
     "Player": "Neemias Queta",
-    "Total Points": 44,
-    "Games Played": 5,
+    "Total Points": 48,
+    "Games Played": 6,
     "Team": "Connor",
     "NBA Team": "BOS",
     "Eliminated": false
