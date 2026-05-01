@@ -327,7 +327,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -405,7 +405,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -523,7 +523,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -705,7 +705,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 5
     }
   ],
@@ -743,7 +743,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 11
     }
   ],
@@ -1065,7 +1065,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -1359,7 +1359,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 8
     }
   ],
@@ -1713,7 +1713,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 3
     }
   ],
@@ -1809,7 +1809,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -2273,7 +2273,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 17
     }
   ],
@@ -2369,7 +2369,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 19
     }
   ],
@@ -2809,7 +2809,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 13
     }
   ],
@@ -2913,7 +2913,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 15
     }
   ],
@@ -3031,7 +3031,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 9
     }
   ],
@@ -3089,7 +3089,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 7
     }
   ],
@@ -3141,7 +3141,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 7
     }
   ],
@@ -3201,7 +3201,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -3233,7 +3233,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 3
     }
   ],
@@ -3271,7 +3271,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 14
     }
   ],
@@ -3459,7 +3459,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -3497,7 +3497,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 12
     }
   ],
@@ -3595,7 +3595,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 7
     }
   ],
@@ -3811,7 +3811,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -3941,7 +3941,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -4171,7 +4171,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 24
     }
   ],
@@ -4241,7 +4241,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 3
     }
   ],
@@ -4279,7 +4279,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 6
     }
   ],
@@ -4333,7 +4333,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -4417,7 +4417,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -4469,7 +4469,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 11
     }
   ],
@@ -4559,7 +4559,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -4605,7 +4605,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 29
     }
   ],
@@ -4643,7 +4643,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -4747,7 +4747,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 11
     }
   ],
@@ -4799,7 +4799,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 6
     }
   ],
@@ -4837,7 +4837,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 2
     }
   ],
@@ -5153,7 +5153,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "BOS @ PHI",
-      "WL": NaN,
+      "WL": null,
       "Points": 5
     }
   ],
@@ -5691,7 +5691,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "NYK @ ATL",
-      "WL": NaN,
+      "WL": null,
       "Points": 0
     }
   ],
@@ -5729,7 +5729,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 21
     }
   ],
@@ -5789,7 +5789,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "PHI vs. BOS",
-      "WL": NaN,
+      "WL": null,
       "Points": 6
     }
   ],
@@ -5919,7 +5919,7 @@
     {
       "Date": "2026-04-30",
       "Matchup": "ATL vs. NYK",
-      "WL": NaN,
+      "WL": null,
       "Points": 4
     }
   ],
