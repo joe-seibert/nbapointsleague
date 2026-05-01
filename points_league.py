@@ -61,14 +61,15 @@ loss_counts = (
 series_eliminated = {team for (team, _), n in loss_counts.items() if n >= 4}
 eliminated_teams = sorted(non_playoff_teams | series_eliminated)
 
-# Build per-player game-by-game breakdown sorted by date
+# Build per-player game-by-game breakdown sorted by date. WL is NaN for
+# games still in progress; emit it as null so the JSON stays valid.
 games_by_player = {}
 for player_name, group in game_log.sort_values("GAME_DATE").groupby("PLAYER_NAME"):
     games_by_player[player_name] = [
         {
             "Date": row["GAME_DATE"],
             "Matchup": row["MATCHUP"],
-            "WL": row["WL"],
+            "WL": row["WL"] if pd.notna(row["WL"]) else None,
             "Points": int(row["PTS"]),
         }
         for _, row in group.iterrows()
@@ -145,7 +146,7 @@ with open(f"{output_dir}/all_players_{SEASON}.json", "w") as f:
     json.dump(all_players, f, indent=2)
 
 with open(f"{output_dir}/player_games_{SEASON}.json", "w") as f:
-    json.dump(games_by_player, f, indent=2)
+    json.dump(games_by_player, f, indent=2, allow_nan=False)
 
 # Write CSV
 summary_df = pd.DataFrame(team_summaries).set_index("Team")

@@ -232,7 +232,7 @@
         <tr>
           <td class="g-date">${formatDate(g.Date)}</td>
           <td class="g-matchup">${g.Matchup}</td>
-          <td class="g-wl ${g.WL}">${g.WL}</td>
+          <td class="g-wl ${g.WL || ''}">${g.WL ?? '—'}</td>
           <td class="g-pts">${g.Points}</td>
         </tr>`).join('');
       return `<table class="games-table"><tbody>${rows}</tbody></table>`;
