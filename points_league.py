@@ -26,7 +26,31 @@ game_log = leaguegamelog.LeagueGameLog(
     timeout=30,
 ).get_data_frames()[0]
 
-# A team is eliminated when they have 4 losses to a single opponent in a series.
+# Player → NBA team mapping. Frozen once playoffs start (no mid-playoff trades),
+# so we cache it on first run and reuse it on every subsequent run.
+player_teams_cache = f"seasons/{SEASON}/player_teams_{SEASON}.json"
+if os.path.exists(player_teams_cache):
+    with open(player_teams_cache) as f:
+        player_to_nba_team = json.load(f)
+else:
+    regular_season_stats = leaguedashplayerstats.LeagueDashPlayerStats(
+        season=api_season,
+        season_type_all_star="Regular Season",
+        proxy=PROXY,
+        timeout=30,
+    ).get_data_frames()[0]
+    player_to_nba_team = dict(
+        zip(regular_season_stats["PLAYER_NAME"], regular_season_stats["TEAM_ABBREVIATION"])
+    )
+    with open(player_teams_cache, "w") as f:
+        json.dump(player_to_nba_team, f, indent=2, sort_keys=True)
+
+# Eliminated teams = (any NBA team that didn't make the playoffs) +
+# (playoff teams with 4 losses to a single opponent, i.e. lost their series).
+all_nba_teams = set(player_to_nba_team.values()) - {""}
+playoff_teams = set(game_log["TEAM_ABBREVIATION"].unique())
+non_playoff_teams = all_nba_teams - playoff_teams
+
 team_games = game_log[["TEAM_ABBREVIATION", "GAME_ID", "MATCHUP", "WL"]].drop_duplicates()
 team_games = team_games.assign(OPPONENT=team_games["MATCHUP"].str.split().str[-1])
 loss_counts = (
@@ -34,7 +58,8 @@ loss_counts = (
     .groupby(["TEAM_ABBREVIATION", "OPPONENT"])
     .size()
 )
-eliminated_teams = sorted({team for (team, _), n in loss_counts.items() if n >= 4})
+series_eliminated = {team for (team, _), n in loss_counts.items() if n >= 4}
+eliminated_teams = sorted(non_playoff_teams | series_eliminated)
 
 # Build per-player game-by-game breakdown sorted by date
 games_by_player = {}
@@ -70,7 +95,7 @@ for team_name, roster in league.items():
         except (IndexError, KeyError):
             pts = 0
             gp = 0
-            nba_team = ""
+            nba_team = player_to_nba_team.get(player_name, "")
         team_pts += pts
         team_gp += gp
         player_details.append(
