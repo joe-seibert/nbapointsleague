@@ -5,7 +5,8 @@
     "Coach": "Julian",
     "Total Points": 163,
     "Games Played": 5,
-    "PPG": 32.6
+    "PPG": 32.6,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Brunson",
@@ -13,7 +14,8 @@
     "Coach": "Joe",
     "Total Points": 141,
     "Games Played": 5,
-    "PPG": 28.2
+    "PPG": 28.2,
+    "Eliminated": false
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -21,7 +23,8 @@
     "Coach": "Jono",
     "Total Points": 135,
     "Games Played": 4,
-    "PPG": 33.75
+    "PPG": 33.75,
+    "Eliminated": false
   },
   {
     "Player": "Jamal Murray",
@@ -29,7 +32,8 @@
     "Coach": "Jono",
     "Total Points": 130,
     "Games Played": 5,
-    "PPG": 26.0
+    "PPG": 26.0,
+    "Eliminated": false
   },
   {
     "Player": "Jaylen Brown",
@@ -37,7 +41,8 @@
     "Coach": "Sam",
     "Total Points": 129,
     "Games Played": 5,
-    "PPG": 25.8
+    "PPG": 25.8,
+    "Eliminated": false
   },
   {
     "Player": "Paolo Banchero",
@@ -45,7 +50,8 @@
     "Coach": "Undrafted",
     "Total Points": 129,
     "Games Played": 5,
-    "PPG": 25.8
+    "PPG": 25.8,
+    "Eliminated": false
   },
   {
     "Player": "Tyrese Maxey",
@@ -53,7 +59,8 @@
     "Coach": "Joe",
     "Total Points": 128,
     "Games Played": 5,
-    "PPG": 25.6
+    "PPG": 25.6,
+    "Eliminated": false
   },
   {
     "Player": "Nikola Joki\u0107",
@@ -61,7 +68,8 @@
     "Coach": "Andrew",
     "Total Points": 127,
     "Games Played": 5,
-    "PPG": 25.4
+    "PPG": 25.4,
+    "Eliminated": false
   },
   {
     "Player": "Jayson Tatum",
@@ -69,7 +77,8 @@
     "Coach": "Connor",
     "Total Points": 123,
     "Games Played": 5,
-    "PPG": 24.6
+    "PPG": 24.6,
+    "Eliminated": false
   },
   {
     "Player": "RJ Barrett",
@@ -77,7 +86,8 @@
     "Coach": "Undrafted",
     "Total Points": 122,
     "Games Played": 5,
-    "PPG": 24.4
+    "PPG": 24.4,
+    "Eliminated": false
   },
   {
     "Player": "Scottie Barnes",
@@ -85,7 +95,8 @@
     "Coach": "Undrafted",
     "Total Points": 120,
     "Games Played": 5,
-    "PPG": 24.0
+    "PPG": 24.0,
+    "Eliminated": false
   },
   {
     "Player": "Donovan Mitchell",
@@ -93,7 +104,8 @@
     "Coach": "Sam",
     "Total Points": 116,
     "Games Played": 5,
-    "PPG": 23.2
+    "PPG": 23.2,
+    "Eliminated": false
   },
   {
     "Player": "Deni Avdija",
@@ -101,7 +113,8 @@
     "Coach": "Julian",
     "Total Points": 111,
     "Games Played": 5,
-    "PPG": 22.2
+    "PPG": 22.2,
+    "Eliminated": true
   },
   {
     "Player": "LeBron James",
@@ -109,7 +122,8 @@
     "Coach": "Julian",
     "Total Points": 111,
     "Games Played": 5,
-    "PPG": 22.2
+    "PPG": 22.2,
+    "Eliminated": false
   },
   {
     "Player": "James Harden",
@@ -117,7 +131,8 @@
     "Coach": "Joe",
     "Total Points": 110,
     "Games Played": 5,
-    "PPG": 22.0
+    "PPG": 22.0,
+    "Eliminated": false
   },
   {
     "Player": "Ayo Dosunmu",
@@ -125,7 +140,8 @@
     "Coach": "Undrafted",
     "Total Points": 109,
     "Games Played": 5,
-    "PPG": 21.8
+    "PPG": 21.8,
+    "Eliminated": false
   },
   {
     "Player": "Alperen Sengun",
@@ -133,7 +149,8 @@
     "Coach": "Joe",
     "Total Points": 105,
     "Games Played": 5,
-    "PPG": 21.0
+    "PPG": 21.0,
+    "Eliminated": false
   },
   {
     "Player": "Dillon Brooks",
@@ -141,7 +158,8 @@
     "Coach": "Undrafted",
     "Total Points": 104,
     "Games Played": 4,
-    "PPG": 26.0
+    "PPG": 26.0,
+    "Eliminated": true
   },
   {
     "Player": "CJ McCollum",
@@ -149,7 +167,8 @@
     "Coach": "Undrafted",
     "Total Points": 104,
     "Games Played": 5,
-    "PPG": 20.8
+    "PPG": 20.8,
+    "Eliminated": false
   },
   {
     "Player": "De'Aaron Fox",
@@ -157,7 +176,8 @@
     "Coach": "Sam",
     "Total Points": 101,
     "Games Played": 5,
-    "PPG": 20.2
+    "PPG": 20.2,
+    "Eliminated": false
   },
   {
     "Player": "OG Anunoby",
@@ -165,7 +185,8 @@
     "Coach": "Jono",
     "Total Points": 100,
     "Games Played": 5,
-    "PPG": 20.0
+    "PPG": 20.0,
+    "Eliminated": false
   },
   {
     "Player": "Karl-Anthony Towns",
@@ -173,7 +194,8 @@
     "Coach": "Andrew",
     "Total Points": 100,
     "Games Played": 5,
-    "PPG": 20.0
+    "PPG": 20.0,
+    "Eliminated": false
   },
   {
     "Player": "Tobias Harris",
@@ -181,7 +203,8 @@
     "Coach": "Andrew",
     "Total Points": 99,
     "Games Played": 5,
-    "PPG": 19.8
+    "PPG": 19.8,
+    "Eliminated": false
   },
   {
     "Player": "Stephon Castle",
@@ -189,7 +212,8 @@
     "Coach": "Connor",
     "Total Points": 99,
     "Games Played": 5,
-    "PPG": 19.8
+    "PPG": 19.8,
+    "Eliminated": false
   },
   {
     "Player": "Amen Thompson",
@@ -197,7 +221,8 @@
     "Coach": "Julian",
     "Total Points": 97,
     "Games Played": 5,
-    "PPG": 19.4
+    "PPG": 19.4,
+    "Eliminated": false
   },
   {
     "Player": "Julius Randle",
@@ -205,7 +230,8 @@
     "Coach": "Joe",
     "Total Points": 97,
     "Games Played": 5,
-    "PPG": 19.4
+    "PPG": 19.4,
+    "Eliminated": false
   },
   {
     "Player": "Jabari Smith Jr.",
@@ -213,7 +239,8 @@
     "Coach": "Andrew",
     "Total Points": 96,
     "Games Played": 5,
-    "PPG": 19.2
+    "PPG": 19.2,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Johnson",
@@ -221,7 +248,8 @@
     "Coach": "Connor",
     "Total Points": 96,
     "Games Played": 5,
-    "PPG": 19.2
+    "PPG": 19.2,
+    "Eliminated": false
   },
   {
     "Player": "Desmond Bane",
@@ -229,7 +257,8 @@
     "Coach": "Undrafted",
     "Total Points": 94,
     "Games Played": 5,
-    "PPG": 18.8
+    "PPG": 18.8,
+    "Eliminated": false
   },
   {
     "Player": "Evan Mobley",
@@ -237,7 +266,8 @@
     "Coach": "Sam",
     "Total Points": 88,
     "Games Played": 5,
-    "PPG": 17.6
+    "PPG": 17.6,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Green",
@@ -245,7 +275,8 @@
     "Coach": "Undrafted",
     "Total Points": 87,
     "Games Played": 4,
-    "PPG": 21.75
+    "PPG": 21.75,
+    "Eliminated": true
   },
   {
     "Player": "Paul George",
@@ -253,7 +284,8 @@
     "Coach": "Undrafted",
     "Total Points": 86,
     "Games Played": 5,
-    "PPG": 17.2
+    "PPG": 17.2,
+    "Eliminated": false
   },
   {
     "Player": "Devin Booker",
@@ -261,7 +293,8 @@
     "Coach": "Julian",
     "Total Points": 85,
     "Games Played": 4,
-    "PPG": 21.25
+    "PPG": 21.25,
+    "Eliminated": true
   },
   {
     "Player": "Victor Wembanyama",
@@ -269,7 +302,8 @@
     "Coach": "Julian",
     "Total Points": 84,
     "Games Played": 4,
-    "PPG": 21.0
+    "PPG": 21.0,
+    "Eliminated": false
   },
   {
     "Player": "Jrue Holiday",
@@ -277,7 +311,8 @@
     "Coach": "Undrafted",
     "Total Points": 82,
     "Games Played": 5,
-    "PPG": 16.4
+    "PPG": 16.4,
+    "Eliminated": true
   },
   {
     "Player": "Marcus Smart",
@@ -285,7 +320,8 @@
     "Coach": "Undrafted",
     "Total Points": 81,
     "Games Played": 5,
-    "PPG": 16.2
+    "PPG": 16.2,
+    "Eliminated": false
   },
   {
     "Player": "Collin Murray-Boyles",
@@ -293,7 +329,8 @@
     "Coach": "Undrafted",
     "Total Points": 76,
     "Games Played": 5,
-    "PPG": 15.2
+    "PPG": 15.2,
+    "Eliminated": false
   },
   {
     "Player": "Jaden McDaniels",
@@ -301,7 +338,8 @@
     "Coach": "Undrafted",
     "Total Points": 75,
     "Games Played": 5,
-    "PPG": 15.0
+    "PPG": 15.0,
+    "Eliminated": false
   },
   {
     "Player": "Scoot Henderson",
@@ -309,7 +347,8 @@
     "Coach": "Undrafted",
     "Total Points": 75,
     "Games Played": 5,
-    "PPG": 15.0
+    "PPG": 15.0,
+    "Eliminated": true
   },
   {
     "Player": "Payton Pritchard",
@@ -317,7 +356,8 @@
     "Coach": "Andrew",
     "Total Points": 75,
     "Games Played": 5,
-    "PPG": 15.0
+    "PPG": 15.0,
+    "Eliminated": false
   },
   {
     "Player": "Anthony Edwards",
@@ -325,7 +365,8 @@
     "Coach": "Julian",
     "Total Points": 74,
     "Games Played": 4,
-    "PPG": 18.5
+    "PPG": 18.5,
+    "Eliminated": false
   },
   {
     "Player": "Rui Hachimura",
@@ -333,7 +374,8 @@
     "Coach": "Undrafted",
     "Total Points": 74,
     "Games Played": 5,
-    "PPG": 14.8
+    "PPG": 14.8,
+    "Eliminated": false
   },
   {
     "Player": "Luke Kennard",
@@ -341,7 +383,8 @@
     "Coach": "Undrafted",
     "Total Points": 72,
     "Games Played": 5,
-    "PPG": 14.4
+    "PPG": 14.4,
+    "Eliminated": false
   },
   {
     "Player": "Onyeka Okongwu",
@@ -349,7 +392,8 @@
     "Coach": "Undrafted",
     "Total Points": 71,
     "Games Played": 5,
-    "PPG": 14.2
+    "PPG": 14.2,
+    "Eliminated": false
   },
   {
     "Player": "Nickeil Alexander-Walker",
@@ -357,7 +401,8 @@
     "Coach": "Sam",
     "Total Points": 71,
     "Games Played": 5,
-    "PPG": 14.2
+    "PPG": 14.2,
+    "Eliminated": false
   },
   {
     "Player": "Jonathan Kuminga",
@@ -365,7 +410,8 @@
     "Coach": "Undrafted",
     "Total Points": 71,
     "Games Played": 5,
-    "PPG": 14.2
+    "PPG": 14.2,
+    "Eliminated": false
   },
   {
     "Player": "Chet Holmgren",
@@ -373,7 +419,8 @@
     "Coach": "Connor",
     "Total Points": 69,
     "Games Played": 4,
-    "PPG": 17.25
+    "PPG": 17.25,
+    "Eliminated": false
   },
   {
     "Player": "Tari Eason",
@@ -381,7 +428,8 @@
     "Coach": "Undrafted",
     "Total Points": 69,
     "Games Played": 5,
-    "PPG": 13.8
+    "PPG": 13.8,
+    "Eliminated": false
   },
   {
     "Player": "VJ Edgecombe",
@@ -389,7 +437,8 @@
     "Coach": "Undrafted",
     "Total Points": 69,
     "Games Played": 5,
-    "PPG": 13.8
+    "PPG": 13.8,
+    "Eliminated": false
   },
   {
     "Player": "Franz Wagner",
@@ -397,7 +446,8 @@
     "Coach": "Undrafted",
     "Total Points": 67,
     "Games Played": 4,
-    "PPG": 16.75
+    "PPG": 16.75,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Suggs",
@@ -405,7 +455,8 @@
     "Coach": "Undrafted",
     "Total Points": 65,
     "Games Played": 5,
-    "PPG": 13.0
+    "PPG": 13.0,
+    "Eliminated": false
   },
   {
     "Player": "Deandre Ayton",
@@ -413,7 +464,8 @@
     "Coach": "Undrafted",
     "Total Points": 64,
     "Games Played": 5,
-    "PPG": 12.8
+    "PPG": 12.8,
+    "Eliminated": false
   },
   {
     "Player": "Reed Sheppard",
@@ -421,7 +473,8 @@
     "Coach": "Undrafted",
     "Total Points": 63,
     "Games Played": 5,
-    "PPG": 12.6
+    "PPG": 12.6,
+    "Eliminated": false
   },
   {
     "Player": "Devin Vassell",
@@ -429,7 +482,8 @@
     "Coach": "Connor",
     "Total Points": 63,
     "Games Played": 5,
-    "PPG": 12.6
+    "PPG": 12.6,
+    "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
@@ -437,7 +491,8 @@
     "Coach": "Sam",
     "Total Points": 63,
     "Games Played": 5,
-    "PPG": 12.6
+    "PPG": 12.6,
+    "Eliminated": false
   },
   {
     "Player": "Brandon Ingram",
@@ -445,7 +500,8 @@
     "Coach": "Undrafted",
     "Total Points": 60,
     "Games Played": 5,
-    "PPG": 12.0
+    "PPG": 12.0,
+    "Eliminated": false
   },
   {
     "Player": "Ajay Mitchell",
@@ -453,7 +509,8 @@
     "Coach": "Connor",
     "Total Points": 60,
     "Games Played": 4,
-    "PPG": 15.0
+    "PPG": 15.0,
+    "Eliminated": false
   },
   {
     "Player": "Joel Embiid",
@@ -461,7 +518,8 @@
     "Coach": "Undrafted",
     "Total Points": 59,
     "Games Played": 2,
-    "PPG": 29.5
+    "PPG": 29.5,
+    "Eliminated": false
   },
   {
     "Player": "Cameron Johnson",
@@ -469,7 +527,8 @@
     "Coach": "Undrafted",
     "Total Points": 58,
     "Games Played": 5,
-    "PPG": 11.6
+    "PPG": 11.6,
+    "Eliminated": false
   },
   {
     "Player": "Wendell Carter Jr.",
@@ -477,7 +536,8 @@
     "Coach": "Undrafted",
     "Total Points": 55,
     "Games Played": 5,
-    "PPG": 11.0
+    "PPG": 11.0,
+    "Eliminated": false
   },
   {
     "Player": "Max Strus",
@@ -485,7 +545,8 @@
     "Coach": "Undrafted",
     "Total Points": 54,
     "Games Played": 5,
-    "PPG": 10.8
+    "PPG": 10.8,
+    "Eliminated": false
   },
   {
     "Player": "Jerami Grant",
@@ -493,7 +554,8 @@
     "Coach": "Undrafted",
     "Total Points": 52,
     "Games Played": 5,
-    "PPG": 10.4
+    "PPG": 10.4,
+    "Eliminated": true
   },
   {
     "Player": "Tim Hardaway Jr.",
@@ -501,7 +563,8 @@
     "Coach": "Undrafted",
     "Total Points": 52,
     "Games Played": 5,
-    "PPG": 10.4
+    "PPG": 10.4,
+    "Eliminated": false
   },
   {
     "Player": "Julian Champagnie",
@@ -509,7 +572,8 @@
     "Coach": "Undrafted",
     "Total Points": 51,
     "Games Played": 5,
-    "PPG": 10.2
+    "PPG": 10.2,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Duren",
@@ -517,7 +581,8 @@
     "Coach": "Jono",
     "Total Points": 51,
     "Games Played": 5,
-    "PPG": 10.2
+    "PPG": 10.2,
+    "Eliminated": false
   },
   {
     "Player": "Naz Reid",
@@ -525,7 +590,8 @@
     "Coach": "Undrafted",
     "Total Points": 50,
     "Games Played": 5,
-    "PPG": 10.0
+    "PPG": 10.0,
+    "Eliminated": false
   },
   {
     "Player": "Robert Williams III",
@@ -533,7 +599,8 @@
     "Coach": "Undrafted",
     "Total Points": 48,
     "Games Played": 5,
-    "PPG": 9.6
+    "PPG": 9.6,
+    "Eliminated": true
   },
   {
     "Player": "Duncan Robinson",
@@ -541,7 +608,8 @@
     "Coach": "Joe",
     "Total Points": 48,
     "Games Played": 5,
-    "PPG": 9.6
+    "PPG": 9.6,
+    "Eliminated": false
   },
   {
     "Player": "Ausar Thompson",
@@ -549,7 +617,8 @@
     "Coach": "Joe",
     "Total Points": 48,
     "Games Played": 5,
-    "PPG": 9.6
+    "PPG": 9.6,
+    "Eliminated": false
   },
   {
     "Player": "Christian Braun",
@@ -557,7 +626,8 @@
     "Coach": "Undrafted",
     "Total Points": 47,
     "Games Played": 5,
-    "PPG": 9.4
+    "PPG": 9.4,
+    "Eliminated": false
   },
   {
     "Player": "Josh Hart",
@@ -565,7 +635,8 @@
     "Coach": "Andrew",
     "Total Points": 47,
     "Games Played": 5,
-    "PPG": 9.4
+    "PPG": 9.4,
+    "Eliminated": false
   },
   {
     "Player": "Quentin Grimes",
@@ -573,7 +644,8 @@
     "Coach": "Undrafted",
     "Total Points": 45,
     "Games Played": 5,
-    "PPG": 9.0
+    "PPG": 9.0,
+    "Eliminated": false
   },
   {
     "Player": "Kelly Oubre Jr.",
@@ -581,7 +653,8 @@
     "Coach": "Undrafted",
     "Total Points": 45,
     "Games Played": 5,
-    "PPG": 9.0
+    "PPG": 9.0,
+    "Eliminated": false
   },
   {
     "Player": "Neemias Queta",
@@ -589,7 +662,8 @@
     "Coach": "Connor",
     "Total Points": 44,
     "Games Played": 5,
-    "PPG": 8.8
+    "PPG": 8.8,
+    "Eliminated": false
   },
   {
     "Player": "Jarrett Allen",
@@ -597,7 +671,8 @@
     "Coach": "Sam",
     "Total Points": 44,
     "Games Played": 5,
-    "PPG": 8.8
+    "PPG": 8.8,
+    "Eliminated": false
   },
   {
     "Player": "Isaiah Hartenstein",
@@ -605,7 +680,8 @@
     "Coach": "Jono",
     "Total Points": 44,
     "Games Played": 4,
-    "PPG": 11.0
+    "PPG": 11.0,
+    "Eliminated": false
   },
   {
     "Player": "Donte DiVincenzo",
@@ -613,7 +689,8 @@
     "Coach": "Undrafted",
     "Total Points": 43,
     "Games Played": 4,
-    "PPG": 10.75
+    "PPG": 10.75,
+    "Eliminated": false
   },
   {
     "Player": "Collin Gillespie",
@@ -621,7 +698,8 @@
     "Coach": "Undrafted",
     "Total Points": 42,
     "Games Played": 4,
-    "PPG": 10.5
+    "PPG": 10.5,
+    "Eliminated": true
   },
   {
     "Player": "Jamal Shead",
@@ -629,7 +707,8 @@
     "Coach": "Undrafted",
     "Total Points": 42,
     "Games Played": 5,
-    "PPG": 8.4
+    "PPG": 8.4,
+    "Eliminated": false
   },
   {
     "Player": "Bones Hyland",
@@ -637,7 +716,8 @@
     "Coach": "Undrafted",
     "Total Points": 42,
     "Games Played": 5,
-    "PPG": 8.4
+    "PPG": 8.4,
+    "Eliminated": false
   },
   {
     "Player": "Ja'Kobe Walter",
@@ -645,7 +725,8 @@
     "Coach": "Undrafted",
     "Total Points": 41,
     "Games Played": 5,
-    "PPG": 8.2
+    "PPG": 8.2,
+    "Eliminated": false
   },
   {
     "Player": "Anthony Black",
@@ -653,7 +734,8 @@
     "Coach": "Undrafted",
     "Total Points": 41,
     "Games Played": 5,
-    "PPG": 8.2
+    "PPG": 8.2,
+    "Eliminated": false
   },
   {
     "Player": "Dyson Daniels",
@@ -661,7 +743,8 @@
     "Coach": "Undrafted",
     "Total Points": 41,
     "Games Played": 5,
-    "PPG": 8.2
+    "PPG": 8.2,
+    "Eliminated": false
   },
   {
     "Player": "Jalen Williams",
@@ -669,7 +752,8 @@
     "Coach": "Joe",
     "Total Points": 41,
     "Games Played": 2,
-    "PPG": 20.5
+    "PPG": 20.5,
+    "Eliminated": false
   },
   {
     "Player": "Derrick White",
@@ -677,7 +761,8 @@
     "Coach": "Connor",
     "Total Points": 41,
     "Games Played": 5,
-    "PPG": 8.2
+    "PPG": 8.2,
+    "Eliminated": false
   },
   {
     "Player": "Luke Kornet",
@@ -685,7 +770,8 @@
     "Coach": "Undrafted",
     "Total Points": 41,
     "Games Played": 5,
-    "PPG": 8.2
+    "PPG": 8.2,
+    "Eliminated": false
   },
   {
     "Player": "Jordan Clarkson",
@@ -693,7 +779,8 @@
     "Coach": "Undrafted",
     "Total Points": 39,
     "Games Played": 5,
-    "PPG": 7.8
+    "PPG": 7.8,
+    "Eliminated": false
   },
   {
     "Player": "Sam Hauser",
@@ -701,7 +788,8 @@
     "Coach": "Undrafted",
     "Total Points": 38,
     "Games Played": 5,
-    "PPG": 7.6
+    "PPG": 7.6,
+    "Eliminated": false
   },
   {
     "Player": "Jakob Poeltl",
@@ -709,7 +797,8 @@
     "Coach": "Undrafted",
     "Total Points": 38,
     "Games Played": 5,
-    "PPG": 7.6
+    "PPG": 7.6,
+    "Eliminated": false
   },
   {
     "Player": "Sam Merrill",
@@ -717,7 +806,8 @@
     "Coach": "Undrafted",
     "Total Points": 38,
     "Games Played": 5,
-    "PPG": 7.6
+    "PPG": 7.6,
+    "Eliminated": false
   },
   {
     "Player": "Dennis Schr\u00f6der",
@@ -725,7 +815,8 @@
     "Coach": "Undrafted",
     "Total Points": 37,
     "Games Played": 5,
-    "PPG": 7.4
+    "PPG": 7.4,
+    "Eliminated": false
   },
   {
     "Player": "Bruce Brown",
@@ -733,7 +824,8 @@
     "Coach": "Undrafted",
     "Total Points": 37,
     "Games Played": 5,
-    "PPG": 7.4
+    "PPG": 7.4,
+    "Eliminated": false
   },
   {
     "Player": "Rudy Gobert",
@@ -741,7 +833,8 @@
     "Coach": "Undrafted",
     "Total Points": 36,
     "Games Played": 5,
-    "PPG": 7.2
+    "PPG": 7.2,
+    "Eliminated": false
   },
   {
     "Player": "Shaedon Sharpe",
@@ -749,7 +842,8 @@
     "Coach": "Undrafted",
     "Total Points": 36,
     "Games Played": 5,
-    "PPG": 7.2
+    "PPG": 7.2,
+    "Eliminated": true
   },
   {
     "Player": "Mikal Bridges",
@@ -757,7 +851,8 @@
     "Coach": "Jono",
     "Total Points": 36,
     "Games Played": 5,
-    "PPG": 7.2
+    "PPG": 7.2,
+    "Eliminated": false
   },
   {
     "Player": "Alex Caruso",
@@ -765,7 +860,8 @@
     "Coach": "Undrafted",
     "Total Points": 36,
     "Games Played": 4,
-    "PPG": 9.0
+    "PPG": 9.0,
+    "Eliminated": false
   },
   {
     "Player": "Donovan Clingan",
@@ -773,7 +869,8 @@
     "Coach": "Undrafted",
     "Total Points": 35,
     "Games Played": 5,
-    "PPG": 7.0
+    "PPG": 7.0,
+    "Eliminated": true
   },
   {
     "Player": "Nikola Vu\u010devi\u0107",
@@ -781,7 +878,8 @@
     "Coach": "Undrafted",
     "Total Points": 35,
     "Games Played": 5,
-    "PPG": 7.0
+    "PPG": 7.0,
+    "Eliminated": false
   },
   {
     "Player": "Toumani Camara",
@@ -789,7 +887,8 @@
     "Coach": "Undrafted",
     "Total Points": 35,
     "Games Played": 5,
-    "PPG": 7.0
+    "PPG": 7.0,
+    "Eliminated": true
   },
   {
     "Player": "Jaylon Tyson",
@@ -797,7 +896,8 @@
     "Coach": "Undrafted",
     "Total Points": 35,
     "Games Played": 5,
-    "PPG": 7.0
+    "PPG": 7.0,
+    "Eliminated": false
   },
   {
     "Player": "Aaron Gordon",
@@ -805,7 +905,8 @@
     "Coach": "Andrew",
     "Total Points": 34,
     "Games Played": 3,
-    "PPG": 11.33
+    "PPG": 11.33,
+    "Eliminated": false
   },
   {
     "Player": "Miles McBride",
@@ -813,7 +914,8 @@
     "Coach": "Undrafted",
     "Total Points": 32,
     "Games Played": 5,
-    "PPG": 6.4
+    "PPG": 6.4,
+    "Eliminated": false
   },
   {
     "Player": "Andre Drummond",
@@ -821,7 +923,8 @@
     "Coach": "Undrafted",
     "Total Points": 31,
     "Games Played": 5,
-    "PPG": 6.2
+    "PPG": 6.2,
+    "Eliminated": false
   },
   {
     "Player": "Keldon Johnson",
@@ -829,7 +932,8 @@
     "Coach": "Sam",
     "Total Points": 31,
     "Games Played": 5,
-    "PPG": 6.2
+    "PPG": 6.2,
+    "Eliminated": false
   },
   {
     "Player": "Spencer Jones",
@@ -837,7 +941,8 @@
     "Coach": "Undrafted",
     "Total Points": 31,
     "Games Played": 5,
-    "PPG": 6.2
+    "PPG": 6.2,
+    "Eliminated": false
   },
   {
     "Player": "Mitchell Robinson",
@@ -845,7 +950,8 @@
     "Coach": "Undrafted",
     "Total Points": 31,
     "Games Played": 5,
-    "PPG": 6.2
+    "PPG": 6.2,
+    "Eliminated": false
   },
   {
     "Player": "Royce O'Neale",
@@ -853,7 +959,8 @@
     "Coach": "Undrafted",
     "Total Points": 31,
     "Games Played": 4,
-    "PPG": 7.75
+    "PPG": 7.75,
+    "Eliminated": true
   },
   {
     "Player": "Oso Ighodaro",
@@ -861,7 +968,8 @@
     "Coach": "Undrafted",
     "Total Points": 30,
     "Games Played": 4,
-    "PPG": 7.5
+    "PPG": 7.5,
+    "Eliminated": true
   },
   {
     "Player": "Isaiah Stewart",
@@ -869,7 +977,8 @@
     "Coach": "Undrafted",
     "Total Points": 29,
     "Games Played": 5,
-    "PPG": 5.8
+    "PPG": 5.8,
+    "Eliminated": false
   },
   {
     "Player": "Sandro Mamukelashvili",
@@ -877,7 +986,8 @@
     "Coach": "Undrafted",
     "Total Points": 27,
     "Games Played": 5,
-    "PPG": 5.4
+    "PPG": 5.4,
+    "Eliminated": false
   },
   {
     "Player": "Luguentz Dort",
@@ -885,7 +995,8 @@
     "Coach": "Undrafted",
     "Total Points": 27,
     "Games Played": 4,
-    "PPG": 6.75
+    "PPG": 6.75,
+    "Eliminated": false
   },
   {
     "Player": "Dean Wade",
@@ -893,7 +1004,8 @@
     "Coach": "Undrafted",
     "Total Points": 27,
     "Games Played": 5,
-    "PPG": 5.4
+    "PPG": 5.4,
+    "Eliminated": false
   },
   {
     "Player": "Gabe Vincent",
@@ -901,7 +1013,8 @@
     "Coach": "Undrafted",
     "Total Points": 26,
     "Games Played": 5,
-    "PPG": 5.2
+    "PPG": 5.2,
+    "Eliminated": false
   },
   {
     "Player": "Josh Okogie",
@@ -909,7 +1022,8 @@
     "Coach": "Undrafted",
     "Total Points": 26,
     "Games Played": 5,
-    "PPG": 5.2
+    "PPG": 5.2,
+    "Eliminated": false
   },
   {
     "Player": "Baylor Scheierman",
@@ -917,7 +1031,8 @@
     "Coach": "Undrafted",
     "Total Points": 25,
     "Games Played": 5,
-    "PPG": 5.0
+    "PPG": 5.0,
+    "Eliminated": false
   },
   {
     "Player": "Jaxson Hayes",
@@ -925,7 +1040,8 @@
     "Coach": "Undrafted",
     "Total Points": 24,
     "Games Played": 5,
-    "PPG": 4.8
+    "PPG": 4.8,
+    "Eliminated": false
   },
   {
     "Player": "Jamal Cain",
@@ -933,7 +1049,8 @@
     "Coach": "Undrafted",
     "Total Points": 24,
     "Games Played": 5,
-    "PPG": 4.8
+    "PPG": 4.8,
+    "Eliminated": false
   },
   {
     "Player": "Daniss Jenkins",
@@ -941,7 +1058,8 @@
     "Coach": "Undrafted",
     "Total Points": 24,
     "Games Played": 5,
-    "PPG": 4.8
+    "PPG": 4.8,
+    "Eliminated": false
   },
   {
     "Player": "Kevin Durant",
@@ -949,7 +1067,8 @@
     "Coach": "Julian",
     "Total Points": 23,
     "Games Played": 1,
-    "PPG": 23.0
+    "PPG": 23.0,
+    "Eliminated": false
   },
   {
     "Player": "Jose Alvarado",
@@ -957,7 +1076,8 @@
     "Coach": "Undrafted",
     "Total Points": 23,
     "Games Played": 4,
-    "PPG": 5.75
+    "PPG": 5.75,
+    "Eliminated": false
   },
   {
     "Player": "Cason Wallace",
@@ -965,7 +1085,8 @@
     "Coach": "Undrafted",
     "Total Points": 22,
     "Games Played": 4,
-    "PPG": 5.5
+    "PPG": 5.5,
+    "Eliminated": false
   },
   {
     "Player": "Austin Reaves",
@@ -973,7 +1094,8 @@
     "Coach": "Undrafted",
     "Total Points": 22,
     "Games Played": 1,
-    "PPG": 22.0
+    "PPG": 22.0,
+    "Eliminated": false
   },
   {
     "Player": "Luka Garza",
@@ -981,7 +1103,8 @@
     "Coach": "Undrafted",
     "Total Points": 22,
     "Games Played": 5,
-    "PPG": 4.4
+    "PPG": 4.4,
+    "Eliminated": false
   },
   {
     "Player": "Javonte Green",
@@ -989,7 +1112,8 @@
     "Coach": "Undrafted",
     "Total Points": 21,
     "Games Played": 5,
-    "PPG": 4.2
+    "PPG": 4.2,
+    "Eliminated": false
   },
   {
     "Player": "Jamison Battle",
@@ -997,7 +1121,8 @@
     "Coach": "Undrafted",
     "Total Points": 21,
     "Games Played": 4,
-    "PPG": 5.25
+    "PPG": 5.25,
+    "Eliminated": false
   },
   {
     "Player": "Isaiah Joe",
@@ -1005,7 +1130,8 @@
     "Coach": "Undrafted",
     "Total Points": 21,
     "Games Played": 3,
-    "PPG": 7.0
+    "PPG": 7.0,
+    "Eliminated": false
   },
   {
     "Player": "Tristan da Silva",
@@ -1013,7 +1139,8 @@
     "Coach": "Undrafted",
     "Total Points": 19,
     "Games Played": 5,
-    "PPG": 3.8
+    "PPG": 3.8,
+    "Eliminated": false
   },
   {
     "Player": "Grayson Allen",
@@ -1021,6 +1148,7 @@
     "Coach": "Undrafted",
     "Total Points": 19,
     "Games Played": 2,
-    "PPG": 9.5
+    "PPG": 9.5,
+    "Eliminated": true
   }
 ]

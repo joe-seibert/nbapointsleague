@@ -3,288 +3,384 @@
     "Player": "Shai Gilgeous-Alexander",
     "Total Points": 135,
     "Games Played": 4,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "OKC",
+    "Eliminated": false
   },
   {
     "Player": "Jamal Murray",
     "Total Points": 130,
     "Games Played": 5,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "DEN",
+    "Eliminated": false
   },
   {
     "Player": "Jalen Duren",
     "Total Points": 51,
     "Games Played": 5,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "DET",
+    "Eliminated": false
   },
   {
     "Player": "OG Anunoby",
     "Total Points": 100,
     "Games Played": 5,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "NYK",
+    "Eliminated": false
   },
   {
     "Player": "Mikal Bridges",
     "Total Points": 36,
     "Games Played": 5,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "NYK",
+    "Eliminated": false
   },
   {
     "Player": "Isaiah Hartenstein",
     "Total Points": 44,
     "Games Played": 4,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "OKC",
+    "Eliminated": false
   },
   {
     "Player": "Luka Don\u010di\u0107",
     "Total Points": 0,
     "Games Played": 0,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "",
+    "Eliminated": false
   },
   {
     "Player": "LaMelo Ball",
     "Total Points": 0,
     "Games Played": 0,
-    "Team": "Jono"
+    "Team": "Jono",
+    "NBA Team": "",
+    "Eliminated": false
   },
   {
     "Player": "Victor Wembanyama",
     "Total Points": 84,
     "Games Played": 4,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Cade Cunningham",
     "Total Points": 163,
     "Games Played": 5,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "DET",
+    "Eliminated": false
   },
   {
     "Player": "Anthony Edwards",
     "Total Points": 74,
     "Games Played": 4,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "MIN",
+    "Eliminated": false
   },
   {
     "Player": "Kevin Durant",
     "Total Points": 23,
     "Games Played": 1,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "HOU",
+    "Eliminated": false
   },
   {
     "Player": "Amen Thompson",
     "Total Points": 97,
     "Games Played": 5,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "HOU",
+    "Eliminated": false
   },
   {
     "Player": "LeBron James",
     "Total Points": 111,
     "Games Played": 5,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "LAL",
+    "Eliminated": false
   },
   {
     "Player": "Deni Avdija",
     "Total Points": 111,
     "Games Played": 5,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "POR",
+    "Eliminated": true
   },
   {
     "Player": "Devin Booker",
     "Total Points": 85,
     "Games Played": 4,
-    "Team": "Julian"
+    "Team": "Julian",
+    "NBA Team": "PHX",
+    "Eliminated": true
   },
   {
     "Player": "Jaylen Brown",
     "Total Points": 129,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "BOS",
+    "Eliminated": false
   },
   {
     "Player": "Donovan Mitchell",
     "Total Points": 116,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "CLE",
+    "Eliminated": false
   },
   {
     "Player": "De'Aaron Fox",
     "Total Points": 101,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Evan Mobley",
     "Total Points": 88,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "CLE",
+    "Eliminated": false
   },
   {
     "Player": "Keldon Johnson",
     "Total Points": 31,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
     "Total Points": 63,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Jarrett Allen",
     "Total Points": 44,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "CLE",
+    "Eliminated": false
   },
   {
     "Player": "Nickeil Alexander-Walker",
     "Total Points": 71,
     "Games Played": 5,
-    "Team": "Sam"
+    "Team": "Sam",
+    "NBA Team": "ATL",
+    "Eliminated": false
   },
   {
     "Player": "Nikola Joki\u0107",
     "Total Points": 127,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "DEN",
+    "Eliminated": false
   },
   {
     "Player": "Karl-Anthony Towns",
     "Total Points": 100,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "NYK",
+    "Eliminated": false
   },
   {
     "Player": "Payton Pritchard",
     "Total Points": 75,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "BOS",
+    "Eliminated": false
   },
   {
     "Player": "Aaron Gordon",
     "Total Points": 34,
     "Games Played": 3,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "DEN",
+    "Eliminated": false
   },
   {
     "Player": "Tobias Harris",
     "Total Points": 99,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "DET",
+    "Eliminated": false
   },
   {
     "Player": "Jabari Smith Jr.",
     "Total Points": 96,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "HOU",
+    "Eliminated": false
   },
   {
     "Player": "Josh Hart",
     "Total Points": 47,
     "Games Played": 5,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "NYK",
+    "Eliminated": false
   },
   {
     "Player": "Stephen Curry",
     "Total Points": 0,
     "Games Played": 0,
-    "Team": "Andrew"
+    "Team": "Andrew",
+    "NBA Team": "",
+    "Eliminated": false
   },
   {
     "Player": "Jalen Brunson",
     "Total Points": 141,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "NYK",
+    "Eliminated": false
   },
   {
     "Player": "Jalen Williams",
     "Total Points": 41,
     "Games Played": 2,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "OKC",
+    "Eliminated": false
   },
   {
     "Player": "James Harden",
     "Total Points": 110,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "CLE",
+    "Eliminated": false
   },
   {
     "Player": "Alperen Sengun",
     "Total Points": 105,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "HOU",
+    "Eliminated": false
   },
   {
     "Player": "Ausar Thompson",
     "Total Points": 48,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "DET",
+    "Eliminated": false
   },
   {
     "Player": "Julius Randle",
     "Total Points": 97,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "MIN",
+    "Eliminated": false
   },
   {
     "Player": "Tyrese Maxey",
     "Total Points": 128,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "PHI",
+    "Eliminated": false
   },
   {
     "Player": "Duncan Robinson",
     "Total Points": 48,
     "Games Played": 5,
-    "Team": "Joe"
+    "Team": "Joe",
+    "NBA Team": "DET",
+    "Eliminated": false
   },
   {
     "Player": "Jayson Tatum",
     "Total Points": 123,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "BOS",
+    "Eliminated": false
   },
   {
     "Player": "Chet Holmgren",
     "Total Points": 69,
     "Games Played": 4,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "OKC",
+    "Eliminated": false
   },
   {
     "Player": "Derrick White",
     "Total Points": 41,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "BOS",
+    "Eliminated": false
   },
   {
     "Player": "Stephon Castle",
     "Total Points": 99,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Jalen Johnson",
     "Total Points": 96,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "ATL",
+    "Eliminated": false
   },
   {
     "Player": "Ajay Mitchell",
     "Total Points": 60,
     "Games Played": 4,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "OKC",
+    "Eliminated": false
   },
   {
     "Player": "Devin Vassell",
     "Total Points": 63,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "SAS",
+    "Eliminated": false
   },
   {
     "Player": "Neemias Queta",
     "Total Points": 44,
     "Games Played": 5,
-    "Team": "Connor"
+    "Team": "Connor",
+    "NBA Team": "BOS",
+    "Eliminated": false
   }
 ]

@@ -1,0 +1,5688 @@
+{
+  "A.J. Lawson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Aaron Gordon": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 9
+    }
+  ],
+  "Aaron Holiday": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "Aaron Wiggins": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Adem Bona": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Adou Thiero": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 3
+    }
+  ],
+  "Ajay Mitchell": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 22
+    }
+  ],
+  "Alex Caruso": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 14
+    }
+  ],
+  "Alperen Sengun": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 33
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 14
+    }
+  ],
+  "Amari Williams": [
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 1
+    }
+  ],
+  "Amen Thompson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 15
+    }
+  ],
+  "Amir Coffey": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Andre Drummond": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "Anthony Black": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 19
+    }
+  ],
+  "Anthony Edwards": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "Ariel Hukporti": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Asa Newell": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Ausar Thompson": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 6
+    }
+  ],
+  "Austin Reaves": [
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 22
+    }
+  ],
+  "Ayo Dosunmu": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 43
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 18
+    }
+  ],
+  "Baylor Scheierman": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 3
+    }
+  ],
+  "Bismack Biyombo": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Blake Wesley": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Bones Hyland": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 15
+    }
+  ],
+  "Brandon Ingram": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 1
+    }
+  ],
+  "Bronny James": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "Bruce Brown": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Buddy Hield": [
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "CJ McCollum": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 32
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 6
+    }
+  ],
+  "Cade Cunningham": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 39
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 45
+    }
+  ],
+  "Cameron Johnson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 18
+    }
+  ],
+  "Caris LeVert": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Carter Bryant": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Cason Wallace": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 10
+    }
+  ],
+  "Chet Holmgren": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 24
+    }
+  ],
+  "Christian Braun": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Clint Capela": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Collin Gillespie": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 20
+    }
+  ],
+  "Collin Murray-Boyles": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Corey Kispert": [
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Craig Porter Jr.": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "DaRon Holmes II": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Dalano Banton": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Dalen Terry": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Dalton Knecht": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Daniss Jenkins": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 6
+    }
+  ],
+  "De'Aaron Fox": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 28
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 21
+    }
+  ],
+  "Dean Wade": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Deandre Ayton": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 18
+    }
+  ],
+  "Deni Avdija": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 22
+    }
+  ],
+  "Dennis Schr\u00f6der": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 19
+    }
+  ],
+  "Derrick White": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 6
+    }
+  ],
+  "Desmond Bane": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 18
+    }
+  ],
+  "Devin Booker": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 24
+    }
+  ],
+  "Devin Vassell": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 10
+    }
+  ],
+  "Dillon Brooks": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 33
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 23
+    }
+  ],
+  "Dominick Barlow": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Donovan Clingan": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 10
+    }
+  ],
+  "Donovan Mitchell": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 32
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 19
+    }
+  ],
+  "Donte DiVincenzo": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Dorian Finney-Smith": [
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 6
+    }
+  ],
+  "Duncan Robinson": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 12
+    }
+  ],
+  "Dylan Harper": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 17
+    }
+  ],
+  "Dyson Daniels": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 17
+    }
+  ],
+  "Evan Mobley": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 23
+    }
+  ],
+  "Franz Wagner": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 19
+    }
+  ],
+  "Gabe Vincent": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 6
+    }
+  ],
+  "Garrett Temple": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Goga Bitadze": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Gradey Dick": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Grayson Allen": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 12
+    }
+  ],
+  "Harrison Barnes": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 3
+    }
+  ],
+  "Haywood Highsmith": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Hugo Gonz\u00e1lez": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Isaiah Hartenstein": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 18
+    }
+  ],
+  "Isaiah Joe": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 6
+    }
+  ],
+  "Isaiah Stewart": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "JD Davison": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Ja'Kobe Walter": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 20
+    }
+  ],
+  "Jabari Smith Jr.": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 22
+    }
+  ],
+  "Jabari Walker": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Jaden McDaniels": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 13
+    }
+  ],
+  "Jae'Sean Tate": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Jake LaRavia": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Jakob Poeltl": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 14
+    }
+  ],
+  "Jalen Brunson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 28
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 29
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 39
+    }
+  ],
+  "Jalen Duren": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 12
+    }
+  ],
+  "Jalen Green": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 23
+    }
+  ],
+  "Jalen Johnson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 18
+    }
+  ],
+  "Jalen Pickett": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Jalen Suggs": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 10
+    }
+  ],
+  "Jalen Williams": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 19
+    }
+  ],
+  "Jamal Cain": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "Jamal Murray": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 24
+    }
+  ],
+  "Jamal Shead": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 18
+    }
+  ],
+  "Jamaree Bouyea": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "James Harden": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 28
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 23
+    }
+  ],
+  "Jamison Battle": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 7
+    }
+  ],
+  "Jared McCain": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Jarred Vanderbilt": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Jarrett Allen": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Jase Richardson": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 6
+    }
+  ],
+  "Javonte Green": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "Jaxson Hayes": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Jaylen Brown": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 36
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 22
+    }
+  ],
+  "Jaylen Clark": [
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Jaylin Williams": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 3
+    }
+  ],
+  "Jaylon Tyson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 8
+    }
+  ],
+  "Jayson Tatum": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 24
+    }
+  ],
+  "Jeff Green": [
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Jerami Grant": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 12
+    }
+  ],
+  "Jeremy Sochan": [
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 10
+    }
+  ],
+  "Jett Howard": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Jevon Carter": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Joan Beringer": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Joe Ingles": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Joel Embiid": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 33
+    }
+  ],
+  "Jonas Valan\u010di\u016bnas": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Jonathan Kuminga": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 13
+    }
+  ],
+  "Jonathan Mogbo": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
+    }
+  ],
+  "Jordan Clarkson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Jordan Goodwin": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Jordan McLaughlin": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Jordan Walsh": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 1
+    }
+  ],
+  "Jose Alvarado": [
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 12
+    }
+  ],
+  "Josh Hart": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Josh Okogie": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Jrue Holiday": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 29
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Julian Champagnie": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 19
+    }
+  ],
+  "Julian Phillips": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Julian Strawther": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Julius Randle": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 27
+    }
+  ],
+  "Justin Edwards": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Karl-Anthony Towns": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 16
+    }
+  ],
+  "Keaton Wallace": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Keldon Johnson": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Kelly Olynyk": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Kelly Oubre Jr.": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 4
+    }
+  ],
+  "Kenrich Williams": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Keon Ellis": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Kevin Durant": [
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 23
+    }
+  ],
+  "Kevin Huerter": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Khaman Maluach": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Kris Murray": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Kyle Anderson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 4
+    }
+  ],
+  "Kyle Lowry": [
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Landry Shamet": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Larry Nance Jr.": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "LeBron James": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 28
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 29
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 25
+    }
+  ],
+  "Lindy Waters III": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Luguentz Dort": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 1
+    }
+  ],
+  "Luka Garza": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 4
+    }
+  ],
+  "Luke Kennard": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 1
+    }
+  ],
+  "Luke Kornet": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 5
+    }
+  ],
+  "Marcus Sasser": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Marcus Smart": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 11
+    }
+  ],
+  "Mason Plumlee": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Matisse Thybulle": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Max Shulga": [
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 3
+    }
+  ],
+  "Max Strus": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 1
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 8
+    }
+  ],
+  "Maxi Kleber": [
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 1
+    }
+  ],
+  "Mikal Bridges": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Mike Conley": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 4
+    }
+  ],
+  "Miles McBride": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Mitchell Robinson": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 7
+    }
+  ],
+  "Mohamed Diawara": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Moritz Wagner": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Mouhamed Gueye": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Nae'Qwan Tomlin": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Naz Reid": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 12
+    }
+  ],
+  "Neemias Queta": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Nick Smith Jr.": [
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "Nickeil Alexander-Walker": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 16
+    }
+  ],
+  "Nikola Joki\u0107": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 27
+    }
+  ],
+  "Nikola Topi\u0107": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Nikola Vu\u010devi\u0107": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Noah Penda": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "OG Anunoby": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "NYK vs. ATL",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "NYK @ ATL",
+      "WL": "L",
+      "Points": 29
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 17
+    }
+  ],
+  "Onyeka Okongwu": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "ATL vs. NYK",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 16
+    }
+  ],
+  "Oso Ighodaro": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Pac\u00f4me Dadiet": [
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Paolo Banchero": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 45
+    }
+  ],
+  "Paul George": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 19
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 16
+    }
+  ],
+  "Paul Reed": [
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 4
+    }
+  ],
+  "Payton Pritchard": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 15
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 32
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 12
+    }
+  ],
+  "Quentin Grimes": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 18
+    }
+  ],
+  "RJ Barrett": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 24
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 33
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 25
+    }
+  ],
+  "Rasheer Fleming": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Reed Sheppard": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 12
+    }
+  ],
+  "Robert Williams III": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 11
+    }
+  ],
+  "Ron Harper Jr.": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Ronald Holland II": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Royce O'Neale": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Rudy Gobert": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "MIN @ DEN",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 3
+    }
+  ],
+  "Rui Hachimura": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "LAL vs. HOU",
+      "WL": "W",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "LAL @ HOU",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "LAL vs. HOU",
+      "WL": "L",
+      "Points": 12
+    }
+  ],
+  "Ryan Dunn": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "PHX @ OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "PHX vs. OKC",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Sam Hauser": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "BOS vs. PHI",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "BOS @ PHI",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "BOS vs. PHI",
+      "WL": "L",
+      "Points": 8
+    }
+  ],
+  "Sam Merrill": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 9
+    }
+  ],
+  "Sandro Mamukelashvili": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 10
+    }
+  ],
+  "Scoot Henderson": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 31
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "Scottie Barnes": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 26
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 33
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 17
+    }
+  ],
+  "Shaedon Sharpe": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 9
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 5
+    }
+  ],
+  "Shai Gilgeous-Alexander": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 25
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "OKC vs. PHX",
+      "WL": "W",
+      "Points": 37
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 42
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "OKC @ PHX",
+      "WL": "W",
+      "Points": 31
+    }
+  ],
+  "Sidy Cissoko": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 11
+    }
+  ],
+  "Spencer Jones": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 20
+    }
+  ],
+  "Stephon Castle": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 18
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 33
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 15
+    }
+  ],
+  "Tari Eason": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "HOU @ LAL",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "HOU vs. LAL",
+      "WL": "W",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "HOU @ LAL",
+      "WL": "W",
+      "Points": 18
+    }
+  ],
+  "Terrence Shannon Jr.": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "MIN vs. DEN",
+      "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "MIN @ DEN",
+      "WL": "L",
+      "Points": 15
+    }
+  ],
+  "Thomas Bryant": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "CLE vs. TOR",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Tim Hardaway Jr.": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-20",
+      "Matchup": "DEN vs. MIN",
+      "WL": "L",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 11
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 8
+    }
+  ],
+  "Tobias Harris": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "DET vs. ORL",
+      "WL": "L",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 16
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 23
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DET @ ORL",
+      "WL": "L",
+      "Points": 20
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "DET vs. ORL",
+      "WL": "W",
+      "Points": 23
+    }
+  ],
+  "Tony Bradley": [
+    {
+      "Date": "2026-04-20",
+      "Matchup": "ATL @ NYK",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Toumani Camara": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "POR @ SAS",
+      "WL": "W",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 8
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 7
+    }
+  ],
+  "Trayce Jackson-Davis": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "TOR @ CLE",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-23",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Trendon Watford": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 4
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Tristan da Silva": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 7
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 3
+    }
+  ],
+  "Tyler Kolek": [
+    {
+      "Date": "2026-04-25",
+      "Matchup": "NYK @ ATL",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "NYK vs. ATL",
+      "WL": "W",
+      "Points": 0
+    }
+  ],
+  "Tyrese Maxey": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 21
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 29
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 31
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 22
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 25
+    }
+  ],
+  "Tyrese Proctor": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Tyus Jones": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 2
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "DEN vs. MIN",
+      "WL": "W",
+      "Points": 3
+    }
+  ],
+  "VJ Edgecombe": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "PHI @ BOS",
+      "WL": "L",
+      "Points": 13
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 30
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 10
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "PHI vs. BOS",
+      "WL": "L",
+      "Points": 6
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "PHI @ BOS",
+      "WL": "W",
+      "Points": 10
+    }
+  ],
+  "Victor Wembanyama": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 35
+    },
+    {
+      "Date": "2026-04-21",
+      "Matchup": "SAS vs. POR",
+      "WL": "L",
+      "Points": 5
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "SAS @ POR",
+      "WL": "W",
+      "Points": 27
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "SAS vs. POR",
+      "WL": "W",
+      "Points": 17
+    }
+  ],
+  "V\u00edt Krej\u010d\u00ed": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 2
+    }
+  ],
+  "Wendell Carter Jr.": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "ORL @ DET",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-04-22",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 3
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 14
+    },
+    {
+      "Date": "2026-04-27",
+      "Matchup": "ORL vs. DET",
+      "WL": "W",
+      "Points": 12
+    },
+    {
+      "Date": "2026-04-29",
+      "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 9
+    }
+  ],
+  "Yang Hansen": [
+    {
+      "Date": "2026-04-19",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-24",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-26",
+      "Matchup": "POR vs. SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-28",
+      "Matchup": "POR @ SAS",
+      "WL": "L",
+      "Points": 0
+    }
+  ],
+  "Zaccharie Risacher": [
+    {
+      "Date": "2026-04-18",
+      "Matchup": "ATL @ NYK",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-04-25",
+      "Matchup": "ATL vs. NYK",
+      "WL": "L",
+      "Points": 3
+    }
+  ],
+  "Zeke Nnaji": [
+    {
+      "Date": "2026-04-23",
+      "Matchup": "DEN @ MIN",
+      "WL": "L",
+      "Points": 10
+    }
+  ]
+}
