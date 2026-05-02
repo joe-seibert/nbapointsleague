@@ -29,6 +29,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 6
     }
   ],
   "Aaron Gordon": [
@@ -81,6 +87,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Aaron Wiggins": [
@@ -147,6 +159,12 @@
       "Matchup": "LAL @ HOU",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 2
     }
   ],
   "Ajay Mitchell": [
@@ -231,6 +249,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Amari Williams": [
@@ -271,6 +295,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 15
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 18
     }
   ],
   "Amir Coffey": [
@@ -367,6 +397,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 19
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 8
     }
   ],
   "Anthony Edwards": [
@@ -459,6 +495,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 4
     }
   ],
   "Austin Reaves": [
@@ -467,6 +509,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 15
     }
   ],
   "Ayo Dosunmu": [
@@ -679,6 +727,12 @@
       "Matchup": "LAL @ HOU",
       "WL": "L",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Bruce Brown": [
@@ -801,6 +855,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 45
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 32
     }
   ],
   "Cameron Johnson": [
@@ -871,6 +931,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Carter Bryant": [
@@ -1013,6 +1079,12 @@
       "Matchup": "HOU vs. LAL",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Collin Gillespie": [
@@ -1071,6 +1143,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 17
     }
   ],
   "Corey Kispert": [
@@ -1179,6 +1257,12 @@
       "Matchup": "LAL @ HOU",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Daniss Jenkins": [
@@ -1211,6 +1295,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "De'Aaron Fox": [
@@ -1275,6 +1365,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Deandre Ayton": [
@@ -1307,6 +1403,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 18
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Deni Avdija": [
@@ -1371,6 +1473,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 19
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 7
     }
   ],
   "Derrick White": [
@@ -1441,6 +1549,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 18
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Devin Booker": [
@@ -1615,6 +1729,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 19
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 24
     }
   ],
   "Donte DiVincenzo": [
@@ -1661,6 +1781,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Duncan Robinson": [
@@ -1693,6 +1819,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 14
     }
   ],
   "Dylan Harper": [
@@ -1795,6 +1927,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 23
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 26
     }
   ],
   "Franz Wagner": [
@@ -1899,6 +2037,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 6
     }
   ],
   "Gradey Dick": [
@@ -2071,6 +2215,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "JD Davison": [
@@ -2079,6 +2229,12 @@
       "Matchup": "HOU vs. LAL",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Ja'Kobe Walter": [
@@ -2111,6 +2267,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 20
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 24
     }
   ],
   "Jabari Smith Jr.": [
@@ -2143,6 +2305,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 9
     }
   ],
   "Jabari Walker": [
@@ -2227,6 +2395,12 @@
       "Matchup": "HOU vs. LAL",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Jake LaRavia": [
@@ -2259,6 +2433,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Jakob Poeltl": [
@@ -2291,6 +2471,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
     }
   ],
   "Jalen Brunson": [
@@ -2361,6 +2547,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 8
     }
   ],
   "Jalen Green": [
@@ -2471,6 +2663,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 7
     }
   ],
   "Jalen Williams": [
@@ -2517,6 +2715,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Jamal Murray": [
@@ -2587,6 +2791,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 18
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Jamaree Bouyea": [
@@ -2645,6 +2855,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 23
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 16
     }
   ],
   "Jamison Battle": [
@@ -2671,6 +2887,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 5
     }
   ],
   "Jared McCain": [
@@ -2761,6 +2983,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 9
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 14
     }
   ],
   "Jase Richardson": [
@@ -2801,6 +3029,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Jaxson Hayes": [
@@ -2833,6 +3067,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 5
     }
   ],
   "Jaylen Brown": [
@@ -2943,6 +3183,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 5
     }
   ],
   "Jayson Tatum": [
@@ -3057,6 +3303,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Joan Beringer": [
@@ -3383,6 +3635,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Jrue Holiday": [
@@ -3955,6 +4213,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 25
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 28
     }
   ],
   "Lindy Waters III": [
@@ -4071,6 +4335,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 1
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Luke Kornet": [
@@ -4143,6 +4413,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 11
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Mason Plumlee": [
@@ -4223,6 +4499,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 6
     }
   ],
   "Maxi Kleber": [
@@ -4547,6 +4829,12 @@
       "Matchup": "LAL @ HOU",
       "WL": "L",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Nickeil Alexander-Walker": [
@@ -4837,6 +5125,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 45
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Paul George": [
@@ -4889,6 +5183,12 @@
       "Matchup": "DET @ ORL",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 6
     }
   ],
   "Payton Pritchard": [
@@ -4997,6 +5297,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 25
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 24
     }
   ],
   "Rasheer Fleming": [
@@ -5055,6 +5361,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Robert Williams III": [
@@ -5229,6 +5541,12 @@
       "Matchup": "LAL vs. HOU",
       "WL": "L",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "LAL @ HOU",
+      "WL": "W",
+      "Points": 21
     }
   ],
   "Ryan Dunn": [
@@ -5325,6 +5643,12 @@
       "Matchup": "CLE vs. TOR",
       "WL": "W",
       "Points": 9
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Sandro Mamukelashvili": [
@@ -5357,6 +5681,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 2
     }
   ],
   "Scoot Henderson": [
@@ -5421,6 +5751,12 @@
       "Matchup": "TOR @ CLE",
       "WL": "L",
       "Points": 17
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "TOR vs. CLE",
+      "WL": "W",
+      "Points": 25
     }
   ],
   "Shaedon Sharpe": [
@@ -5607,6 +5943,12 @@
       "Matchup": "HOU @ LAL",
       "WL": "W",
       "Points": 18
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "HOU vs. LAL",
+      "WL": "L",
+      "Points": 14
     }
   ],
   "Terrence Shannon Jr.": [
@@ -5640,6 +5982,12 @@
       "Date": "2026-04-29",
       "Matchup": "CLE vs. TOR",
       "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "CLE @ TOR",
+      "WL": "L",
       "Points": 0
     }
   ],
@@ -5711,6 +6059,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 23
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "DET @ ORL",
+      "WL": "W",
+      "Points": 22
     }
   ],
   "Tony Bradley": [
@@ -5841,6 +6195,12 @@
       "Matchup": "ORL @ DET",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Tyler Kolek": [
@@ -6047,6 +6407,12 @@
     {
       "Date": "2026-04-29",
       "Matchup": "ORL @ DET",
+      "WL": "L",
+      "Points": 9
+    },
+    {
+      "Date": "2026-05-01",
+      "Matchup": "ORL vs. DET",
       "WL": "L",
       "Points": 9
     }

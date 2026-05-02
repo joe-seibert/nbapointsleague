@@ -17,8 +17,8 @@
   },
   {
     "Player": "Jalen Duren",
-    "Total Points": 51,
-    "Games Played": 5,
+    "Total Points": 59,
+    "Games Played": 6,
     "Team": "Jono",
     "NBA Team": "DET",
     "Eliminated": false
@@ -73,8 +73,8 @@
   },
   {
     "Player": "Cade Cunningham",
-    "Total Points": 163,
-    "Games Played": 5,
+    "Total Points": 195,
+    "Games Played": 6,
     "Team": "Julian",
     "NBA Team": "DET",
     "Eliminated": false
@@ -93,20 +93,20 @@
     "Games Played": 1,
     "Team": "Julian",
     "NBA Team": "HOU",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Amen Thompson",
-    "Total Points": 97,
-    "Games Played": 5,
+    "Total Points": 115,
+    "Games Played": 6,
     "Team": "Julian",
     "NBA Team": "HOU",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "LeBron James",
-    "Total Points": 111,
-    "Games Played": 5,
+    "Total Points": 139,
+    "Games Played": 6,
     "Team": "Julian",
     "NBA Team": "LAL",
     "Eliminated": false
@@ -137,8 +137,8 @@
   },
   {
     "Player": "Donovan Mitchell",
-    "Total Points": 116,
-    "Games Played": 5,
+    "Total Points": 140,
+    "Games Played": 6,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -153,8 +153,8 @@
   },
   {
     "Player": "Evan Mobley",
-    "Total Points": 88,
-    "Games Played": 5,
+    "Total Points": 114,
+    "Games Played": 6,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -177,8 +177,8 @@
   },
   {
     "Player": "Jarrett Allen",
-    "Total Points": 44,
-    "Games Played": 5,
+    "Total Points": 58,
+    "Games Played": 6,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -225,19 +225,19 @@
   },
   {
     "Player": "Tobias Harris",
-    "Total Points": 99,
-    "Games Played": 5,
+    "Total Points": 121,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "DET",
     "Eliminated": false
   },
   {
     "Player": "Jabari Smith Jr.",
-    "Total Points": 96,
-    "Games Played": 5,
+    "Total Points": 105,
+    "Games Played": 6,
     "Team": "Andrew",
     "NBA Team": "HOU",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Josh Hart",
@@ -273,24 +273,24 @@
   },
   {
     "Player": "James Harden",
-    "Total Points": 110,
-    "Games Played": 5,
+    "Total Points": 126,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "CLE",
     "Eliminated": false
   },
   {
     "Player": "Alperen Sengun",
-    "Total Points": 105,
-    "Games Played": 5,
+    "Total Points": 122,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "HOU",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Ausar Thompson",
-    "Total Points": 48,
-    "Games Played": 5,
+    "Total Points": 52,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "DET",
     "Eliminated": false
@@ -313,8 +313,8 @@
   },
   {
     "Player": "Duncan Robinson",
-    "Total Points": 48,
-    "Games Played": 5,
+    "Total Points": 62,
+    "Games Played": 6,
     "Team": "Joe",
     "NBA Team": "DET",
     "Eliminated": false
