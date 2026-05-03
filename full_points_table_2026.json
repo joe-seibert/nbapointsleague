@@ -129,11 +129,11 @@
   },
   {
     "Player": "Jaylen Brown",
-    "Total Points": 147,
-    "Games Played": 6,
+    "Total Points": 180,
+    "Games Played": 7,
     "Team": "Sam",
     "NBA Team": "BOS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Donovan Mitchell",
@@ -209,11 +209,11 @@
   },
   {
     "Player": "Payton Pritchard",
-    "Total Points": 89,
-    "Games Played": 6,
+    "Total Points": 102,
+    "Games Played": 7,
     "Team": "Andrew",
     "NBA Team": "BOS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Aaron Gordon",
@@ -305,8 +305,8 @@
   },
   {
     "Player": "Tyrese Maxey",
-    "Total Points": 158,
-    "Games Played": 6,
+    "Total Points": 188,
+    "Games Played": 7,
     "Team": "Joe",
     "NBA Team": "PHI",
     "Eliminated": false
@@ -325,7 +325,7 @@
     "Games Played": 6,
     "Team": "Connor",
     "NBA Team": "BOS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Chet Holmgren",
@@ -337,11 +337,11 @@
   },
   {
     "Player": "Derrick White",
-    "Total Points": 52,
-    "Games Played": 6,
+    "Total Points": 78,
+    "Games Played": 7,
     "Team": "Connor",
     "NBA Team": "BOS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Stephon Castle",
@@ -377,10 +377,10 @@
   },
   {
     "Player": "Neemias Queta",
-    "Total Points": 48,
-    "Games Played": 6,
+    "Total Points": 65,
+    "Games Played": 7,
     "Team": "Connor",
     "NBA Team": "BOS",
-    "Eliminated": false
+    "Eliminated": true
   }
 ]
