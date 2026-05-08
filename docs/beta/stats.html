@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stats — 2026 Playoff Points Pool</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0f1117;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    nav a:hover { color: #e2e8f0; background: #1a1d27; }
+    nav a.active { color: #f8b847; }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+      font-weight: 700;
+      color: #f8b847;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .filter-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: none;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+      color: #a0aec0;
+      font-size: 0.82rem;
+      padding: 0.45rem 0.85rem;
+      cursor: pointer;
+      margin-bottom: 0.75rem;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .filter-toggle:hover { border-color: #4a5580; color: #e2e8f0; }
+    .filter-toggle.active { border-color: #f8b847; color: #f8b847; }
+
+    .filter-toggle .arrow {
+      font-size: 0.65rem;
+      transition: transform 0.2s;
+    }
+    .filter-toggle.open .arrow { transform: rotate(180deg); }
+
+    .filter-badge {
+      background: #f8b847;
+      color: #0f1117;
+      font-size: 0.68rem;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 0.1rem 0.4rem;
+    }
+
+    .filters {
+      display: none;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+      padding: 1rem;
+      background: #13161f;
+      border: 1px solid #2d3148;
+      border-radius: 6px;
+    }
+
+    .filters.open { display: flex; }
+
+    .filter-group {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .filter-label {
+      font-size: 0.72rem;
+      color: #718096;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding-top: 0.35rem;
+      min-width: 4.5rem;
+      flex-shrink: 0;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      background: #1a1d27;
+      border: 1px solid #2d3148;
+      border-radius: 4px;
+      padding: 0.2rem 0.45rem;
+      font-size: 0.75rem;
+      color: #a0aec0;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .checkbox-group input[type="checkbox"] { display: none; }
+
+    .checkbox-group label:hover { border-color: #4a5580; color: #e2e8f0; }
+
+    .checkbox-group label:has(input:checked) {
+      border-color: #f8b847;
+      color: #f8b847;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: #1a1d27;
+      color: #a0aec0;
+      font-weight: 600;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.7rem 1rem;
+      text-align: left;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    thead th:hover { color: #e2e8f0; }
+    thead th.num { text-align: right; }
+    thead th.sorted { color: #f8b847; }
+
+    thead th .sort-indicator {
+      display: inline-block;
+      margin-left: 0.3rem;
+      font-size: 0.65rem;
+      opacity: 0.5;
+    }
+    thead th.sorted .sort-indicator { opacity: 1; }
+
+    tbody tr {
+      border-bottom: 1px solid #1e2130;
+      transition: background 0.1s;
+    }
+
+    tbody tr.player-row { cursor: pointer; }
+    tbody tr.player-row:hover { background: #1a1d27; }
+    tbody tr.player-row.expanded { background: #1a1d27; }
+
+    td { padding: 0.7rem 1rem; }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+    .rank { color: #718096; font-size: 0.8rem; }
+    .player-name { font-weight: 500; }
+    .player-name.eliminated { color: #fc5555; }
+
+    .player-chevron {
+      display: inline-block;
+      margin-right: 0.4rem;
+      color: #4a5568;
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+    }
+    tr.player-row.expanded .player-chevron { transform: rotate(90deg); }
+
+    .game-row { display: none; background: #0f1219; }
+    .game-row.visible { display: table-row; }
+    .game-row td { padding: 0; }
+
+    .games-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78rem;
+    }
+    .games-table td {
+      padding: 0.35rem 0.75rem;
+      color: #8896aa;
+    }
+    .games-table tr:not(:last-child) td { border-bottom: 1px solid #161922; }
+    .games-table .g-date { padding-left: 3rem; width: 5rem; }
+    .games-table .g-matchup { font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+    .games-table .g-wl { width: 1.5rem; text-align: center; font-weight: 700; }
+    .games-table .g-wl.W { color: #68d391; }
+    .games-table .g-wl.L { color: #fc8181; }
+    .games-table .g-pts { text-align: right; font-variant-numeric: tabular-nums; color: #cbd5e0; padding-right: 1rem; width: 3rem; }
+    .games-empty {
+      padding: 0.5rem 1rem 0.5rem 3rem;
+      font-size: 0.78rem;
+      color: #4a5568;
+      font-style: italic;
+    }
+
+    .owner-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      background: #1e2130;
+      color: #a0aec0;
+    }
+    .owner-badge.undrafted { color: #718096; background: #151820; }
+
+    .nba-team {
+      font-size: 0.8rem;
+      color: #718096;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .points { font-weight: 700; }
+
+    .no-results {
+      text-align: center;
+      color: #4a5568;
+      padding: 3rem;
+      font-size: 0.9rem;
+    }
+
+    .error { text-align: center; color: #fc8181; padding: 2rem; }
+    .loading { text-align: center; color: #718096; padding: 2rem; }
+
+    .last-updated {
+      text-align: center;
+      color: #4a5568;
+      font-size: 0.78rem;
+      margin-top: 1.5rem;
+    }
+
+    .beta-banner {
+      background: rgba(248, 184, 71, 0.10);
+      border: 1px solid rgba(248, 184, 71, 0.32);
+      border-radius: 6px;
+      padding: 0.5rem 0.85rem;
+      text-align: center;
+      font-size: 0.74rem;
+      color: #f8b847;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.05em;
+    }
+    .beta-banner a {
+      color: #f8b847;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="beta-banner">🧪 BETA — preview of WIP features · <a href="../">main site →</a></div>
+
+    <nav>
+      <a href="index.html">Standings</a>
+      <a href="stats.html" class="active">Stats</a>
+      <a href="advanced_stats.html">Advanced</a>
+    </nav>
+
+    <header>
+      <h1>Player Stats</h1>
+    </header>
+
+    <button class="filter-toggle" id="filter-toggle">
+      Filters <span class="arrow">▼</span>
+    </button>
+    <div class="filters" id="filters">
+      <div class="filter-group">
+        <span class="filter-label">Coach</span>
+        <div class="checkbox-group" id="filter-coach"></div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">NBA Team</span>
+        <div class="checkbox-group" id="filter-team"></div>
+      </div>
+    </div>
+
+    <div id="app"><p class="loading">Loading stats…</p></div>
+    <p class="last-updated" id="last-updated"></p>
+  </div>
+
+  <script>
+    const BASE = window.location.hostname === 'localhost'
+      ? ''
+      : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
+
+    let allPlayers = [];
+    let gamesByPlayer = {};
+    let sortCol = 'Total Points';
+    let sortAsc = false;
+
+    const COLS = [
+      { key: '_rank',         label: '#',           cls: 'num rank'    },
+      { key: 'Player',        label: 'Player',       cls: 'player-name' },
+      { key: 'Coach',         label: 'Coach',        cls: ''            },
+      { key: 'NBA Team',      label: 'NBA Team',     cls: 'nba-team'    },
+      { key: 'Total Points',  label: 'PTS',          cls: 'num points'  },
+      { key: 'Games Played',  label: 'GP',           cls: 'num'         },
+      { key: 'PPG',           label: 'PPG',          cls: 'num'         },
+    ];
+
+    const SORTABLE = new Set(['Player', 'Coach', 'NBA Team', 'Total Points', 'Games Played', 'PPG']);
+
+    async function loadData() {
+      const [playersRes, gamesRes] = await Promise.all([
+        fetch(`${BASE}/all_players_2026.json`),
+        fetch(`${BASE}/player_games_2026.json`),
+      ]);
+      if (!playersRes.ok) throw new Error('Failed to fetch data');
+      const games = gamesRes.ok ? await gamesRes.json() : {};
+      return { players: await playersRes.json(), games };
+    }
+
+    function formatDate(iso) {
+      const [, m, d] = iso.split('-');
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      return `${months[+m - 1]} ${+d}`;
+    }
+
+    function renderGameLog(games) {
+      if (!games || !games.length) {
+        return `<div class="games-empty">No games played</div>`;
+      }
+      const rows = games.map(g => `
+        <tr>
+          <td class="g-date">${formatDate(g.Date)}</td>
+          <td class="g-matchup">${g.Matchup}</td>
+          <td class="g-wl ${g.WL || ''}">${g.WL ?? '—'}</td>
+          <td class="g-pts">${g.Points}</td>
+        </tr>`).join('');
+      return `<table class="games-table"><tbody>${rows}</tbody></table>`;
+    }
+
+    function updateToggleButton() {
+      const total = getChecked('filter-coach').length + getChecked('filter-team').length;
+      const btn = document.getElementById('filter-toggle');
+      const badge = total > 0 ? ` <span class="filter-badge">${total}</span>` : '';
+      btn.innerHTML = `Filters${badge} <span class="arrow">▼</span>`;
+      btn.classList.toggle('active', total > 0);
+    }
+
+    document.getElementById('filter-toggle').addEventListener('click', () => {
+      const btn = document.getElementById('filter-toggle');
+      const panel = document.getElementById('filters');
+      btn.classList.toggle('open');
+      panel.classList.toggle('open');
+    });
+
+    function buildCheckboxes(containerId, values) {
+      const el = document.getElementById(containerId);
+      values.forEach(v => {
+        const label = document.createElement('label');
+        label.innerHTML = `<input type="checkbox" value="${v}"><span>${v}</span>`;
+        label.querySelector('input').addEventListener('change', () => { renderTable(); updateToggleButton(); });
+        el.appendChild(label);
+      });
+    }
+
+    function getChecked(containerId) {
+      return [...document.querySelectorAll(`#${containerId} input:checked`)].map(i => i.value);
+    }
+
+    function populateFilters(players) {
+      const coaches = [...new Set(players.map(p => p['Coach']))].sort((a, b) => {
+        if (a === 'Undrafted') return 1;
+        if (b === 'Undrafted') return -1;
+        return a.localeCompare(b);
+      });
+      const teams = [...new Set(players.map(p => p['NBA Team']))].sort();
+      buildCheckboxes('filter-coach', coaches);
+      buildCheckboxes('filter-team', teams);
+    }
+
+    function getFiltered() {
+      const coaches = getChecked('filter-coach');
+      const teams   = getChecked('filter-team');
+      return allPlayers.filter(p =>
+        (!coaches.length || coaches.includes(p['Coach'])) &&
+        (!teams.length   || teams.includes(p['NBA Team']))
+      );
+    }
+
+    function sorted(players) {
+      return [...players].sort((a, b) => {
+        const av = a[sortCol], bv = b[sortCol];
+        const cmp = typeof av === 'string' ? av.localeCompare(bv) : av - bv;
+        return sortAsc ? cmp : -cmp;
+      });
+    }
+
+    function renderTable() {
+      const players = sorted(getFiltered());
+
+      if (!players.length) {
+        document.getElementById('app').innerHTML = '<p class="no-results">No players match the current filters.</p>';
+        return;
+      }
+
+      const headers = COLS.map(c => {
+        if (!SORTABLE.has(c.key)) return `<th class="${c.cls.includes('num') ? 'num' : ''}">${c.label}</th>`;
+        const isSorted = sortCol === c.key;
+        const arrow = isSorted ? (sortAsc ? '▲' : '▼') : '▲';
+        return `<th class="${c.cls.includes('num') ? 'num' : ''} ${isSorted ? 'sorted' : ''}" data-col="${c.key}">
+          ${c.label}<span class="sort-indicator">${arrow}</span>
+        </th>`;
+      }).join('');
+
+      const rows = players.map((p, i) => {
+        const ownerClass = p['Coach'] === 'Undrafted' ? 'undrafted' : '';
+        const eliminatedCls = p.Eliminated ? ' eliminated' : '';
+        const cells = COLS.map(c => {
+          let val;
+          if      (c.key === '_rank')  val = i + 1;
+          else if (c.key === 'Player') val = `<span class="player-chevron">›</span><span class="player-name${eliminatedCls}">${p.Player}</span>`;
+          else if (c.key === 'Coach')  val = `<span class="owner-badge ${ownerClass}">${p[c.key]}</span>`;
+          else if (c.key === 'PPG')    val = p['Games Played'] > 0 ? p[c.key].toFixed(1) : '—';
+          else                         val = p[c.key];
+          const cellCls = c.key === 'Player' ? c.cls.replace('player-name', '') : c.cls;
+          return `<td class="${cellCls}">${val}</td>`;
+        }).join('');
+        const games = gamesByPlayer[p.Player] || [];
+        return `
+          <tr class="player-row" data-key="row-${i}">${cells}</tr>
+          <tr class="game-row" data-key="row-${i}"><td colspan="${COLS.length}">${renderGameLog(games)}</td></tr>`;
+      }).join('');
+
+      document.getElementById('app').innerHTML = `
+        <table>
+          <thead><tr>${headers}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+
+      document.querySelectorAll('thead th[data-col]').forEach(th => {
+        th.addEventListener('click', () => {
+          const col = th.dataset.col;
+          if (sortCol === col) sortAsc = !sortAsc;
+          else { sortCol = col; sortAsc = col === 'Player' || col === 'Coach' || col === 'NBA Team'; }
+          renderTable();
+        });
+      });
+
+      document.querySelectorAll('tr.player-row').forEach(pr => {
+        pr.addEventListener('click', () => {
+          const key = pr.dataset.key;
+          const isExpanded = pr.classList.contains('expanded');
+          pr.classList.toggle('expanded', !isExpanded);
+          const gr = document.querySelector(`tr.game-row[data-key="${key}"]`);
+          if (gr) gr.classList.toggle('visible', !isExpanded);
+        });
+      });
+    }
+
+    loadData()
+      .then(({ players, games }) => {
+        allPlayers = players;
+        gamesByPlayer = games;
+        populateFilters(players);
+        renderTable();
+
+
+        document.getElementById('last-updated').textContent =
+          `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
+      })
+      .catch(err => {
+        document.getElementById('app').innerHTML = `<p class="error">Could not load stats. (${err.message})</p>`;
+      });
+  </script>
+</body>
+</html>

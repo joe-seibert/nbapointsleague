@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Stats — 2026 Playoff Points Pool</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0f1117;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      color: #a0aec0;
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    nav a:hover { color: #e2e8f0; background: #1a1d27; }
+    nav a.active { color: #f8b847; }
+
+    header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.1rem, 3vw, 1.6rem);
+      font-weight: 700;
+      color: #f8b847;
+    }
+
+    header p.subtitle {
+      margin-top: 0.5rem;
+      color: #718096;
+      font-size: 0.85rem;
+      max-width: 42rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    section.key {
+      max-width: 760px;
+      margin: 0 auto 1.25rem;
+      padding: 0.85rem 1rem;
+      background: #13161f;
+      border: 1px solid #1e2130;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      font-size: 0.78rem;
+      color: #a0aec0;
+    }
+
+    .key .gradient-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .legend-bar {
+      width: 220px;
+      height: 10px;
+      border-radius: 5px;
+      background: linear-gradient(to right,
+        rgb(155, 60, 65),
+        rgb(195, 110, 50),
+        rgb(180, 158, 65),
+        rgb(135, 170, 70),
+        rgb(60, 150, 95));
+    }
+
+    .key dl {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      column-gap: 0.75rem;
+      row-gap: 0.35rem;
+      margin: 0;
+    }
+    .key dt {
+      font-weight: 700;
+      color: #e2e8f0;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.04em;
+    }
+    .key dd { margin: 0; color: #a0aec0; }
+    .key dd em {
+      color: #718096;
+      font-style: normal;
+      font-size: 0.72rem;
+    }
+    .key dd .pos-pill,
+    .key dd .neg-pill {
+      display: inline-block;
+      padding: 0.02rem 0.3rem;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 0.72rem;
+    }
+    .key dd .pos-pill { color: #c8f5d6; background: rgba(60, 150, 100, 0.25); }
+    .key dd .neg-pill { color: #ffd0d0; background: rgba(170, 65, 70, 0.28); }
+
+    .mode-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.78rem;
+      color: #a0aec0;
+    }
+    .mode-toggle .label { color: #718096; }
+    .mode-toggle .pill {
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+      border: 1px solid #2d3148;
+      background: #13161f;
+      color: #a0aec0;
+      cursor: pointer;
+      font-size: 0.78rem;
+      font-family: inherit;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .mode-toggle .pill:hover { color: #e2e8f0; border-color: #4a5580; }
+    .mode-toggle .pill.active {
+      border-color: #f8b847;
+      color: #f8b847;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2.6rem repeat(var(--n-coaches, 6), minmax(0, 1fr));
+      gap: 4px;
+      width: 100%;
+    }
+
+    .grid .coach-head,
+    .grid .round-head {
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #a0aec0;
+      text-align: center;
+      padding: 0.4rem 0.25rem;
+      background: #1a1d27;
+      border-radius: 4px;
+    }
+
+    .grid .round-head {
+      color: #4a5568;
+      align-self: stretch;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cell {
+      position: relative;
+      background: #1a1d27;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 4px;
+      padding: 0.5rem 0.55rem 0.55rem 0.55rem;
+      min-height: 76px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.18rem;
+      transition: transform 0.1s, box-shadow 0.1s;
+    }
+    .cell:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,0.4); }
+
+    .cell .pick-num {
+      position: absolute;
+      top: 0.35rem;
+      right: 0.45rem;
+      font-size: 0.65rem;
+      color: #a0aec0;
+      opacity: 0.65;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .cell .player {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #f5f7fa;
+      line-height: 1.15;
+      padding-right: 1.5rem;
+    }
+    .cell.eliminated .player { color: #ff8a8a; }
+
+    .cell .nba-team {
+      font-size: 0.7rem;
+      color: #c2cad6;
+      opacity: 0.75;
+      letter-spacing: 0.04em;
+    }
+
+    .cell .stats {
+      margin-top: auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.5rem;
+      font-size: 0.74rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .cell .delta {
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.08rem 0.4rem;
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.35);
+    }
+    .cell .delta.pos { color: #c8f5d6; }
+    .cell .delta.neg { color: #ffd0d0; }
+    .cell .delta.zero { color: #cbd5e0; }
+
+    .cell .pts { color: #f0f3f7; font-weight: 700; }
+    .cell .pts .pts-label {
+      color: #c2cad6;
+      opacity: 0.75;
+      font-weight: 500;
+      margin-right: 0.18rem;
+      font-size: 0.66rem;
+      letter-spacing: 0.04em;
+    }
+
+    .cell .ranks {
+      font-size: 0.66rem;
+      color: #c2cad6;
+      opacity: 0.7;
+    }
+
+    .frozen-tag {
+      position: absolute;
+      bottom: 0.25rem;
+      right: 0.4rem;
+      font-size: 0.62rem;
+      color: #ffb3b3;
+      letter-spacing: 0.04em;
+    }
+
+    .error { text-align: center; color: #fc8181; padding: 2rem; }
+    .loading { text-align: center; color: #718096; padding: 2rem; }
+
+    .last-updated {
+      text-align: center;
+      color: #4a5568;
+      font-size: 0.78rem;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 720px) {
+      .cell { padding: 0.4rem 0.4rem; min-height: 68px; }
+      .cell .player { font-size: 0.74rem; padding-right: 1.2rem; }
+      .cell .delta { font-size: 0.82rem; }
+      .grid { gap: 3px; }
+      .grid .coach-head { font-size: 0.65rem; padding: 0.3rem 0.1rem; }
+    }
+
+    .beta-banner {
+      background: rgba(248, 184, 71, 0.10);
+      border: 1px solid rgba(248, 184, 71, 0.32);
+      border-radius: 6px;
+      padding: 0.5rem 0.85rem;
+      text-align: center;
+      font-size: 0.74rem;
+      color: #f8b847;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.05em;
+    }
+    .beta-banner a {
+      color: #f8b847;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="beta-banner">🧪 BETA — preview of WIP features · <a href="../">main site →</a></div>
+
+    <nav>
+      <a href="index.html">Standings</a>
+      <a href="stats.html">Stats</a>
+      <a href="advanced_stats.html" class="active">Advanced</a>
+    </nav>
+
+    <header>
+      <h1>Draft Pick Quality</h1>
+      <p class="subtitle">
+        Each cell shows a player's pick slot vs. how they're producing in the playoffs. The cell color and Δ value tell you how much better or worse the pick has played than its slot.
+      </p>
+    </header>
+
+    <section class="key">
+      <div class="gradient-row">
+        <span>worse than picked</span>
+        <div class="legend-bar"></div>
+        <span>better than picked</span>
+      </div>
+      <dl>
+        <dt>Δ</dt>
+        <dd>
+          pick number minus drafted-pool rank. <span class="pos-pill">+12</span> = produced 12 spots better than drafted; <span class="neg-pill">−8</span> = 8 spots worse.
+        </dd>
+        <dt>DR</dt>
+        <dd>Drafted rank — where this player ranks by playoff points <em>among the 48 drafted players</em> (1 = top scorer in the league).</dd>
+        <dt>OR</dt>
+        <dd>Overall rank — where this player ranks by playoff points <em>among every playoff scorer</em> (~230 players, including undrafted bench guys).</dd>
+        <dt>frozen</dt>
+        <dd>Player's NBA team is out of the playoffs — their points (and rank) are locked in.</dd>
+      </dl>
+    </section>
+
+    <div class="mode-toggle">
+      <span class="label">Compare against:</span>
+      <button class="pill active" data-mode="drafted">drafted pool (1–48)</button>
+      <button class="pill" data-mode="overall">all playoff scorers</button>
+    </div>
+
+    <div id="app"><p class="loading">Loading draft grid…</p></div>
+    <p class="last-updated" id="last-updated"></p>
+  </div>
+
+  <script>
+    const BASE = window.location.hostname === 'localhost'
+      ? ''
+      : 'https://raw.githubusercontent.com/joe-seibert/nbapointsleague/data';
+
+    // delta beyond this saturates the color. Overall has a much wider range
+    // because non-playoff drafted players sit ~200 ranks below the top.
+    // Distribution is asymmetric in overall mode: positive deltas cap at ~+40
+    // (best pick - rank 1), negatives can hit -160 (frozen non-playoff player).
+    // Picking 50 lets typical picks show real color and lets the extreme negatives
+    // simply saturate at full red.
+    const SCALE = { drafted: 30, overall: 50 };
+
+    let currentMode = 'drafted';
+    let cachedRecords = null;
+
+    async function loadData() {
+      const [draftRes, fpRes, gamesRes] = await Promise.all([
+        fetch('draft_order_2026.json'),
+        fetch(`${BASE}/full_points_table_2026.json`),
+        fetch(`${BASE}/player_games_2026.json`),
+      ]);
+      if (!draftRes.ok || !fpRes.ok) throw new Error('Failed to fetch data');
+      return {
+        draft: await draftRes.json(),
+        fullPoints: await fpRes.json(),
+        games: gamesRes.ok ? await gamesRes.json() : {},
+      };
+    }
+
+    function competitionRank(entries) {
+      // entries: [[key, value], ...] sorted descending by value
+      const rank = {};
+      let lastValue = null, lastRank = 0;
+      entries.forEach(([key, value], i) => {
+        if (value !== lastValue) { lastRank = i + 1; lastValue = value; }
+        rank[key] = lastRank;
+      });
+      return rank;
+    }
+
+    function buildRecords({ draft, fullPoints, games }) {
+      const fpByName = Object.fromEntries(fullPoints.map(p => [p.Player, p]));
+
+      // Pool: every playoff scorer (from game log) + drafted players who never played
+      const ptsPool = {};
+      for (const [name, gs] of Object.entries(games)) {
+        ptsPool[name] = gs.reduce((s, g) => s + (g.Points || 0), 0);
+      }
+      for (const d of draft) {
+        if (!(d.player in ptsPool)) ptsPool[d.player] = 0;
+      }
+
+      const overallRank = competitionRank(
+        Object.entries(ptsPool).sort((a, b) => b[1] - a[1])
+      );
+      const draftedEntries = draft.map(d => [d.player, ptsPool[d.player]]);
+      const draftedRank = competitionRank(draftedEntries.slice().sort((a, b) => b[1] - a[1]));
+
+      return draft.map(d => {
+        const fp = fpByName[d.player] || {};
+        const pts = ptsPool[d.player];
+        const dr = draftedRank[d.player];
+        const or_ = overallRank[d.player];
+        return {
+          pick: d.pick,
+          round: d.round,
+          coach: d.coach,
+          player: d.player,
+          nbaTeam: fp['NBA Team'] || '',
+          pts,
+          draftedRank: dr,
+          overallRank: or_,
+          delta: d.pick - dr,
+          deltaOverall: d.pick - or_,
+          frozen: !!fp.Eliminated,
+        };
+      });
+    }
+
+    // Five-stop heat-map: red → orange → yellow → lime → green.
+    // Stops are placed at t = -1, -0.5, 0, +0.5, +1 (where t = delta / scale,
+    // clamped). We sqrt the magnitude so small deltas still walk away from the
+    // yellow center quickly instead of all looking neutral.
+    const STOPS = [
+      { t: -1.0, rgb: [155,  60,  65] }, // red
+      { t: -0.5, rgb: [195, 110,  50] }, // orange
+      { t:  0.0, rgb: [180, 158,  65] }, // yellow
+      { t: +0.5, rgb: [135, 170,  70] }, // lime
+      { t: +1.0, rgb: [ 60, 150,  95] }, // green
+    ];
+
+    function mix(a, b, t) {
+      return [
+        Math.round(a[0] + (b[0] - a[0]) * t),
+        Math.round(a[1] + (b[1] - a[1]) * t),
+        Math.round(a[2] + (b[2] - a[2]) * t),
+      ];
+    }
+
+    function deltaColor(delta, scale) {
+      const tRaw = Math.max(-1, Math.min(1, delta / scale));
+      const t = Math.sign(tRaw) * Math.sqrt(Math.abs(tRaw));
+      for (let i = 0; i < STOPS.length - 1; i++) {
+        const a = STOPS[i], b = STOPS[i + 1];
+        if (t >= a.t && t <= b.t) {
+          const u = (t - a.t) / (b.t - a.t);
+          const [r, g, bl] = mix(a.rgb, b.rgb, u);
+          return `rgb(${r},${g},${bl})`;
+        }
+      }
+      return `rgb(${STOPS[STOPS.length - 1].rgb.join(',')})`;
+    }
+
+    function deltaSign(d) {
+      if (d > 0) return `+${d}`;
+      if (d < 0) return `${d}`;
+      return '0';
+    }
+
+    function render(records, mode) {
+      const round1 = records.filter(r => r.round === 1).sort((a, b) => a.pick - b.pick);
+      const coachOrder = round1.map(r => r.coach);
+      const rounds = Math.max(...records.map(r => r.round));
+      const byPick = Object.fromEntries(records.map(r => [`${r.round}|${r.coach}`, r]));
+      const scale = SCALE[mode];
+
+      const head = ['<div></div>', ...coachOrder.map(c => `<div class="coach-head">${c}</div>`)].join('');
+      const body = [];
+      for (let round = 1; round <= rounds; round++) {
+        body.push(`<div class="round-head">R${round}</div>`);
+        for (const coach of coachOrder) {
+          const r = byPick[`${round}|${coach}`];
+          if (!r) { body.push('<div></div>'); continue; }
+          const cls = ['cell'];
+          if (r.frozen) cls.push('eliminated');
+          const activeDelta = mode === 'overall' ? r.deltaOverall : r.delta;
+          const dCls = activeDelta > 0 ? 'pos' : activeDelta < 0 ? 'neg' : 'zero';
+          body.push(`
+            <div class="${cls.join(' ')}" style="background-color:${deltaColor(activeDelta, scale)}"
+                 title="Pick ${r.pick} • drafted-rank ${r.draftedRank} (Δ ${deltaSign(r.delta)}) • overall-rank ${r.overallRank} (Δ ${deltaSign(r.deltaOverall)})">
+              <span class="pick-num">#${r.pick}</span>
+              <span class="player">${r.player}</span>
+              <span class="nba-team">${r.nbaTeam || '—'}</span>
+              <span class="stats">
+                <span class="pts"><span class="pts-label">PTS</span>${r.pts}</span>
+                <span class="delta ${dCls}">Δ ${deltaSign(activeDelta)}</span>
+              </span>
+              <span class="ranks">DR ${r.draftedRank} · OR ${r.overallRank}</span>
+              ${r.frozen ? '<span class="frozen-tag">frozen</span>' : ''}
+            </div>`);
+        }
+      }
+
+      document.getElementById('app').innerHTML = `
+        <div class="grid" style="--n-coaches:${coachOrder.length}">${head}${body.join('')}</div>`;
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      document.querySelectorAll('.mode-toggle .pill').forEach(b => {
+        b.classList.toggle('active', b.dataset.mode === mode);
+      });
+      if (cachedRecords) render(cachedRecords, mode);
+    }
+
+    document.querySelectorAll('.mode-toggle .pill').forEach(b => {
+      b.addEventListener('click', () => setMode(b.dataset.mode));
+    });
+
+    loadData()
+      .then(data => {
+        cachedRecords = buildRecords(data);
+        render(cachedRecords, currentMode);
+        document.getElementById('last-updated').textContent =
+          `Last updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
+      })
+      .catch(err => {
+        document.getElementById('app').innerHTML =
+          `<p class="error">Could not load advanced stats. (${err.message})</p>`;
+      });
+  </script>
+</body>
+</html>

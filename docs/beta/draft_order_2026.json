@@ -1,0 +1,290 @@
+[
+  {
+    "pick": 1,
+    "round": 1,
+    "coach": "Jono",
+    "player": "Shai Gilgeous-Alexander"
+  },
+  {
+    "pick": 2,
+    "round": 1,
+    "coach": "Julian",
+    "player": "Victor Wembanyama"
+  },
+  {
+    "pick": 3,
+    "round": 1,
+    "coach": "Sam",
+    "player": "Jaylen Brown"
+  },
+  {
+    "pick": 4,
+    "round": 1,
+    "coach": "Andrew",
+    "player": "Nikola Joki\u0107"
+  },
+  {
+    "pick": 5,
+    "round": 1,
+    "coach": "Joe",
+    "player": "Jalen Brunson"
+  },
+  {
+    "pick": 6,
+    "round": 1,
+    "coach": "Connor",
+    "player": "Jayson Tatum"
+  },
+  {
+    "pick": 7,
+    "round": 2,
+    "coach": "Connor",
+    "player": "Chet Holmgren"
+  },
+  {
+    "pick": 8,
+    "round": 2,
+    "coach": "Joe",
+    "player": "Jalen Williams"
+  },
+  {
+    "pick": 9,
+    "round": 2,
+    "coach": "Andrew",
+    "player": "Karl-Anthony Towns"
+  },
+  {
+    "pick": 10,
+    "round": 2,
+    "coach": "Sam",
+    "player": "Donovan Mitchell"
+  },
+  {
+    "pick": 11,
+    "round": 2,
+    "coach": "Julian",
+    "player": "Cade Cunningham"
+  },
+  {
+    "pick": 12,
+    "round": 2,
+    "coach": "Jono",
+    "player": "Jamal Murray"
+  },
+  {
+    "pick": 13,
+    "round": 3,
+    "coach": "Jono",
+    "player": "Jalen Duren"
+  },
+  {
+    "pick": 14,
+    "round": 3,
+    "coach": "Julian",
+    "player": "Anthony Edwards"
+  },
+  {
+    "pick": 15,
+    "round": 3,
+    "coach": "Sam",
+    "player": "De'Aaron Fox"
+  },
+  {
+    "pick": 16,
+    "round": 3,
+    "coach": "Andrew",
+    "player": "Payton Pritchard"
+  },
+  {
+    "pick": 17,
+    "round": 3,
+    "coach": "Joe",
+    "player": "James Harden"
+  },
+  {
+    "pick": 18,
+    "round": 3,
+    "coach": "Connor",
+    "player": "Derrick White"
+  },
+  {
+    "pick": 19,
+    "round": 4,
+    "coach": "Connor",
+    "player": "Stephon Castle"
+  },
+  {
+    "pick": 20,
+    "round": 4,
+    "coach": "Joe",
+    "player": "Alperen Sengun"
+  },
+  {
+    "pick": 21,
+    "round": 4,
+    "coach": "Andrew",
+    "player": "Aaron Gordon"
+  },
+  {
+    "pick": 22,
+    "round": 4,
+    "coach": "Sam",
+    "player": "Evan Mobley"
+  },
+  {
+    "pick": 23,
+    "round": 4,
+    "coach": "Julian",
+    "player": "Kevin Durant"
+  },
+  {
+    "pick": 24,
+    "round": 4,
+    "coach": "Jono",
+    "player": "OG Anunoby"
+  },
+  {
+    "pick": 25,
+    "round": 5,
+    "coach": "Jono",
+    "player": "Mikal Bridges"
+  },
+  {
+    "pick": 26,
+    "round": 5,
+    "coach": "Julian",
+    "player": "Amen Thompson"
+  },
+  {
+    "pick": 27,
+    "round": 5,
+    "coach": "Sam",
+    "player": "Keldon Johnson"
+  },
+  {
+    "pick": 28,
+    "round": 5,
+    "coach": "Andrew",
+    "player": "Tobias Harris"
+  },
+  {
+    "pick": 29,
+    "round": 5,
+    "coach": "Joe",
+    "player": "Ausar Thompson"
+  },
+  {
+    "pick": 30,
+    "round": 5,
+    "coach": "Connor",
+    "player": "Jalen Johnson"
+  },
+  {
+    "pick": 31,
+    "round": 6,
+    "coach": "Connor",
+    "player": "Ajay Mitchell"
+  },
+  {
+    "pick": 32,
+    "round": 6,
+    "coach": "Joe",
+    "player": "Julius Randle"
+  },
+  {
+    "pick": 33,
+    "round": 6,
+    "coach": "Andrew",
+    "player": "Jabari Smith Jr."
+  },
+  {
+    "pick": 34,
+    "round": 6,
+    "coach": "Sam",
+    "player": "Dylan Harper"
+  },
+  {
+    "pick": 35,
+    "round": 6,
+    "coach": "Julian",
+    "player": "LeBron James"
+  },
+  {
+    "pick": 36,
+    "round": 6,
+    "coach": "Jono",
+    "player": "Isaiah Hartenstein"
+  },
+  {
+    "pick": 37,
+    "round": 7,
+    "coach": "Jono",
+    "player": "Luka Don\u010di\u0107"
+  },
+  {
+    "pick": 38,
+    "round": 7,
+    "coach": "Julian",
+    "player": "Deni Avdija"
+  },
+  {
+    "pick": 39,
+    "round": 7,
+    "coach": "Sam",
+    "player": "Jarrett Allen"
+  },
+  {
+    "pick": 40,
+    "round": 7,
+    "coach": "Andrew",
+    "player": "Josh Hart"
+  },
+  {
+    "pick": 41,
+    "round": 7,
+    "coach": "Joe",
+    "player": "Tyrese Maxey"
+  },
+  {
+    "pick": 42,
+    "round": 7,
+    "coach": "Connor",
+    "player": "Devin Vassell"
+  },
+  {
+    "pick": 43,
+    "round": 8,
+    "coach": "Connor",
+    "player": "Neemias Queta"
+  },
+  {
+    "pick": 44,
+    "round": 8,
+    "coach": "Joe",
+    "player": "Duncan Robinson"
+  },
+  {
+    "pick": 45,
+    "round": 8,
+    "coach": "Andrew",
+    "player": "Stephen Curry"
+  },
+  {
+    "pick": 46,
+    "round": 8,
+    "coach": "Sam",
+    "player": "Nickeil Alexander-Walker"
+  },
+  {
+    "pick": 47,
+    "round": 8,
+    "coach": "Julian",
+    "player": "Devin Booker"
+  },
+  {
+    "pick": 48,
+    "round": 8,
+    "coach": "Jono",
+    "player": "LaMelo Ball"
+  }
+]
