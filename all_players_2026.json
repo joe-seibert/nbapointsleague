@@ -3,9 +3,9 @@
     "Player": "Cade Cunningham",
     "NBA Team": "DET",
     "Coach": "Julian",
-    "Total Points": 275,
-    "Games Played": 9,
-    "PPG": 30.56,
+    "Total Points": 302,
+    "Games Played": 10,
+    "PPG": 30.2,
     "Eliminated": false
   },
   {
@@ -18,6 +18,15 @@
     "Eliminated": false
   },
   {
+    "Player": "Donovan Mitchell",
+    "NBA Team": "CLE",
+    "Coach": "Sam",
+    "Total Points": 251,
+    "Games Played": 10,
+    "PPG": 25.1,
+    "Eliminated": false
+  },
+  {
     "Player": "Tyrese Maxey",
     "NBA Team": "PHI",
     "Coach": "Joe",
@@ -27,30 +36,39 @@
     "Eliminated": false
   },
   {
-    "Player": "Donovan Mitchell",
-    "NBA Team": "CLE",
-    "Coach": "Sam",
-    "Total Points": 216,
-    "Games Played": 9,
-    "PPG": 24.0,
-    "Eliminated": false
-  },
-  {
     "Player": "Tobias Harris",
     "NBA Team": "DET",
     "Coach": "Andrew",
-    "Total Points": 192,
-    "Games Played": 9,
-    "PPG": 21.33,
+    "Total Points": 213,
+    "Games Played": 10,
+    "PPG": 21.3,
     "Eliminated": false
   },
   {
     "Player": "LeBron James",
     "NBA Team": "LAL",
     "Coach": "Julian",
-    "Total Points": 189,
-    "Games Played": 8,
-    "PPG": 23.62,
+    "Total Points": 208,
+    "Games Played": 9,
+    "PPG": 23.11,
+    "Eliminated": false
+  },
+  {
+    "Player": "Shai Gilgeous-Alexander",
+    "NBA Team": "OKC",
+    "Coach": "Jono",
+    "Total Points": 198,
+    "Games Played": 7,
+    "PPG": 28.29,
+    "Eliminated": false
+  },
+  {
+    "Player": "James Harden",
+    "NBA Team": "CLE",
+    "Coach": "Joe",
+    "Total Points": 195,
+    "Games Played": 10,
+    "PPG": 19.5,
     "Eliminated": false
   },
   {
@@ -70,24 +88,6 @@
     "Games Played": 7,
     "PPG": 25.71,
     "Eliminated": true
-  },
-  {
-    "Player": "James Harden",
-    "NBA Team": "CLE",
-    "Coach": "Joe",
-    "Total Points": 176,
-    "Games Played": 9,
-    "PPG": 19.56,
-    "Eliminated": false
-  },
-  {
-    "Player": "Shai Gilgeous-Alexander",
-    "NBA Team": "OKC",
-    "Coach": "Jono",
-    "Total Points": 175,
-    "Games Played": 6,
-    "PPG": 29.17,
-    "Eliminated": false
   },
   {
     "Player": "Paul George",
@@ -124,6 +124,15 @@
     "Games Played": 7,
     "PPG": 24.14,
     "Eliminated": true
+  },
+  {
+    "Player": "Evan Mobley",
+    "NBA Team": "CLE",
+    "Coach": "Sam",
+    "Total Points": 163,
+    "Games Played": 10,
+    "PPG": 16.3,
+    "Eliminated": false
   },
   {
     "Player": "Julius Randle",
@@ -180,9 +189,9 @@
     "Eliminated": false
   },
   {
-    "Player": "Evan Mobley",
-    "NBA Team": "CLE",
-    "Coach": "Sam",
+    "Player": "Rui Hachimura",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
     "Total Points": 150,
     "Games Played": 9,
     "PPG": 16.67,
@@ -243,12 +252,12 @@
     "Eliminated": false
   },
   {
-    "Player": "Rui Hachimura",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 129,
-    "Games Played": 8,
-    "PPG": 16.12,
+    "Player": "Chet Holmgren",
+    "NBA Team": "OKC",
+    "Coach": "Connor",
+    "Total Points": 133,
+    "Games Played": 7,
+    "PPG": 19.0,
     "Eliminated": false
   },
   {
@@ -259,6 +268,42 @@
     "Games Played": 7,
     "PPG": 18.14,
     "Eliminated": true
+  },
+  {
+    "Player": "Marcus Smart",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
+    "Total Points": 124,
+    "Games Played": 9,
+    "PPG": 13.78,
+    "Eliminated": false
+  },
+  {
+    "Player": "Duncan Robinson",
+    "NBA Team": "DET",
+    "Coach": "Joe",
+    "Total Points": 123,
+    "Games Played": 10,
+    "PPG": 12.3,
+    "Eliminated": false
+  },
+  {
+    "Player": "Jarrett Allen",
+    "NBA Team": "CLE",
+    "Coach": "Sam",
+    "Total Points": 122,
+    "Games Played": 10,
+    "PPG": 12.2,
+    "Eliminated": false
+  },
+  {
+    "Player": "Ajay Mitchell",
+    "NBA Team": "OKC",
+    "Coach": "Connor",
+    "Total Points": 122,
+    "Games Played": 7,
+    "PPG": 17.43,
+    "Eliminated": false
   },
   {
     "Player": "Alperen Sengun",
@@ -324,24 +369,6 @@
     "Eliminated": true
   },
   {
-    "Player": "Chet Holmgren",
-    "NBA Team": "OKC",
-    "Coach": "Connor",
-    "Total Points": 115,
-    "Games Played": 6,
-    "PPG": 19.17,
-    "Eliminated": false
-  },
-  {
-    "Player": "Marcus Smart",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 114,
-    "Games Played": 8,
-    "PPG": 14.25,
-    "Eliminated": false
-  },
-  {
     "Player": "Deni Avdija",
     "NBA Team": "POR",
     "Coach": "Julian",
@@ -351,12 +378,12 @@
     "Eliminated": true
   },
   {
-    "Player": "Duncan Robinson",
-    "NBA Team": "DET",
-    "Coach": "Joe",
-    "Total Points": 108,
+    "Player": "Luke Kennard",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
+    "Total Points": 110,
     "Games Played": 9,
-    "PPG": 12.0,
+    "PPG": 12.22,
     "Eliminated": false
   },
   {
@@ -378,12 +405,12 @@
     "Eliminated": true
   },
   {
-    "Player": "Jarrett Allen",
-    "NBA Team": "CLE",
-    "Coach": "Sam",
+    "Player": "Jalen Duren",
+    "NBA Team": "DET",
+    "Coach": "Jono",
     "Total Points": 104,
-    "Games Played": 9,
-    "PPG": 11.56,
+    "Games Played": 10,
+    "PPG": 10.4,
     "Eliminated": false
   },
   {
@@ -405,6 +432,15 @@
     "Eliminated": true
   },
   {
+    "Player": "Max Strus",
+    "NBA Team": "CLE",
+    "Coach": "Undrafted",
+    "Total Points": 101,
+    "Games Played": 10,
+    "PPG": 10.1,
+    "Eliminated": false
+  },
+  {
     "Player": "Collin Murray-Boyles",
     "NBA Team": "TOR",
     "Coach": "Undrafted",
@@ -412,15 +448,6 @@
     "Games Played": 7,
     "PPG": 14.43,
     "Eliminated": true
-  },
-  {
-    "Player": "Dylan Harper",
-    "NBA Team": "SAS",
-    "Coach": "Sam",
-    "Total Points": 100,
-    "Games Played": 8,
-    "PPG": 12.5,
-    "Eliminated": false
   },
   {
     "Player": "Devin Vassell",
@@ -432,17 +459,17 @@
     "Eliminated": false
   },
   {
-    "Player": "Ajay Mitchell",
-    "NBA Team": "OKC",
-    "Coach": "Connor",
-    "Total Points": 98,
-    "Games Played": 6,
-    "PPG": 16.33,
+    "Player": "Dylan Harper",
+    "NBA Team": "SAS",
+    "Coach": "Sam",
+    "Total Points": 100,
+    "Games Played": 8,
+    "PPG": 12.5,
     "Eliminated": false
   },
   {
-    "Player": "Max Strus",
-    "NBA Team": "CLE",
+    "Player": "Deandre Ayton",
+    "NBA Team": "LAL",
     "Coach": "Undrafted",
     "Total Points": 94,
     "Games Played": 9,
@@ -450,21 +477,21 @@
     "Eliminated": false
   },
   {
-    "Player": "Jalen Duren",
-    "NBA Team": "DET",
-    "Coach": "Jono",
+    "Player": "Austin Reaves",
+    "NBA Team": "LAL",
+    "Coach": "Undrafted",
     "Total Points": 93,
-    "Games Played": 9,
-    "PPG": 10.33,
+    "Games Played": 5,
+    "PPG": 18.6,
     "Eliminated": false
   },
   {
-    "Player": "Luke Kennard",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 92,
-    "Games Played": 8,
-    "PPG": 11.5,
+    "Player": "Ausar Thompson",
+    "NBA Team": "DET",
+    "Coach": "Joe",
+    "Total Points": 90,
+    "Games Played": 10,
+    "PPG": 9.0,
     "Eliminated": false
   },
   {
@@ -477,15 +504,6 @@
     "Eliminated": true
   },
   {
-    "Player": "Julian Champagnie",
-    "NBA Team": "SAS",
-    "Coach": "Undrafted",
-    "Total Points": 86,
-    "Games Played": 8,
-    "PPG": 10.75,
-    "Eliminated": false
-  },
-  {
     "Player": "Josh Hart",
     "NBA Team": "NYK",
     "Coach": "Andrew",
@@ -495,13 +513,13 @@
     "Eliminated": false
   },
   {
-    "Player": "Devin Booker",
-    "NBA Team": "PHX",
-    "Coach": "Julian",
-    "Total Points": 85,
-    "Games Played": 4,
-    "PPG": 21.25,
-    "Eliminated": true
+    "Player": "Julian Champagnie",
+    "NBA Team": "SAS",
+    "Coach": "Undrafted",
+    "Total Points": 86,
+    "Games Played": 8,
+    "PPG": 10.75,
+    "Eliminated": false
   },
   {
     "Player": "Cameron Johnson",
@@ -513,13 +531,13 @@
     "Eliminated": true
   },
   {
-    "Player": "Deandre Ayton",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 84,
-    "Games Played": 8,
-    "PPG": 10.5,
-    "Eliminated": false
+    "Player": "Devin Booker",
+    "NBA Team": "PHX",
+    "Coach": "Julian",
+    "Total Points": 85,
+    "Games Played": 4,
+    "PPG": 21.25,
+    "Eliminated": true
   },
   {
     "Player": "Tari Eason",
@@ -528,15 +546,6 @@
     "Total Points": 83,
     "Games Played": 6,
     "PPG": 13.83,
-    "Eliminated": true
-  },
-  {
-    "Player": "Nickeil Alexander-Walker",
-    "NBA Team": "ATL",
-    "Coach": "Sam",
-    "Total Points": 82,
-    "Games Played": 6,
-    "PPG": 13.67,
     "Eliminated": true
   },
   {
@@ -549,30 +558,21 @@
     "Eliminated": true
   },
   {
+    "Player": "Nickeil Alexander-Walker",
+    "NBA Team": "ATL",
+    "Coach": "Sam",
+    "Total Points": 82,
+    "Games Played": 6,
+    "PPG": 13.67,
+    "Eliminated": true
+  },
+  {
     "Player": "Jrue Holiday",
     "NBA Team": "POR",
     "Coach": "Undrafted",
     "Total Points": 82,
     "Games Played": 5,
     "PPG": 16.4,
-    "Eliminated": true
-  },
-  {
-    "Player": "Ausar Thompson",
-    "NBA Team": "DET",
-    "Coach": "Joe",
-    "Total Points": 81,
-    "Games Played": 9,
-    "PPG": 9.0,
-    "Eliminated": false
-  },
-  {
-    "Player": "Ja'Kobe Walter",
-    "NBA Team": "TOR",
-    "Coach": "Undrafted",
-    "Total Points": 78,
-    "Games Played": 7,
-    "PPG": 11.14,
     "Eliminated": true
   },
   {
@@ -594,6 +594,15 @@
     "Eliminated": true
   },
   {
+    "Player": "Ja'Kobe Walter",
+    "NBA Team": "TOR",
+    "Coach": "Undrafted",
+    "Total Points": 78,
+    "Games Played": 7,
+    "PPG": 11.14,
+    "Eliminated": true
+  },
+  {
     "Player": "Wendell Carter Jr.",
     "NBA Team": "ORL",
     "Coach": "Undrafted",
@@ -601,15 +610,6 @@
     "Games Played": 7,
     "PPG": 11.0,
     "Eliminated": true
-  },
-  {
-    "Player": "Austin Reaves",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 76,
-    "Games Played": 4,
-    "PPG": 19.0,
-    "Eliminated": false
   },
   {
     "Player": "Terrence Shannon Jr.",
@@ -642,9 +642,18 @@
     "Player": "Daniss Jenkins",
     "NBA Team": "DET",
     "Coach": "Undrafted",
-    "Total Points": 73,
-    "Games Played": 9,
-    "PPG": 8.11,
+    "Total Points": 75,
+    "Games Played": 10,
+    "PPG": 7.5,
+    "Eliminated": false
+  },
+  {
+    "Player": "Isaiah Hartenstein",
+    "NBA Team": "OKC",
+    "Coach": "Jono",
+    "Total Points": 74,
+    "Games Played": 7,
+    "PPG": 10.57,
     "Eliminated": false
   },
   {
@@ -663,6 +672,15 @@
     "Total Points": 71,
     "Games Played": 9,
     "PPG": 7.89,
+    "Eliminated": false
+  },
+  {
+    "Player": "Dennis Schr\u00f6der",
+    "NBA Team": "CLE",
+    "Coach": "Undrafted",
+    "Total Points": 70,
+    "Games Played": 10,
+    "PPG": 7.0,
     "Eliminated": false
   },
   {
@@ -711,15 +729,6 @@
     "Eliminated": true
   },
   {
-    "Player": "Isaiah Hartenstein",
-    "NBA Team": "OKC",
-    "Coach": "Jono",
-    "Total Points": 62,
-    "Games Played": 6,
-    "PPG": 10.33,
-    "Eliminated": false
-  },
-  {
     "Player": "Keldon Johnson",
     "NBA Team": "SAS",
     "Coach": "Sam",
@@ -738,6 +747,15 @@
     "Eliminated": true
   },
   {
+    "Player": "Sam Merrill",
+    "NBA Team": "CLE",
+    "Coach": "Undrafted",
+    "Total Points": 60,
+    "Games Played": 9,
+    "PPG": 6.67,
+    "Eliminated": false
+  },
+  {
     "Player": "Anthony Black",
     "NBA Team": "ORL",
     "Coach": "Undrafted",
@@ -747,12 +765,12 @@
     "Eliminated": true
   },
   {
-    "Player": "Dennis Schr\u00f6der",
+    "Player": "Dean Wade",
     "NBA Team": "CLE",
     "Coach": "Undrafted",
-    "Total Points": 59,
-    "Games Played": 9,
-    "PPG": 6.56,
+    "Total Points": 58,
+    "Games Played": 10,
+    "PPG": 5.8,
     "Eliminated": false
   },
   {
@@ -765,21 +783,21 @@
     "Eliminated": false
   },
   {
-    "Player": "Dean Wade",
-    "NBA Team": "CLE",
-    "Coach": "Undrafted",
-    "Total Points": 55,
-    "Games Played": 9,
-    "PPG": 6.11,
-    "Eliminated": false
-  },
-  {
     "Player": "Jaylon Tyson",
     "NBA Team": "CLE",
     "Coach": "Undrafted",
-    "Total Points": 54,
-    "Games Played": 9,
-    "PPG": 6.0,
+    "Total Points": 57,
+    "Games Played": 10,
+    "PPG": 5.7,
+    "Eliminated": false
+  },
+  {
+    "Player": "Cason Wallace",
+    "NBA Team": "OKC",
+    "Coach": "Undrafted",
+    "Total Points": 55,
+    "Games Played": 7,
+    "PPG": 7.86,
     "Eliminated": false
   },
   {
@@ -792,12 +810,12 @@
     "Eliminated": true
   },
   {
-    "Player": "Sam Merrill",
-    "NBA Team": "CLE",
+    "Player": "Alex Caruso",
+    "NBA Team": "OKC",
     "Coach": "Undrafted",
-    "Total Points": 53,
-    "Games Played": 8,
-    "PPG": 6.62,
+    "Total Points": 52,
+    "Games Played": 7,
+    "PPG": 7.43,
     "Eliminated": false
   },
   {
@@ -855,12 +873,21 @@
     "Eliminated": true
   },
   {
-    "Player": "Alex Caruso",
+    "Player": "Isaiah Joe",
     "NBA Team": "OKC",
     "Coach": "Undrafted",
     "Total Points": 46,
     "Games Played": 6,
     "PPG": 7.67,
+    "Eliminated": false
+  },
+  {
+    "Player": "Luguentz Dort",
+    "NBA Team": "OKC",
+    "Coach": "Undrafted",
+    "Total Points": 46,
+    "Games Played": 7,
+    "PPG": 6.57,
     "Eliminated": false
   },
   {
@@ -870,6 +897,15 @@
     "Total Points": 45,
     "Games Played": 8,
     "PPG": 5.62,
+    "Eliminated": false
+  },
+  {
+    "Player": "Jared McCain",
+    "NBA Team": "OKC",
+    "Coach": "Undrafted",
+    "Total Points": 45,
+    "Games Played": 7,
+    "PPG": 6.43,
     "Eliminated": false
   },
   {
@@ -900,15 +936,6 @@
     "Eliminated": false
   },
   {
-    "Player": "Jared McCain",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 42,
-    "Games Played": 6,
-    "PPG": 7.0,
-    "Eliminated": false
-  },
-  {
     "Player": "Collin Gillespie",
     "NBA Team": "PHX",
     "Coach": "Undrafted",
@@ -927,12 +954,21 @@
     "Eliminated": false
   },
   {
-    "Player": "Cason Wallace",
-    "NBA Team": "OKC",
+    "Player": "Isaiah Stewart",
+    "NBA Team": "DET",
+    "Coach": "Undrafted",
+    "Total Points": 41,
+    "Games Played": 10,
+    "PPG": 4.1,
+    "Eliminated": false
+  },
+  {
+    "Player": "Jaxson Hayes",
+    "NBA Team": "LAL",
     "Coach": "Undrafted",
     "Total Points": 39,
-    "Games Played": 6,
-    "PPG": 6.5,
+    "Games Played": 9,
+    "PPG": 4.33,
     "Eliminated": false
   },
   {
@@ -954,21 +990,21 @@
     "Eliminated": true
   },
   {
-    "Player": "Jaxson Hayes",
-    "NBA Team": "LAL",
-    "Coach": "Undrafted",
-    "Total Points": 38,
-    "Games Played": 8,
-    "PPG": 4.75,
-    "Eliminated": false
-  },
-  {
     "Player": "Bruce Brown",
     "NBA Team": "DEN",
     "Coach": "Undrafted",
     "Total Points": 38,
     "Games Played": 6,
     "PPG": 6.33,
+    "Eliminated": true
+  },
+  {
+    "Player": "Nikola Vu\u010devi\u0107",
+    "NBA Team": "BOS",
+    "Coach": "Undrafted",
+    "Total Points": 37,
+    "Games Played": 6,
+    "PPG": 6.17,
     "Eliminated": true
   },
   {
@@ -981,39 +1017,21 @@
     "Eliminated": false
   },
   {
-    "Player": "Nikola Vu\u010devi\u0107",
-    "NBA Team": "BOS",
-    "Coach": "Undrafted",
-    "Total Points": 37,
-    "Games Played": 6,
-    "PPG": 6.17,
-    "Eliminated": true
-  },
-  {
-    "Player": "Isaiah Stewart",
-    "NBA Team": "DET",
-    "Coach": "Undrafted",
-    "Total Points": 37,
-    "Games Played": 9,
-    "PPG": 4.11,
-    "Eliminated": false
-  },
-  {
-    "Player": "Luguentz Dort",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 36,
-    "Games Played": 6,
-    "PPG": 6.0,
-    "Eliminated": false
-  },
-  {
     "Player": "Shaedon Sharpe",
     "NBA Team": "POR",
     "Coach": "Undrafted",
     "Total Points": 36,
     "Games Played": 5,
     "PPG": 7.2,
+    "Eliminated": true
+  },
+  {
+    "Player": "Donovan Clingan",
+    "NBA Team": "POR",
+    "Coach": "Undrafted",
+    "Total Points": 35,
+    "Games Played": 5,
+    "PPG": 7.0,
     "Eliminated": true
   },
   {
@@ -1035,15 +1053,6 @@
     "Eliminated": true
   },
   {
-    "Player": "Donovan Clingan",
-    "NBA Team": "POR",
-    "Coach": "Undrafted",
-    "Total Points": 35,
-    "Games Played": 5,
-    "PPG": 7.0,
-    "Eliminated": true
-  },
-  {
     "Player": "Aaron Gordon",
     "NBA Team": "DEN",
     "Coach": "Andrew",
@@ -1051,15 +1060,6 @@
     "Games Played": 3,
     "PPG": 11.33,
     "Eliminated": true
-  },
-  {
-    "Player": "Isaiah Joe",
-    "NBA Team": "OKC",
-    "Coach": "Undrafted",
-    "Total Points": 34,
-    "Games Played": 5,
-    "PPG": 6.8,
-    "Eliminated": false
   },
   {
     "Player": "Mike Conley",
@@ -1098,13 +1098,13 @@
     "Eliminated": true
   },
   {
-    "Player": "Oso Ighodaro",
-    "NBA Team": "PHX",
+    "Player": "Javonte Green",
+    "NBA Team": "DET",
     "Coach": "Undrafted",
     "Total Points": 30,
-    "Games Played": 4,
-    "PPG": 7.5,
-    "Eliminated": true
+    "Games Played": 10,
+    "PPG": 3.0,
+    "Eliminated": false
   },
   {
     "Player": "Baylor Scheierman",
@@ -1116,12 +1116,12 @@
     "Eliminated": true
   },
   {
-    "Player": "Josh Okogie",
-    "NBA Team": "HOU",
+    "Player": "Oso Ighodaro",
+    "NBA Team": "PHX",
     "Coach": "Undrafted",
-    "Total Points": 29,
-    "Games Played": 6,
-    "PPG": 4.83,
+    "Total Points": 30,
+    "Games Played": 4,
+    "PPG": 7.5,
     "Eliminated": true
   },
   {

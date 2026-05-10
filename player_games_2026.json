@@ -131,6 +131,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 4
     }
   ],
   "Adem Bona": [
@@ -213,6 +219,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 4
     }
   ],
   "Ajay Mitchell": [
@@ -251,6 +263,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 20
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 24
     }
   ],
   "Alex Caruso": [
@@ -289,6 +307,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 6
     }
   ],
   "Alperen Sengun": [
@@ -657,6 +681,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 9
     }
   ],
   "Austin Reaves": [
@@ -683,6 +713,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 31
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Ayo Dosunmu": [
@@ -949,6 +985,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Bruce Brown": [
@@ -1095,6 +1137,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 25
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 27
     }
   ],
   "Cameron Johnson": [
@@ -1183,6 +1231,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 6
     }
   ],
   "Carter Bryant": [
@@ -1265,6 +1319,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 16
     }
   ],
   "Chaz Lanier": [
@@ -1311,6 +1371,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 18
     }
   ],
   "Christian Braun": [
@@ -1583,6 +1649,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Daniss Jenkins": [
@@ -1639,6 +1711,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "De'Aaron Fox": [
@@ -1745,6 +1823,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Deandre Ayton": [
@@ -1795,6 +1879,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Deni Avdija": [
@@ -1883,6 +1973,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 11
     }
   ],
   "Derrick White": [
@@ -2211,6 +2307,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 31
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 35
     }
   ],
   "Donte DiVincenzo": [
@@ -2319,6 +2421,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 17
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 15
     }
   ],
   "Dylan Harper": [
@@ -2463,6 +2571,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 9
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 13
     }
   ],
   "Franz Wagner": [
@@ -2741,6 +2855,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 12
     }
   ],
   "Isaiah Joe": [
@@ -2773,6 +2893,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 12
     }
   ],
   "Isaiah Stewart": [
@@ -2829,6 +2955,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 4
     }
   ],
   "JD Davison": [
@@ -3251,6 +3383,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 11
     }
   ],
   "Jalen Green": [
@@ -3595,6 +3733,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 19
     }
   ],
   "Jamison Battle": [
@@ -3671,6 +3815,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 18
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Jarred Vanderbilt": [
@@ -3765,6 +3915,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 18
     }
   ],
   "Jase Richardson": [
@@ -3829,6 +3985,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Jaxson Hayes": [
@@ -3879,6 +4041,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 1
     }
   ],
   "Jaylen Brown": [
@@ -3987,6 +4155,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Jaylon Tyson": [
@@ -4043,6 +4217,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Jayson Tatum": [
@@ -5085,6 +5265,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Keon Ellis": [
@@ -5387,6 +5573,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 23
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 19
     }
   ],
   "Lindy Waters III": [
@@ -5451,6 +5643,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 10
     }
   ],
   "Luka Garza": [
@@ -5545,6 +5743,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 18
     }
   ],
   "Luke Kornet": [
@@ -5659,6 +5863,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Mason Plumlee": [
@@ -5769,6 +5979,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Maxi Kleber": [
@@ -5777,6 +5993,12 @@
       "Matchup": "LAL @ HOU",
       "WL": "L",
       "Points": 1
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Mikal Bridges": [
@@ -6219,6 +6441,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 6
     }
   ],
   "Nickeil Alexander-Walker": [
@@ -6321,6 +6549,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Nikola Vu\u010devi\u0107": [
@@ -6639,6 +6873,12 @@
       "Matchup": "DET vs. ORL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 11
     }
   ],
   "Payton Pritchard": [
@@ -6955,6 +7195,12 @@
       "Matchup": "DET vs. CLE",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Royce O'Neale": [
@@ -7087,6 +7333,12 @@
       "Matchup": "LAL @ OKC",
       "WL": "L",
       "Points": 16
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "LAL vs. OKC",
+      "WL": "L",
+      "Points": 21
     }
   ],
   "Ryan Dunn": [
@@ -7207,6 +7459,12 @@
       "Matchup": "CLE @ DET",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "CLE vs. DET",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Sandro Mamukelashvili": [
@@ -7397,6 +7655,12 @@
       "Matchup": "OKC vs. LAL",
       "WL": "W",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 23
     }
   ],
   "Sidy Cissoko": [
@@ -7706,6 +7970,12 @@
       "Date": "2026-05-07",
       "Matchup": "DET vs. CLE",
       "WL": "W",
+      "Points": 21
+    },
+    {
+      "Date": "2026-05-09",
+      "Matchup": "DET @ CLE",
+      "WL": "L",
       "Points": 21
     }
   ],
