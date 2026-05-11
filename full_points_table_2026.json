@@ -33,8 +33,8 @@
   },
   {
     "Player": "Mikal Bridges",
-    "Total Points": 118,
-    "Games Played": 9,
+    "Total Points": 130,
+    "Games Played": 10,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -65,8 +65,8 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 153,
-    "Games Played": 7,
+    "Total Points": 157,
+    "Games Played": 8,
     "Team": "Julian",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -81,8 +81,8 @@
   },
   {
     "Player": "Anthony Edwards",
-    "Total Points": 136,
-    "Games Played": 7,
+    "Total Points": 172,
+    "Games Played": 8,
     "Team": "Julian",
     "NBA Team": "MIN",
     "Eliminated": false
@@ -145,8 +145,8 @@
   },
   {
     "Player": "De'Aaron Fox",
-    "Total Points": 144,
-    "Games Played": 8,
+    "Total Points": 168,
+    "Games Played": 9,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -161,16 +161,16 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 62,
-    "Games Played": 8,
+    "Total Points": 66,
+    "Games Played": 9,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 100,
-    "Games Played": 8,
+    "Total Points": 124,
+    "Games Played": 9,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -201,8 +201,8 @@
   },
   {
     "Player": "Karl-Anthony Towns",
-    "Total Points": 157,
-    "Games Played": 9,
+    "Total Points": 174,
+    "Games Played": 10,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -241,8 +241,8 @@
   },
   {
     "Player": "Josh Hart",
-    "Total Points": 86,
-    "Games Played": 9,
+    "Total Points": 103,
+    "Games Played": 10,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -257,8 +257,8 @@
   },
   {
     "Player": "Jalen Brunson",
-    "Total Points": 252,
-    "Games Played": 9,
+    "Total Points": 274,
+    "Games Played": 10,
     "Team": "Joe",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -297,19 +297,19 @@
   },
   {
     "Player": "Julius Randle",
-    "Total Points": 160,
-    "Games Played": 9,
+    "Total Points": 172,
+    "Games Played": 10,
     "Team": "Joe",
     "NBA Team": "MIN",
     "Eliminated": false
   },
   {
     "Player": "Tyrese Maxey",
-    "Total Points": 244,
-    "Games Played": 10,
+    "Total Points": 261,
+    "Games Played": 11,
     "Team": "Joe",
     "NBA Team": "PHI",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Duncan Robinson",
@@ -345,8 +345,8 @@
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 150,
-    "Games Played": 8,
+    "Total Points": 170,
+    "Games Played": 9,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -369,8 +369,8 @@
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 100,
-    "Games Played": 8,
+    "Total Points": 114,
+    "Games Played": 9,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
