@@ -615,6 +615,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 36
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 20
     }
   ],
   "Ariel Hukporti": [
@@ -829,6 +835,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 16
     }
   ],
   "Baylor Scheierman": [
@@ -896,6 +908,12 @@
     },
     {
       "Date": "2026-05-06",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-05-12",
       "Matchup": "SAS vs. MIN",
       "WL": "W",
       "Points": 2
@@ -972,6 +990,12 @@
     },
     {
       "Date": "2026-05-06",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 0
+    },
+    {
+      "Date": "2026-05-12",
       "Matchup": "MIN @ SAS",
       "WL": "L",
       "Points": 0
@@ -1365,6 +1389,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Cason Wallace": [
@@ -1887,6 +1917,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 24
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 18
     }
   ],
   "Dean Wade": [
@@ -2287,6 +2323,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 12
     }
   ],
   "Dillon Brooks": [
@@ -2645,6 +2687,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 24
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 12
     }
   ],
   "Dyson Daniels": [
@@ -2957,6 +3005,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Haywood Highsmith": [
@@ -3355,6 +3409,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 14
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Jae'Sean Tate": [
@@ -4375,6 +4435,12 @@
       "Matchup": "MIN @ SAS",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Jaylin Williams": [
@@ -4657,6 +4723,12 @@
       "Matchup": "MIN @ SAS",
       "WL": "L",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Joe Ingles": [
@@ -4909,6 +4981,12 @@
       "Matchup": "SAS vs. MIN",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Jordan Walsh": [
@@ -5197,6 +5275,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 8
     }
   ],
   "Julian Phillips": [
@@ -5217,6 +5301,12 @@
       "Matchup": "MIN @ SAS",
       "WL": "L",
       "Points": 3
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Julian Strawther": [
@@ -5293,6 +5383,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Justin Edwards": [
@@ -5487,6 +5583,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 21
     }
   ],
   "Kelly Olynyk": [
@@ -5507,6 +5609,12 @@
       "Matchup": "SAS vs. MIN",
       "WL": "W",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Kelly Oubre Jr.": [
@@ -5787,6 +5895,12 @@
       "Matchup": "MIN @ SAS",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 1
     }
   ],
   "Kyle Lowry": [
@@ -5965,6 +6079,12 @@
       "Matchup": "SAS vs. MIN",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Luguentz Dort": [
@@ -6177,6 +6297,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 7
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Marcus Sasser": [
@@ -6525,6 +6651,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 5
     }
   ],
   "Miles McBride": [
@@ -6809,6 +6941,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 15
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 12
     }
   ],
   "Neemias Queta": [
@@ -7763,6 +7901,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 11
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 4
     }
   ],
   "Rui Hachimura": [
@@ -8279,6 +8423,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 20
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 17
     }
   ],
   "Tari Eason": [
@@ -8361,6 +8511,12 @@
       "Matchup": "MIN vs. SAS",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "MIN @ SAS",
+      "WL": "L",
+      "Points": 2
     }
   ],
   "Thomas Bryant": [
@@ -8931,6 +9087,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-12",
+      "Matchup": "SAS vs. MIN",
+      "WL": "W",
+      "Points": 27
     }
   ],
   "V\u00edt Krej\u010d\u00ed": [
