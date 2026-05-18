@@ -17,11 +17,11 @@
   },
   {
     "Player": "Jalen Duren",
-    "Total Points": 136,
-    "Games Played": 13,
+    "Total Points": 143,
+    "Games Played": 14,
     "Team": "Jono",
     "NBA Team": "DET",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "OG Anunoby",
@@ -73,11 +73,11 @@
   },
   {
     "Player": "Cade Cunningham",
-    "Total Points": 381,
-    "Games Played": 13,
+    "Total Points": 394,
+    "Games Played": 14,
     "Team": "Julian",
     "NBA Team": "DET",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Anthony Edwards",
@@ -137,8 +137,8 @@
   },
   {
     "Player": "Donovan Mitchell",
-    "Total Points": 333,
-    "Games Played": 13,
+    "Total Points": 359,
+    "Games Played": 14,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -153,8 +153,8 @@
   },
   {
     "Player": "Evan Mobley",
-    "Total Points": 217,
-    "Games Played": 13,
+    "Total Points": 238,
+    "Games Played": 14,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -177,8 +177,8 @@
   },
   {
     "Player": "Jarrett Allen",
-    "Total Points": 160,
-    "Games Played": 13,
+    "Total Points": 183,
+    "Games Played": 14,
     "Team": "Sam",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -225,11 +225,11 @@
   },
   {
     "Player": "Tobias Harris",
-    "Total Points": 248,
-    "Games Played": 13,
+    "Total Points": 253,
+    "Games Played": 14,
     "Team": "Andrew",
     "NBA Team": "DET",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jabari Smith Jr.",
@@ -273,8 +273,8 @@
   },
   {
     "Player": "James Harden",
-    "Total Points": 272,
-    "Games Played": 13,
+    "Total Points": 281,
+    "Games Played": 14,
     "Team": "Joe",
     "NBA Team": "CLE",
     "Eliminated": false
@@ -289,11 +289,11 @@
   },
   {
     "Player": "Ausar Thompson",
-    "Total Points": 110,
-    "Games Played": 13,
+    "Total Points": 115,
+    "Games Played": 14,
     "Team": "Joe",
     "NBA Team": "DET",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Julius Randle",
@@ -313,11 +313,11 @@
   },
   {
     "Player": "Duncan Robinson",
-    "Total Points": 141,
-    "Games Played": 12,
+    "Total Points": 154,
+    "Games Played": 13,
     "Team": "Joe",
     "NBA Team": "DET",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jayson Tatum",
