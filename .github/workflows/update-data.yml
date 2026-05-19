@@ -26,13 +26,32 @@ jobs:
 
       - name: Execute Python script
         env:
-          WEBSHARE_PROXY: ${{ secrets.WEBSHARE_PROXY }}
+          WEBSHARE_API_KEY: ${{ secrets.WEBSHARE_API_KEY }}
         uses: nick-fields/retry@v3
         with:
           timeout_minutes: 5
           max_attempts: 3
           retry_wait_seconds: 60
-          command: uv run points_league.py
+          # Webshare's free-tier proxy IPs get reassigned periodically, so a
+          # static proxy URL goes stale and returns 407. Fetch the current
+          # list from the API on every attempt and pick a random valid one.
+          command: |
+            set -euo pipefail
+            PROXY_JSON=$(curl -sfS \
+              -H "Authorization: Token $WEBSHARE_API_KEY" \
+              "https://proxy.webshare.io/api/v2/proxy/list/?mode=direct&page_size=25")
+            mapfile -t PROXIES < <(echo "$PROXY_JSON" | jq -r '
+              .results[]
+              | select(.valid == true)
+              | "http://\(.username):\(.password)@\(.proxy_address):\(.port)"
+            ')
+            if [ ${#PROXIES[@]} -eq 0 ]; then
+              echo "No valid proxies returned by Webshare API"
+              exit 1
+            fi
+            export WEBSHARE_PROXY="${PROXIES[$RANDOM % ${#PROXIES[@]}]}"
+            echo "Picked 1 of ${#PROXIES[@]} valid proxies from Webshare"
+            uv run points_league.py
 
       - name: Push data to data branch
         run: |
