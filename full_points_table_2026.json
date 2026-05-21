@@ -1,8 +1,8 @@
 [
   {
     "Player": "Shai Gilgeous-Alexander",
-    "Total Points": 257,
-    "Games Played": 9,
+    "Total Points": 287,
+    "Games Played": 10,
     "Team": "Jono",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -41,8 +41,8 @@
   },
   {
     "Player": "Isaiah Hartenstein",
-    "Total Points": 81,
-    "Games Played": 9,
+    "Total Points": 91,
+    "Games Played": 10,
     "Team": "Jono",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -65,8 +65,8 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 244,
-    "Games Played": 11,
+    "Total Points": 265,
+    "Games Played": 12,
     "Team": "Julian",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -161,16 +161,16 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 100,
-    "Games Played": 12,
+    "Total Points": 110,
+    "Games Played": 13,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 175,
-    "Games Played": 12,
+    "Total Points": 187,
+    "Games Played": 13,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -265,8 +265,8 @@
   },
   {
     "Player": "Jalen Williams",
-    "Total Points": 67,
-    "Games Played": 3,
+    "Total Points": 71,
+    "Games Played": 4,
     "Team": "Joe",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -329,8 +329,8 @@
   },
   {
     "Player": "Chet Holmgren",
-    "Total Points": 157,
-    "Games Played": 9,
+    "Total Points": 170,
+    "Games Played": 10,
     "Team": "Connor",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -345,8 +345,8 @@
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 236,
-    "Games Played": 12,
+    "Total Points": 261,
+    "Games Played": 13,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -361,16 +361,16 @@
   },
   {
     "Player": "Ajay Mitchell",
-    "Total Points": 154,
-    "Games Played": 9,
+    "Total Points": 164,
+    "Games Played": 10,
     "Team": "Connor",
     "NBA Team": "OKC",
     "Eliminated": false
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 150,
-    "Games Played": 12,
+    "Total Points": 172,
+    "Games Played": 13,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
