@@ -155,6 +155,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Adem Bona": [
@@ -317,6 +323,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 2
     }
   ],
   "Alex Caruso": [
@@ -379,6 +391,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 17
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 15
     }
   ],
   "Alperen Sengun": [
@@ -989,6 +1007,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Blake Wesley": [
@@ -1527,6 +1551,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Cason Wallace": [
@@ -1589,6 +1619,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 11
     }
   ],
   "Chaz Lanier": [
@@ -1671,6 +1707,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 13
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 14
     }
   ],
   "Christian Braun": [
@@ -2133,6 +2175,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "W",
       "Points": 21
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 15
     }
   ],
   "Dean Wade": [
@@ -2617,6 +2665,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 22
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 20
     }
   ],
   "Dillon Brooks": [
@@ -3041,6 +3095,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 6
     }
   ],
   "Dyson Daniels": [
@@ -3407,6 +3467,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 5
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Haywood Highsmith": [
@@ -3509,6 +3575,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 5
     }
   ],
   "Isaiah Joe": [
@@ -3565,6 +3637,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Isaiah Stewart": [
@@ -4643,6 +4721,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 24
     }
   ],
   "Jarred Vanderbilt": [
@@ -5067,6 +5151,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 18
     }
   ],
   "Jaylon Tyson": [
@@ -5617,6 +5707,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 6
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Jordan Walsh": [
@@ -5953,6 +6049,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 10
     }
   ],
   "Julian Phillips": [
@@ -6303,6 +6405,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 10
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 5
     }
   ],
   "Kelly Olynyk": [
@@ -6334,6 +6442,12 @@
       "Date": "2026-05-15",
       "Matchup": "SAS @ MIN",
       "WL": "W",
+      "Points": 3
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
       "Points": 3
     }
   ],
@@ -6441,6 +6555,12 @@
       "Matchup": "OKC @ LAL",
       "WL": "W",
       "Points": 0
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 5
     }
   ],
   "Keon Ellis": [
@@ -6859,6 +6979,12 @@
       "Matchup": "SAS @ MIN",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Luguentz Dort": [
@@ -6921,6 +7047,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Luka Garza": [
@@ -7107,6 +7239,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 4
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 4
     }
   ],
   "Marcus Sasser": [
@@ -7226,6 +7364,12 @@
       "Date": "2026-05-15",
       "Matchup": "SAS @ MIN",
       "WL": "W",
+      "Points": 2
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
       "Points": 2
     }
   ],
@@ -8059,6 +8203,12 @@
     {
       "Date": "2026-05-09",
       "Matchup": "OKC @ LAL",
+      "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
       "WL": "W",
       "Points": 0
     }
@@ -9323,6 +9473,12 @@
       "Matchup": "OKC vs. SAS",
       "WL": "W",
       "Points": 30
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "OKC @ SAS",
+      "WL": "W",
+      "Points": 26
     }
   ],
   "Sidy Cissoko": [
@@ -9467,6 +9623,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 25
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 14
     }
   ],
   "Tari Eason": [
@@ -10215,6 +10377,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "L",
       "Points": 21
+    },
+    {
+      "Date": "2026-05-22",
+      "Matchup": "SAS vs. OKC",
+      "WL": "L",
+      "Points": 26
     }
   ],
   "V\u00edt Krej\u010d\u00ed": [
