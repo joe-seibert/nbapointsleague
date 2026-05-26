@@ -25,16 +25,16 @@
   },
   {
     "Player": "OG Anunoby",
-    "Total Points": 219,
-    "Games Played": 11,
+    "Total Points": 236,
+    "Games Played": 12,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
   },
   {
     "Player": "Mikal Bridges",
-    "Total Points": 189,
-    "Games Played": 13,
+    "Total Points": 204,
+    "Games Played": 14,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -137,11 +137,11 @@
   },
   {
     "Player": "Donovan Mitchell",
-    "Total Points": 437,
-    "Games Played": 17,
+    "Total Points": 468,
+    "Games Played": 18,
     "Team": "Sam",
     "NBA Team": "CLE",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "De'Aaron Fox",
@@ -153,11 +153,11 @@
   },
   {
     "Player": "Evan Mobley",
-    "Total Points": 291,
-    "Games Played": 17,
+    "Total Points": 306,
+    "Games Played": 18,
     "Team": "Sam",
     "NBA Team": "CLE",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Keldon Johnson",
@@ -177,11 +177,11 @@
   },
   {
     "Player": "Jarrett Allen",
-    "Total Points": 223,
-    "Games Played": 17,
+    "Total Points": 229,
+    "Games Played": 18,
     "Team": "Sam",
     "NBA Team": "CLE",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Nickeil Alexander-Walker",
@@ -201,8 +201,8 @@
   },
   {
     "Player": "Karl-Anthony Towns",
-    "Total Points": 218,
-    "Games Played": 13,
+    "Total Points": 237,
+    "Games Played": 14,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -241,8 +241,8 @@
   },
   {
     "Player": "Josh Hart",
-    "Total Points": 154,
-    "Games Played": 13,
+    "Total Points": 160,
+    "Games Played": 14,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -257,8 +257,8 @@
   },
   {
     "Player": "Jalen Brunson",
-    "Total Points": 361,
-    "Games Played": 13,
+    "Total Points": 376,
+    "Games Played": 14,
     "Team": "Joe",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -273,11 +273,11 @@
   },
   {
     "Player": "James Harden",
-    "Total Points": 333,
-    "Games Played": 17,
+    "Total Points": 345,
+    "Games Played": 18,
     "Team": "Joe",
     "NBA Team": "CLE",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Alperen Sengun",
