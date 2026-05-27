@@ -1,8 +1,8 @@
 [
   {
     "Player": "Shai Gilgeous-Alexander",
-    "Total Points": 332,
-    "Games Played": 12,
+    "Total Points": 364,
+    "Games Played": 13,
     "Team": "Jono",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -41,8 +41,8 @@
   },
   {
     "Player": "Isaiah Hartenstein",
-    "Total Points": 108,
-    "Games Played": 12,
+    "Total Points": 120,
+    "Games Played": 13,
     "Team": "Jono",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -65,8 +65,8 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 324,
-    "Games Played": 14,
+    "Total Points": 344,
+    "Games Played": 15,
     "Team": "Julian",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -145,8 +145,8 @@
   },
   {
     "Player": "De'Aaron Fox",
-    "Total Points": 234,
-    "Games Played": 13,
+    "Total Points": 243,
+    "Games Played": 14,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -161,16 +161,16 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 121,
-    "Games Played": 15,
+    "Total Points": 136,
+    "Games Played": 16,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 200,
-    "Games Played": 15,
+    "Total Points": 205,
+    "Games Played": 16,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -329,8 +329,8 @@
   },
   {
     "Player": "Chet Holmgren",
-    "Total Points": 194,
-    "Games Played": 12,
+    "Total Points": 210,
+    "Games Played": 13,
     "Team": "Connor",
     "NBA Team": "OKC",
     "Eliminated": false
@@ -345,8 +345,8 @@
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 288,
-    "Games Played": 15,
+    "Total Points": 312,
+    "Games Played": 16,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -369,8 +369,8 @@
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 205,
-    "Games Played": 15,
+    "Total Points": 211,
+    "Games Played": 16,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
