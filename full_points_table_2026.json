@@ -1,11 +1,11 @@
 [
   {
     "Player": "Shai Gilgeous-Alexander",
-    "Total Points": 379,
-    "Games Played": 14,
+    "Total Points": 414,
+    "Games Played": 15,
     "Team": "Jono",
     "NBA Team": "OKC",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jamal Murray",
@@ -41,11 +41,11 @@
   },
   {
     "Player": "Isaiah Hartenstein",
-    "Total Points": 130,
-    "Games Played": 14,
+    "Total Points": 137,
+    "Games Played": 15,
     "Team": "Jono",
     "NBA Team": "OKC",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Luka Don\u010di\u0107",
@@ -65,8 +65,8 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 372,
-    "Games Played": 16,
+    "Total Points": 394,
+    "Games Played": 17,
     "Team": "Julian",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -145,8 +145,8 @@
   },
   {
     "Player": "De'Aaron Fox",
-    "Total Points": 248,
-    "Games Played": 15,
+    "Total Points": 263,
+    "Games Played": 16,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -161,16 +161,16 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 145,
-    "Games Played": 17,
+    "Total Points": 156,
+    "Games Played": 18,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 223,
-    "Games Played": 17,
+    "Total Points": 235,
+    "Games Played": 18,
     "Team": "Sam",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -269,7 +269,7 @@
     "Games Played": 5,
     "Team": "Joe",
     "NBA Team": "OKC",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "James Harden",
@@ -329,11 +329,11 @@
   },
   {
     "Player": "Chet Holmgren",
-    "Total Points": 220,
-    "Games Played": 14,
+    "Total Points": 224,
+    "Games Played": 15,
     "Team": "Connor",
     "NBA Team": "OKC",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Derrick White",
@@ -345,8 +345,8 @@
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 329,
-    "Games Played": 17,
+    "Total Points": 345,
+    "Games Played": 18,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
@@ -365,12 +365,12 @@
     "Games Played": 11,
     "Team": "Connor",
     "NBA Team": "OKC",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 223,
-    "Games Played": 17,
+    "Total Points": 234,
+    "Games Played": 18,
     "Team": "Connor",
     "NBA Team": "SAS",
     "Eliminated": false
