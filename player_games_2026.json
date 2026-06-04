@@ -1641,6 +1641,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 1
     }
   ],
   "Cason Wallace": [
@@ -2343,6 +2349,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 15
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 7
     }
   ],
   "Dean Wade": [
@@ -2875,6 +2887,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 11
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 9
     }
   ],
   "Dillon Brooks": [
@@ -3341,6 +3359,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 12
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 16
     }
   ],
   "Dyson Daniels": [
@@ -3748,6 +3772,12 @@
       "Date": "2026-05-30",
       "Matchup": "SAS @ OKC",
       "WL": "W",
+      "Points": 0
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
       "Points": 0
     }
   ],
@@ -4467,6 +4497,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 15
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 30
     }
   ],
   "Jalen Duren": [
@@ -6093,6 +6129,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 3
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 0
     }
   ],
   "Jordan Goodwin": [
@@ -6287,6 +6329,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 4
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 7
     }
   ],
   "Josh Hart": [
@@ -6373,6 +6421,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 6
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 3
     }
   ],
   "Josh Okogie": [
@@ -6553,6 +6607,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 20
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 16
     }
   ],
   "Julian Phillips": [
@@ -6815,6 +6875,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 19
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 18
     }
   ],
   "Keaton Wallace": [
@@ -6945,6 +7011,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 11
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 3
     }
   ],
   "Kelly Olynyk": [
@@ -7459,6 +7531,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 16
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 13
     }
   ],
   "Larry Nance Jr.": [
@@ -7899,6 +7977,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 2
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 0
     }
   ],
   "Marcus Sasser": [
@@ -8293,6 +8377,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 15
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 9
     }
   ],
   "Mike Conley": [
@@ -8453,6 +8543,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 11
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 6
     }
   ],
   "Mitchell Robinson": [
@@ -8533,6 +8629,12 @@
       "Matchup": "NYK @ CLE",
       "WL": "W",
       "Points": 8
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
+      "WL": "W",
+      "Points": 2
     }
   ],
   "Mohamed Diawara": [
@@ -9073,6 +9175,12 @@
     {
       "Date": "2026-05-25",
       "Matchup": "NYK @ CLE",
+      "WL": "W",
+      "Points": 17
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "NYK @ SAS",
       "WL": "W",
       "Points": 17
     }
@@ -10451,6 +10559,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 16
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 17
     }
   ],
   "Tari Eason": [
@@ -11247,6 +11361,12 @@
       "Matchup": "SAS @ OKC",
       "WL": "W",
       "Points": 22
+    },
+    {
+      "Date": "2026-06-03",
+      "Matchup": "SAS vs. NYK",
+      "WL": "L",
+      "Points": 26
     }
   ],
   "V\u00edt Krej\u010d\u00ed": [
