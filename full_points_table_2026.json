@@ -25,16 +25,16 @@
   },
   {
     "Player": "OG Anunoby",
-    "Total Points": 331,
-    "Games Played": 16,
+    "Total Points": 342,
+    "Games Played": 17,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
   },
   {
     "Player": "Mikal Bridges",
-    "Total Points": 242,
-    "Games Played": 18,
+    "Total Points": 256,
+    "Games Played": 19,
     "Team": "Jono",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -65,11 +65,11 @@
   },
   {
     "Player": "Victor Wembanyama",
-    "Total Points": 505,
-    "Games Played": 21,
+    "Total Points": 524,
+    "Games Played": 22,
     "Team": "Julian",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Cade Cunningham",
@@ -145,11 +145,11 @@
   },
   {
     "Player": "De'Aaron Fox",
-    "Total Points": 320,
-    "Games Played": 20,
+    "Total Points": 327,
+    "Games Played": 21,
     "Team": "Sam",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Evan Mobley",
@@ -161,19 +161,19 @@
   },
   {
     "Player": "Keldon Johnson",
-    "Total Points": 171,
-    "Games Played": 22,
+    "Total Points": 178,
+    "Games Played": 23,
     "Team": "Sam",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Dylan Harper",
-    "Total Points": 300,
-    "Games Played": 22,
+    "Total Points": 325,
+    "Games Played": 23,
     "Team": "Sam",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jarrett Allen",
@@ -201,8 +201,8 @@
   },
   {
     "Player": "Karl-Anthony Towns",
-    "Total Points": 300,
-    "Games Played": 18,
+    "Total Points": 302,
+    "Games Played": 19,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -241,8 +241,8 @@
   },
   {
     "Player": "Josh Hart",
-    "Total Points": 185,
-    "Games Played": 18,
+    "Total Points": 198,
+    "Games Played": 19,
     "Team": "Andrew",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -257,8 +257,8 @@
   },
   {
     "Player": "Jalen Brunson",
-    "Total Points": 494,
-    "Games Played": 18,
+    "Total Points": 539,
+    "Games Played": 19,
     "Team": "Joe",
     "NBA Team": "NYK",
     "Eliminated": false
@@ -345,11 +345,11 @@
   },
   {
     "Player": "Stephon Castle",
-    "Total Points": 412,
-    "Games Played": 22,
+    "Total Points": 418,
+    "Games Played": 23,
     "Team": "Connor",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Jalen Johnson",
@@ -369,11 +369,11 @@
   },
   {
     "Player": "Devin Vassell",
-    "Total Points": 286,
-    "Games Played": 22,
+    "Total Points": 298,
+    "Games Played": 23,
     "Team": "Connor",
     "NBA Team": "SAS",
-    "Eliminated": false
+    "Eliminated": true
   },
   {
     "Player": "Neemias Queta",
